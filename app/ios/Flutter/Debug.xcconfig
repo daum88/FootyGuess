@@ -1,0 +1,18 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// Simulator-only development (no codesigning required)
+CODE_SIGN_IDENTITY = 
+CODE_SIGNING_REQUIRED = NO
+CODE_SIGNING_ALLOWED = NO
+DEVELOPMENT_TEAM = 
+PROVISIONING_PROFILE_SPECIFIER = 
+ENABLE_BITCODE = NO
+VALIDATE_PRODUCT = NO
+
+// iOS Simulator specific settings
+ONLY_ACTIVE_ARCH = YES
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64

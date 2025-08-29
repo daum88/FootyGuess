@@ -1,0 +1,11 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"
+#include "Generated.xcconfig"
+
+// Disable code signing for profile builds
+CODE_SIGN_IDENTITY = 
+CODE_SIGNING_REQUIRED = NO
+CODE_SIGNING_ALLOWED = NO
+DEVELOPMENT_TEAM = 
+PROVISIONING_PROFILE_SPECIFIER = 
+ENABLE_BITCODE = NO
+VALIDATE_PRODUCT = NO

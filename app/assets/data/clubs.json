@@ -1,0 +1,114 @@
+[
+  {
+    "id": "barcelona",
+    "name": "FC Barcelona",
+    "leagueId": "la_liga",
+    "country": "Spain",
+    "rivals": ["real_madrid", "espanyol"]
+  },
+  {
+    "id": "real_madrid",
+    "name": "Real Madrid CF",
+    "leagueId": "la_liga",
+    "country": "Spain",
+    "rivals": ["barcelona", "atletico_madrid"]
+  },
+  {
+    "id": "manchester_united",
+    "name": "Manchester United FC",
+    "leagueId": "premier_league",
+    "country": "England",
+    "rivals": ["manchester_city", "liverpool", "arsenal"]
+  },
+  {
+    "id": "manchester_city",
+    "name": "Manchester City FC",
+    "leagueId": "premier_league",
+    "country": "England",
+    "rivals": ["manchester_united", "liverpool"]
+  },
+  {
+    "id": "psg",
+    "name": "Paris Saint-Germain FC",
+    "leagueId": "ligue_1",
+    "country": "France",
+    "rivals": ["marseille", "lyon"]
+  },
+  {
+    "id": "juventus",
+    "name": "Juventus FC",
+    "leagueId": "serie_a",
+    "country": "Italy",
+    "rivals": ["inter_milan", "ac_milan", "napoli"]
+  },
+  {
+    "id": "bayern_munich",
+    "name": "FC Bayern München",
+    "leagueId": "bundesliga",
+    "country": "Germany",
+    "rivals": ["borussia_dortmund", "schalke"]
+  },
+  {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "leagueId": "bundesliga",
+    "country": "Germany",
+    "rivals": ["bayern_munich", "schalke"]
+  },
+  {
+    "id": "inter_miami",
+    "name": "Inter Miami CF",
+    "leagueId": "mls",
+    "country": "United States",
+    "rivals": ["orlando_city", "atlanta_united"]
+  },
+  {
+    "id": "al_nassr",
+    "name": "Al Nassr FC",
+    "leagueId": "saudi_pro_league",
+    "country": "Saudi Arabia",
+    "rivals": ["al_hilal", "al_ahli"]
+  },
+  {
+    "id": "al_hilal",
+    "name": "Al Hilal SFC",
+    "leagueId": "saudi_pro_league",
+    "country": "Saudi Arabia",
+    "rivals": ["al_nassr", "al_ittihad"]
+  },
+  {
+    "id": "santos",
+    "name": "Santos FC",
+    "leagueId": "brasileirao",
+    "country": "Brazil",
+    "rivals": ["corinthians", "palmeiras", "sao_paulo"]
+  },
+  {
+    "id": "monaco",
+    "name": "AS Monaco FC",
+    "leagueId": "ligue_1",
+    "country": "France",
+    "rivals": ["nice"]
+  },
+  {
+    "id": "sporting",
+    "name": "Sporting CP",
+    "leagueId": "primeira_liga",
+    "country": "Portugal",
+    "rivals": ["benfica", "porto"]
+  },
+  {
+    "id": "molde",
+    "name": "Molde FK",
+    "leagueId": "eliteserien",
+    "country": "Norway",
+    "rivals": ["rosenborg"]
+  },
+  {
+    "id": "salzburg",
+    "name": "FC Red Bull Salzburg",
+    "leagueId": "austrian_bundesliga",
+    "country": "Austria",
+    "rivals": ["rapid_wien", "austria_wien"]
+  }
+]

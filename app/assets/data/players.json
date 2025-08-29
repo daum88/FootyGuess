@@ -1,0 +1,200 @@
+[
+  {
+    "id": "messi_1",
+    "name": "Lionel Messi",
+    "nationality": "Argentina",
+    "dateOfBirth": "1987-06-24T00:00:00.000Z",
+    "positions": ["RW", "CF", "SS"],
+    "primaryPosition": "RW",
+    "clubs": [
+      {
+        "clubId": "barcelona",
+        "from": "2004-01-01T00:00:00.000Z",
+        "to": "2021-08-10T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "psg",
+        "from": "2021-08-10T00:00:00.000Z",
+        "to": "2023-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "inter_miami",
+        "from": "2023-07-15T00:00:00.000Z",
+        "to": null,
+        "isLoan": false
+      }
+    ],
+    "leagues": ["La Liga", "Ligue 1", "MLS"],
+    "teammatesHash": "messi_teammates_hash_123",
+    "meta": {
+      "ballonDor": 8,
+      "worldCup": 1,
+      "championsLeague": 4
+    }
+  },
+  {
+    "id": "ronaldo_1",
+    "name": "Cristiano Ronaldo",
+    "nationality": "Portugal",
+    "dateOfBirth": "1985-02-05T00:00:00.000Z",
+    "positions": ["LW", "RW", "CF"],
+    "primaryPosition": "LW",
+    "clubs": [
+      {
+        "clubId": "sporting",
+        "from": "2002-01-01T00:00:00.000Z",
+        "to": "2003-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "manchester_united",
+        "from": "2003-07-01T00:00:00.000Z",
+        "to": "2009-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "real_madrid",
+        "from": "2009-07-01T00:00:00.000Z",
+        "to": "2018-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "juventus",
+        "from": "2018-07-01T00:00:00.000Z",
+        "to": "2021-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "manchester_united",
+        "from": "2021-08-01T00:00:00.000Z",
+        "to": "2022-11-22T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "al_nassr",
+        "from": "2023-01-01T00:00:00.000Z",
+        "to": null,
+        "isLoan": false
+      }
+    ],
+    "leagues": ["Primeira Liga", "Premier League", "La Liga", "Serie A", "Saudi Pro League"],
+    "teammatesHash": "ronaldo_teammates_hash_456",
+    "meta": {
+      "ballonDor": 5,
+      "euroChampionship": 1,
+      "championsLeague": 5
+    }
+  },
+  {
+    "id": "neymar_1",
+    "name": "Neymar Jr",
+    "nationality": "Brazil",
+    "dateOfBirth": "1992-02-05T00:00:00.000Z",
+    "positions": ["LW", "RW", "AM"],
+    "primaryPosition": "LW",
+    "clubs": [
+      {
+        "clubId": "santos",
+        "from": "2009-01-01T00:00:00.000Z",
+        "to": "2013-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "barcelona",
+        "from": "2013-07-01T00:00:00.000Z",
+        "to": "2017-08-05T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "psg",
+        "from": "2017-08-05T00:00:00.000Z",
+        "to": "2023-08-15T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "al_hilal",
+        "from": "2023-08-15T00:00:00.000Z",
+        "to": null,
+        "isLoan": false
+      }
+    ],
+    "leagues": ["Brasileirão", "La Liga", "Ligue 1", "Saudi Pro League"],
+    "teammatesHash": "neymar_teammates_hash_789",
+    "meta": {
+      "copaAmerica": 1,
+      "olympicGold": 1,
+      "championsLeague": 1
+    }
+  },
+  {
+    "id": "haaland_1",
+    "name": "Erling Haaland",
+    "nationality": "Norway",
+    "dateOfBirth": "2000-07-21T00:00:00.000Z",
+    "positions": ["CF"],
+    "primaryPosition": "CF",
+    "clubs": [
+      {
+        "clubId": "molde",
+        "from": "2017-01-01T00:00:00.000Z",
+        "to": "2019-01-01T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "salzburg",
+        "from": "2019-01-01T00:00:00.000Z",
+        "to": "2020-01-01T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "dortmund",
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2022-06-30T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "manchester_city",
+        "from": "2022-07-01T00:00:00.000Z",
+        "to": null,
+        "isLoan": false
+      }
+    ],
+    "leagues": ["Eliteserien", "Austrian Bundesliga", "Bundesliga", "Premier League"],
+    "teammatesHash": "haaland_teammates_hash_101",
+    "meta": {
+      "championsLeague": 1,
+      "premierLeague": 2
+    }
+  },
+  {
+    "id": "mbappe_1",
+    "name": "Kylian Mbappé",
+    "nationality": "France",
+    "dateOfBirth": "1998-12-20T00:00:00.000Z",
+    "positions": ["LW", "RW", "CF"],
+    "primaryPosition": "RW",
+    "clubs": [
+      {
+        "clubId": "monaco",
+        "from": "2015-01-01T00:00:00.000Z",
+        "to": "2017-08-31T00:00:00.000Z",
+        "isLoan": false
+      },
+      {
+        "clubId": "psg",
+        "from": "2017-08-31T00:00:00.000Z",
+        "to": null,
+        "isLoan": false
+      }
+    ],
+    "leagues": ["Ligue 1"],
+    "teammatesHash": "mbappe_teammates_hash_202",
+    "meta": {
+      "worldCup": 1,
+      "ligue1": 6,
+      "goldenBoot": 1
+    }
+  }
+]

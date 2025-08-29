@@ -1,0 +1,1041 @@
+Question_ID,Question,Metric,Answer_Position,Answer,Value,Value_Number,Value_Units,Value_Seconds,Is_Approximate
+1,UEFA Champions League — Most Titles (Clubs),titles,1,Real Madrid,15,15.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,2,AC Milan,7,7.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,3,Bayern Munich,6,6.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,4,Liverpool,6,6.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,5,Barcelona,5,5.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,6,Ajax,4,4.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,7,Inter Milan,3,3.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,8,Manchester United,3,3.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,9,Benfica,2,2.0,titles,,false
+1,UEFA Champions League — Most Titles (Clubs),titles,10,Juventus,2,2.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,1,Sevilla,7,7.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,2,Liverpool,3,3.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,3,Juventus,3,3.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,4,Inter Milan,3,3.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,5,Atlético Madrid,3,3.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,6,Tottenham,3,3.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,7,Borussia M’gladbach,2,2.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,8,Feyenoord,2,2.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,9,Real Madrid,2,2.0,titles,,false
+2,UEFA Europa League / UEFA Cup — Most Titles (Clubs),titles,10,Parma,2,2.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,1,Real Madrid,6,6.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,2,Barcelona,5,5.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,3,AC Milan,5,5.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,4,Liverpool,4,4.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,5,Atlético Madrid,3,3.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,6,Ajax,2,2.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,7,Anderlecht,2,2.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,8,Bayern Munich,2,2.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,9,Chelsea,2,2.0,titles,,false
+3,UEFA Super Cup — Most Titles (Clubs),titles,10,Paris Saint-Germain,1,1.0,titles,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,1,Real Madrid,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,2,AC Milan,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,3,Bayern Munich,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,4,Liverpool,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,5,Juventus,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,6,Barcelona,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,7,Benfica,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,8,Inter Milan,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,9,Manchester United,,,,,false
+4,UEFA Champions League — Most Finals Reached (Clubs),,10,Atlético Madrid,,,,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,1,Miroslav Klose,16,16.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,2,Ronaldo (Brazil),15,15.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,3,Gerd Müller,14,14.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,4,Just Fontaine,13,13.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,5,Lionel Messi,13,13.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,6,Pelé,12,12.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,7,Kylian Mbappé,12,12.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,8,Jürgen Klinsmann,11,11.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,9,Sándor Kocsis,11,11.0,goals,,false
+5,FIFA World Cup — All-Time Top Scorers (Men),goals,10,Gabriel Batistuta,10,10.0,goals,,false
+6,UEFA European Championship — Most Titles (Nations),titles,1,Spain,4,4.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,2,Germany,3,3.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,3,Italy,2,2.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,4,France,2,2.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,5,Portugal,1,1.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,6,Netherlands,1,1.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,7,Denmark,1,1.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,8,Greece,1,1.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,9,Soviet Union,1,1.0,titles,,false
+6,UEFA European Championship — Most Titles (Nations),titles,10,Czechoslovakia,1,1.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,1,Manchester United,20,20.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,2,Liverpool,20,20.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,3,Arsenal,13,13.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,4,Manchester City,10,10.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,5,Everton,9,9.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,6,Aston Villa,7,7.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,7,Sunderland,6,6.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,8,Chelsea,6,6.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,9,Newcastle United,4,4.0,titles,,false
+7,English Top Division (First Division / Premier League) — Most Titles (Clubs),titles,10,Sheffield Wednesday,4,4.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,1,Juventus,36,36.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,2,Inter Milan,20,20.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,3,AC Milan,19,19.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,4,Genoa,9,9.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,5,Torino,7,7.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,6,Bologna,7,7.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,7,Napoli,4,4.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,8,Roma,3,3.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,9,Lazio,2,2.0,titles,,false
+9,Serie A / Italian Championship — Most Titles (Clubs),titles,10,Fiorentina,2,2.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,1,Bayern Munich,34,34.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,2,FC Nürnberg,9,9.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,3,Borussia Dortmund,8,8.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,4,Schalke 04,7,7.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,5,Hamburger SV,6,6.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,6,VfB Stuttgart,5,5.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,7,Borussia M’gladbach,5,5.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,8,Werder Bremen,4,4.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,9,FC Kaiserslautern,4,4.0,titles,,false
+10,German Champions (Bundesliga Era + Overall) — Most Titles (Clubs),titles,10,FC Köln,3,3.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,1,Paris Saint-Germain,13,13.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,2,Saint-Étienne,10,10.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,3,Marseille,10,10.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,4,Monaco,8,8.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,5,Nantes,8,8.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,6,Lyon,7,7.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,7,Bordeaux,6,6.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,8,Reims,6,6.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,9,Lille,4,4.0,titles,,false
+11,Ligue 1 — Most Titles (Clubs),titles,10,Nice,4,4.0,titles,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,1,Cristiano Ronaldo,140,140.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,2,Lionel Messi,129,129.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,3,Robert Lewandowski,94,94.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,4,Karim Benzema,90,90.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,5,Raúl,71,71.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,6,Ruud van Nistelrooy,60,60.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,7,Thomas Müller,54,54.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,8,Mohamed Salah,53,53.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,9,Thierry Henry,50,50.0,goals,,false
+12,UEFA Champions League — All-Time Top Scorers,goals,10,Zlatan Ibrahimović,48,48.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,1,Alan Shearer,260,260.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,2,Harry Kane,213,213.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,3,Wayne Rooney,208,208.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,4,Andrew Cole,187,187.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,5,Sergio Agüero,184,184.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,6,Frank Lampard,177,177.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,7,Thierry Henry,175,175.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,8,Robbie Fowler,163,163.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,9,Jermain Defoe,162,162.0,goals,,false
+13,Premier League — All-Time Top Scorers,goals,10,Michael Owen,150,150.0,goals,,false
+14,Premier League — All-Time Assists,assists,1,Ryan Giggs,162,162.0,assists,,false
+14,Premier League — All-Time Assists,assists,2,Kevin De Bruyne,121,121.0,assists,,false
+14,Premier League — All-Time Assists,assists,3,Cesc Fàbregas,112,112.0,assists,,false
+14,Premier League — All-Time Assists,assists,4,Wayne Rooney,106,106.0,assists,,false
+14,Premier League — All-Time Assists,assists,5,Steven Gerrard,99,99.0,assists,,false
+14,Premier League — All-Time Assists,assists,6,Frank Lampard,96,96.0,assists,,false
+14,Premier League — All-Time Assists,assists,7,David Silva,95,95.0,assists,,false
+14,Premier League — All-Time Assists,assists,8,James Milner,90,90.0,assists,,false
+14,Premier League — All-Time Assists,assists,9,Mohamed Salah,86,86.0,assists,,false
+14,Premier League — All-Time Assists,assists,10,Thierry Henry,81,81.0,assists,,false
+15,Men’s Internationals — Most Career Goals,goals,1,Cristiano Ronaldo,130+,130.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,2,Ali Daei,109,109.0,goals,,false
+15,Men’s Internationals — Most Career Goals,goals,3,Lionel Messi,100+,100.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,4,Sunil Chhetri,90+,90.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,5,Mokhtar Dahari,89,89.0,goals,,false
+15,Men’s Internationals — Most Career Goals,goals,6,Ferenc Puskás,84,84.0,goals,,false
+15,Men’s Internationals — Most Career Goals,goals,7,Robert Lewandowski,82+,82.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,8,Romelu Lukaku,80+,80.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,9,Neymar,79+,79.0,goals,,true
+15,Men’s Internationals — Most Career Goals,goals,10,Luis Suárez,68+,68.0,goals,,true
+16,Men’s Internationals — Most Caps,appearances,1,Cristiano Ronaldo,210+,210.0,matches,,true
+16,Men’s Internationals — Most Caps,appearances,2,Bader Al-Mutawa,196,196.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,3,Soh Chin Ann,195,195.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,4,Ahmed Hassan,184,184.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,5,Andrés Guardado,181,181.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,6,Ahmed Mubarak,182,182.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,7,Lionel Messi,180+,180.0,matches,,true
+16,Men’s Internationals — Most Caps,appearances,8,Sergio Ramos,180,180.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,9,Gianluigi Buffon,176,176.0,matches,,false
+16,Men’s Internationals — Most Caps,appearances,10,Claudio Bravo,150+,150.0,matches,,true
+17,FA Cup — Most Titles (Clubs),titles,1,Arsenal,14,14.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,2,Manchester United,13,13.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,3,Chelsea,8,8.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,4,Tottenham,8,8.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,5,Liverpool,8,8.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,6,Aston Villa,7,7.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,7,Newcastle United,6,6.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,8,Manchester City,6,6.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,9,Blackburn Rovers,6,6.0,titles,,false
+17,FA Cup — Most Titles (Clubs),titles,10,Wanderers,5,5.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,1,Liverpool,10,10.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,2,Manchester City,8,8.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,3,Manchester United,6,6.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,4,Aston Villa,5,5.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,5,Chelsea,5,5.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,6,Tottenham,4,4.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,7,Nottingham Forest,4,4.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,8,Leicester City,3,3.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,9,Arsenal,2,2.0,titles,,false
+18,EFL (League) Cup — Most Titles (Clubs),titles,10,Wolverhampton Wanderers,2,2.0,titles,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,1,Lionel Messi,8,8.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,2,Cristiano Ronaldo,5,5.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,3,Michel Platini,3,3.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,4,Johan Cruyff,3,3.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,5,Marco van Basten,3,3.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,6,Franz Beckenbauer,2,2.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,7,Kevin Keegan,2,2.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,8,Karl-Heinz Rummenigge,2,2.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,9,Alfredo Di Stéfano,2,2.0,,,false
+19,Ballon d’Or (Men) — Most Wins by Player,,10,Ronaldo (Brazil),2,2.0,,,false
+20,Champions League / European Cup — Titles by Country,,1,Spain,20,20.0,,,false
+20,Champions League / European Cup — Titles by Country,,2,England,15,15.0,,,false
+20,Champions League / European Cup — Titles by Country,,3,Italy,12,12.0,,,false
+20,Champions League / European Cup — Titles by Country,,4,Germany,8,8.0,,,false
+20,Champions League / European Cup — Titles by Country,,5,Netherlands,6,6.0,,,false
+20,Champions League / European Cup — Titles by Country,,6,Portugal,4,4.0,,,false
+20,Champions League / European Cup — Titles by Country,,7,France,2,2.0,,,false
+20,Champions League / European Cup — Titles by Country,,8,Scotland,1,1.0,,,false
+20,Champions League / European Cup — Titles by Country,,9,Romania,1,1.0,,,false
+20,Champions League / European Cup — Titles by Country,,10,Serbia (Red Star),1,1.0,,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,1,Juventus,7,7.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,2,AC Milan,4,4.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,3,Barcelona,3,3.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,4,Benfica,3,3.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,5,Liverpool,3,3.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,6,Atlético Madrid,3,3.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,7,Bayern Munich,3,3.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,8,Borussia Dortmund,2,2.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,9,Inter Milan,2,2.0,times,,false
+21,Clubs with Most UEFA Champions League Runner-Up Finishes,runner_up_finishes,10,Paris Saint-Germain,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,1,Sevilla,4,4.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,2,Liverpool,3,3.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,3,Tottenham,3,3.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,4,Marseille,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,5,Atlético Madrid,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,6,Inter Milan,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,7,Villarreal,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,8,Benfica,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,9,Rangers,2,2.0,times,,false
+22,Clubs with Most UEFA Europa League Runner-Up Finishes,runner_up_finishes,10,Lazio,1,1.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,1,Barcelona,8,8.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,2,Bayern Munich,7,7.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,3,Juventus,6,6.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,4,Real Madrid,5,5.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,5,Paris Saint-Germain,5,5.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,6,Celtic,4,4.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,7,Ajax,4,4.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,8,Benfica,3,3.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,9,Porto,3,3.0,times,,false
+23,European Domestic Doubles (League + Domestic Cup) — Most (Clubs),doubles,10,Manchester United,3,3.0,times,,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,1,Neymar → PSG,€222m,13320,sec,13320,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,2,Mbappé → PSG,€180m,10800,sec,10800,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,3,Coutinho → Barcelona,€145m,8700,sec,8700,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,4,João Félix → Atlético,€126m,7560,sec,7560,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,5,Enzo Fernández → Chelsea,€121m,7260,sec,7260,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,6,Jack Grealish → Man City,€117m,7020,sec,7020,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,7,Declan Rice → Arsenal,€116m,6960,sec,6960,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,8,Jude Bellingham → Real Madrid,€115m,6900,sec,6900,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,9,Romelu Lukaku → Chelsea,€115m,6900,sec,6900,false
+24,Most Expensive Transfers (as of 2025),transfer_fee,10,Ousmane Dembélé → Barcelona,€105m,6300,sec,6300,false
+25,Managers with Most UEFA Champions League Titles,,1,Carlo Ancelotti,5,5.0,,,false
+25,Managers with Most UEFA Champions League Titles,,2,Bob Paisley,3,3.0,,,false
+25,Managers with Most UEFA Champions League Titles,,3,Zinedine Zidane,3,3.0,,,false
+25,Managers with Most UEFA Champions League Titles,,4,Pep Guardiola,3,3.0,,,false
+25,Managers with Most UEFA Champions League Titles,,5,José Mourinho,2,2.0,,,false
+25,Managers with Most UEFA Champions League Titles,,6,Arrigo Sacchi,2,2.0,,,false
+25,Managers with Most UEFA Champions League Titles,,7,Ottmar Hitzfeld,2,2.0,,,false
+25,Managers with Most UEFA Champions League Titles,,8,Jupp Heynckes,2,2.0,,,false
+25,Managers with Most UEFA Champions League Titles,,9,Vicente del Bosque,2,2.0,,,false
+25,Managers with Most UEFA Champions League Titles,,10,Brian Clough,2,2.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,1,Real Madrid,5,5.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,2,Barcelona,3,3.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,3,Corinthians,2,2.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,4,Milan,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,5,Internacional,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,6,Chelsea,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,7,São Paulo,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,8,Manchester United,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,9,Bayern Munich,1,1.0,,,false
+26,Clubs with Most FIFA Club World Cup Titles,,10,Liverpool,1,1.0,,,false
+28,Players with Most Champions League Goals for a Single Club,goals,1,Lionel Messi (Barcelona),120,120.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,2,Cristiano Ronaldo (Real Madrid),106,106.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,3,Karim Benzema (Real Madrid),72,72.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,4,Raúl (Real Madrid),66,66.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,5,Robert Lewandowski (Bayern Munich),64,64.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,6,Thomas Müller (Bayern Munich),54,54.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,7,Sergio Ramos (Real Madrid),40,40.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,8,Didier Drogba (Chelsea),36,36.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,9,Thierry Henry (Arsenal),35,35.0,goals,,false
+28,Players with Most Champions League Goals for a Single Club,goals,10,Mohamed Salah (Liverpool),34,34.0,goals,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,1,Real Madrid,8 (5 CWC + 3 IC),8.0,,,true
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,2,AC Milan,4 (1 CWC + 3 IC),4.0,,,true
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,3,Boca Juniors,3 (IC),3.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,4,Nacional,3 (IC),3.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,5,Peñarol,3 (IC),3.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,6,Barcelona,3 (CWC),3.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,7,Juventus,2 (IC),2.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,8,Corinthians,2 (CWC),2.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,9,River Plate,1 (IC),1.0,,,false
+29,Clubs with Most Intercontinental / Club World Titles (Combined),,10,Internacional,1 (CWC),1.0,,,false
+30,Women’s Internationals — Top Goalscorers,goals,1,Christine Sinclair (Canada),190+,190.0,goals,,true
+30,Women’s Internationals — Top Goalscorers,goals,2,Abby Wambach (USA),184,184.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,3,Carli Lloyd (USA),128,128.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,4,Birgit Prinz (Germany),128,128.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,5,Mia Hamm (USA),158,158.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,6,Marta (Brazil),115,115.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,7,Julie Fleeting (Scotland),116,116.0,goals,,false
+30,Women’s Internationals — Top Goalscorers,goals,8,Vivianne Miedema (Netherlands),100+,100.0,goals,,true
+30,Women’s Internationals — Top Goalscorers,goals,9,Sam Kerr (Australia),70+,70.0,goals,,true
+30,Women’s Internationals — Top Goalscorers,goals,10,Alex Morgan (USA),125+,125.0,goals,,true
+31,Most Successful International Managers (Major Titles),,1,Vicente del Bosque,WC 2010 + Euro 2012,2010.0,,,true
+31,Most Successful International Managers (Major Titles),,2,Joachim Löw,WC 2014 + Confed Cup 2017,2014.0,,,true
+31,Most Successful International Managers (Major Titles),,3,Helmut Schön,WC 1974 + Euro 1972,1974.0,,,true
+31,Most Successful International Managers (Major Titles),,4,Luiz Felipe Scolari,WC 2002 + Copa América 1999,2002.0,,,true
+31,Most Successful International Managers (Major Titles),,5,César Luis Menotti,WC 1978 + Copa América 1979,1978.0,,,true
+31,Most Successful International Managers (Major Titles),,6,Didier Deschamps,WC 2018 + Nations League 2021,2018.0,,,true
+31,Most Successful International Managers (Major Titles),,7,Alf Ramsey,WC 1966,1966.0,,,false
+31,Most Successful International Managers (Major Titles),,8,Marcello Lippi,WC 2006,2006.0,,,false
+31,Most Successful International Managers (Major Titles),,9,Aimé Jacquet,WC 1998,1998.0,,,false
+31,Most Successful International Managers (Major Titles),,10,Carlos Bilardo,WC 1986,1986.0,,,false
+32,African Cup of Nations — Most Titles (Nations),titles,1,Egypt,7,7.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,2,Cameroon,5,5.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,3,Ghana,4,4.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,4,Nigeria,3,3.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,5,Ivory Coast,2,2.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,6,DR Congo,2,2.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,7,Algeria,2,2.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,8,Zambia,1,1.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,9,Senegal,1,1.0,titles,,false
+32,African Cup of Nations — Most Titles (Nations),titles,10,Morocco,1,1.0,titles,,false
+33,UEFA Champions League — Most Assists (Players),assists,1,Lionel Messi,40,40.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,2,Cristiano Ronaldo,36,36.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,3,Ángel Di María,36,36.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,4,Cesc Fàbregas,28,28.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,5,Thomas Müller,25,25.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,6,Toni Kroos,24,24.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,7,Karim Benzema,23,23.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,8,Juan Mata,23,23.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,9,Mesut Özil,22,22.0,assists,,false
+33,UEFA Champions League — Most Assists (Players),assists,10,Xavi,21,21.0,assists,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,1,Iker Casillas,52,52.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,2,Gianluigi Buffon,45,45.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,3,Edwin van der Sar,40,40.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,4,Manuel Neuer,39,39.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,5,Petr Čech,35,35.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,6,Víctor Valdés,30,30.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,7,Keylor Navas,28,28.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,8,Marc-André ter Stegen,27,27.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,9,Thibaut Courtois,27,27.0,clean sheets,,false
+34,Most Clean Sheets in Champions League (Players),clean_sheets,10,Alisson Becker,26,26.0,clean sheets,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,1,Cristiano Ronaldo,8,8.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,2,Lionel Messi,8,8.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,3,Robert Lewandowski,7,7.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,4,Karim Benzema,6,6.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,5,Ruud van Nistelrooy,5,5.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,6,Erling Haaland,4,4.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,7,Harry Kane,4,4.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,8,Gareth Bale,4,4.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,9,Neymar,3,3.0,hat-tricks,,false
+35,Most Hat-Tricks in Champions League (Players),hat_tricks,10,Mohamed Salah,3,3.0,hat-tricks,,false
+36,Premier League — Most Appearances (Players),appearances,1,Gareth Barry,653,653.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,2,Ryan Giggs,632,632.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,3,Frank Lampard,609,609.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,4,David James,572,572.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,5,James Milner,600+,600.0,matches,,true
+36,Premier League — Most Appearances (Players),appearances,6,Steven Gerrard,504,504.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,7,Gary Neville,400+,400.0,matches,,true
+36,Premier League — Most Appearances (Players),appearances,8,Phil Neville,505,505.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,9,Emile Heskey,516,516.0,matches,,false
+36,Premier League — Most Appearances (Players),appearances,10,Wayne Rooney,491,491.0,matches,,false
+37,Premier League — Most Yellow Cards (Players),,1,Gareth Barry,123,123.0,,,false
+37,Premier League — Most Yellow Cards (Players),,2,Lee Cattermole,111,111.0,,,false
+37,Premier League — Most Yellow Cards (Players),,3,Patrick Vieira,110,110.0,,,false
+37,Premier League — Most Yellow Cards (Players),,4,Wayne Rooney,101,101.0,,,false
+37,Premier League — Most Yellow Cards (Players),,5,Kevin Davies,100,100.0,,,false
+37,Premier League — Most Yellow Cards (Players),,6,Ashley Young,97,97.0,,,false
+37,Premier League — Most Yellow Cards (Players),,7,Paul Scholes,97,97.0,,,false
+37,Premier League — Most Yellow Cards (Players),,8,James Milner,90,90.0,,,false
+37,Premier League — Most Yellow Cards (Players),,9,Tim Cahill,86,86.0,,,false
+37,Premier League — Most Yellow Cards (Players),,10,Mark Noble,85,85.0,,,false
+38,Premier League — Most Red Cards (Players),,1,Patrick Vieira,8,8.0,,,false
+38,Premier League — Most Red Cards (Players),,2,Duncan Ferguson,8,8.0,,,false
+38,Premier League — Most Red Cards (Players),,3,Richard Dunne,8,8.0,,,false
+38,Premier League — Most Red Cards (Players),,4,Lee Cattermole,8,8.0,,,false
+38,Premier League — Most Red Cards (Players),,5,Joey Barton,6,6.0,,,false
+38,Premier League — Most Red Cards (Players),,6,Pablo Zabaleta,6,6.0,,,false
+38,Premier League — Most Red Cards (Players),,7,Carlos Tevez,4,4.0,,,false
+38,Premier League — Most Red Cards (Players),,8,Ivan Campo,4,4.0,,,false
+38,Premier League — Most Red Cards (Players),,9,Gary Cahill,3,3.0,,,false
+38,Premier League — Most Red Cards (Players),,10,Vincent Kompany,3,3.0,,,false
+39,Premier League — Most Assists in a Single Season,assists,1,Kevin De Bruyne,20 (2019–20),20.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,2,Thierry Henry,20 (2002–03),20.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,3,Mesut Özil,19 (2015–16),19.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,4,Cesc Fàbregas,18 (2009–10),18.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,5,Frank Lampard,18 (2004–05),18.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,6,Dennis Bergkamp,18 (1999–2000),18.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,7,Wayne Rooney,17 (2009–10),17.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,8,Eden Hazard,15 (2014–15),15.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,9,Robin van Persie,15 (2012–13),15.0,assists,,false
+39,Premier League — Most Assists in a Single Season,assists,10,Mohamed Salah,13 (2022–23),13.0,assists,,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,1,Sadio Mané,2m 56s (2015),176.0,sec,176,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,2,Robbie Fowler,4m 33s (1994),273.0,sec,273,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,3,Jermain Defoe,5m 00s (2009),300.0,sec,300,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,4,Michael Owen,5m 43s (1998),343.0,sec,343,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,5,Ollie Watkins,6m 12s (2022),372.0,sec,372,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,6,David Nugent,6m 48s (2007),408.0,sec,408,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,7,Marcus Rashford,7m 34s (2020),454.0,sec,454,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,8,Dimitar Berbatov,8m 57s (2010),537.0,sec,537,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,9,Tomas Rosicky,9m 07s (2008),547.0,sec,547,false
+40,Fastest Premier League Hat-Tricks (Match Time),hat_tricks,10,Andy Carroll,9m 25s (2010),565.0,sec,565,false
+41,Most Consecutive League Wins (Top 5 Leagues),,1,Bayern Munich,19 (Bundesliga),19.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,2,Juventus,17 (Serie A),17.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,3,Paris Saint-Germain,16 (Ligue 1),16.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,4,Celtic,15 (Scotland),15.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,5,Barcelona,14 (La Liga),14.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,6,Real Madrid,13 (La Liga),13.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,7,Manchester City,12 (Premier League),12.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,8,Ajax,12 (Eredivisie),12.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,9,Porto,11 (Portugal),11.0,,,false
+41,Most Consecutive League Wins (Top 5 Leagues),,10,Benfica,11 (Portugal),11.0,,,false
+42,National Teams with Longest Unbeaten Runs,,1,Italy,37 (2018–2021),37.0,,,false
+42,National Teams with Longest Unbeaten Runs,,2,Spain,35 (2007–2009),35.0,,,false
+42,National Teams with Longest Unbeaten Runs,,3,Brazil,33 (1993–1996),33.0,,,false
+42,National Teams with Longest Unbeaten Runs,,4,Argentina,31 (2020–2022),31.0,,,false
+42,National Teams with Longest Unbeaten Runs,,5,England,30 (2020–present),30.0,,,false
+42,National Teams with Longest Unbeaten Runs,,6,France,30 (2018–2020),30.0,,,false
+42,National Teams with Longest Unbeaten Runs,,7,Germany,23 (2012–2014),23.0,,,false
+42,National Teams with Longest Unbeaten Runs,,8,Belgium,23 (2018–2020),23.0,,,false
+42,National Teams with Longest Unbeaten Runs,,9,Netherlands,18 (2013–2014),18.0,,,false
+42,National Teams with Longest Unbeaten Runs,,10,Portugal,23 (2019–2021),23.0,,,false
+44,Most FIFA World Cup Appearances (Players),appearances,1,Lionel Messi,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,2,Cristiano Ronaldo,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,3,Lothar Matthäus,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,4,Gianluigi Buffon,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,5,Antonio Carbajal,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,6,Rafael Márquez,5,5.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,7,Paolo Maldini,4,4.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,8,Miroslav Klose,4,4.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,9,Cafu,4,4.0,matches,,false
+44,Most FIFA World Cup Appearances (Players),appearances,10,Diego Maradona,4,4.0,matches,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,1,Lionel Messi,36,36.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,2,Cristiano Ronaldo,34,34.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,3,Alfredo Di Stéfano,22,22.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,4,Telmo Zarra,22,22.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,5,Hugo Sánchez,21,21.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,6,Bata,19,19.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,7,Edmundo Suárez,18,18.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,8,Quini,17,17.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,9,Pahiño,17,17.0,hat-tricks,,false
+45,Most La Liga Hat-Tricks (Players),hat_tricks,10,Raúl,16,16.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,1,Cristiano Ronaldo,10,10.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,2,Romelu Lukaku,8,8.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,3,Lionel Messi,8,8.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,4,Ali Daei,8,8.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,5,Pelé,7,7.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,6,Robert Lewandowski,6,6.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,7,Gerd Müller,6,6.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,8,Gabriel Batistuta,6,6.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,9,Miroslav Klose,6,6.0,hat-tricks,,false
+46,Men’s International Hat-Tricks (Most),hat_tricks,10,David Villa,6,6.0,hat-tricks,,false
+47,Women’s Internationals — Most Caps,appearances,1,Kristine Lilly,354,354.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,2,Christine Sinclair,330+,330.0,matches,,true
+47,Women’s Internationals — Most Caps,appearances,3,Carli Lloyd,316,316.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,4,Formiga,312,312.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,5,Christie Pearce,311,311.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,6,Saki Kumagai,290,290.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,7,Aya Miyama,252,252.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,8,Heather Mitts,205,205.0,matches,,false
+47,Women’s Internationals — Most Caps,appearances,9,Alex Morgan,200+,200.0,matches,,true
+47,Women’s Internationals — Most Caps,appearances,10,Marta,182,182.0,matches,,false
+48,Women’s International Top Scorers,goals,1,Christine Sinclair,193+,193.0,goals,,true
+48,Women’s International Top Scorers,goals,2,Abby Wambach,184,184.0,goals,,false
+48,Women’s International Top Scorers,goals,3,Mia Hamm,158,158.0,goals,,false
+48,Women’s International Top Scorers,goals,4,Carli Lloyd,128,128.0,goals,,false
+48,Women’s International Top Scorers,goals,5,Birgit Prinz,128,128.0,goals,,false
+48,Women’s International Top Scorers,goals,6,Alex Morgan,125+,125.0,goals,,true
+48,Women’s International Top Scorers,goals,7,Marta,115,115.0,goals,,false
+48,Women’s International Top Scorers,goals,8,Julie Fleeting,116,116.0,goals,,false
+48,Women’s International Top Scorers,goals,9,Vivianne Miedema,100+,100.0,goals,,true
+48,Women’s International Top Scorers,goals,10,Sam Kerr,70+,70.0,goals,,true
+49,Premier League — Fastest Goals Ever Scored,goals,1,Shane Long,"7.69 sec (2019, Southampton vs Watford)",7.69,sec,8,false
+49,Premier League — Fastest Goals Ever Scored,goals,2,Philip Billing,"9.11 sec (2023, Bournemouth vs Arsenal)",9.11,sec,9,false
+49,Premier League — Fastest Goals Ever Scored,goals,3,Ledley King,"9.82 sec (2000, Tottenham vs Bradford)",9.82,sec,10,false
+49,Premier League — Fastest Goals Ever Scored,goals,4,Alan Shearer,"10.52 sec (2003, Newcastle vs Man City)",10.52,sec,11,false
+49,Premier League — Fastest Goals Ever Scored,goals,5,Christian Eriksen,"10.54 sec (2018, Tottenham vs Man United)",10.54,sec,11,false
+49,Premier League — Fastest Goals Ever Scored,goals,6,Mark Viduka,"11.9 sec (2000, Leeds vs Charlton)",11.9,sec,12,false
+49,Premier League — Fastest Goals Ever Scored,goals,7,Dwight Yorke,"12.16 sec (1995, Aston Villa vs Coventry)",12.16,sec,12,false
+49,Premier League — Fastest Goals Ever Scored,goals,8,Chris Sutton,"12.94 sec (1994, Blackburn vs Everton)",12.94,sec,13,false
+49,Premier League — Fastest Goals Ever Scored,goals,9,Kevin Nolan,"13.48 sec (2011, Bolton vs Blackburn)",13.48,sec,13,false
+49,Premier League — Fastest Goals Ever Scored,goals,10,James Beattie,"13.52 sec (2004, Southampton vs Chelsea)",13.52,sec,14,false
+50,Youngest Premier League Goalscorers,goals,1,James Vaughan,"16y 271d (Everton, 2005)",16.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,2,Ethan Nwaneri,"15y 181d (Arsenal, 2022)",15.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,3,James Milner,"16y 356d (Leeds, 2002)",16.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,4,Wayne Rooney,"16y 360d (Everton, 2002)",16.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,5,Cesc Fàbregas,"17y 113d (Arsenal, 2004)",17.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,6,Michael Owen,"17y 143d (Liverpool, 1997)",17.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,7,Federico Macheda,"17y 226d (Man United, 2009)",17.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,8,Raheem Sterling,"17y 317d (Liverpool, 2012)",17.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,9,Mikael Forssell,"17y 342d (Chelsea, 1998)",17.0,goals,,false
+50,Youngest Premier League Goalscorers,goals,10,Matthew Briggs,"18y 65d (Fulham, 2007)",18.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,1,Teddy Sheringham,"40y 268d (West Ham, 2006)",40.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,2,Thiago Silva,"39y 198d (Chelsea, 2024)",39.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,3,Ashley Young,"39y 149d (Watford, 2024)",39.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,4,Ryan Giggs,"39y 87d (Man United, 2013)",39.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,5,Stuart Pearce,"38y 216d (West Ham, 2000)",38.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,6,Jamie Vardy,"38y 128d (Leicester, 2025)",38.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,7,Graham Alexander,"38y 183d (Burnley, 2010)",38.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,8,Mark Hughes,"38y 150d (Southampton, 2002)",38.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,9,Peter Schmeichel,"37y 337d (Aston Villa, 2001)",37.0,goals,,false
+51,Oldest Premier League Goalscorers,goals,10,Frank Lampard,"36y 338d (Man City, 2015)",36.0,goals,,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,1,Sadio Mané,"2m 56s (2015, Southampton vs Villa)",176.0,sec,176,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,2,Robbie Fowler,"4m 33s (1994, Liverpool vs Arsenal)",273.0,sec,273,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,3,Jermain Defoe,"7m (2009, Spurs vs Wigan)",420,sec,420,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,4,Gabriel Agbonlahor,"7m 18s (2008, Villa vs Man City)",438.0,sec,438,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,5,Ian Marshall,"7m 37s (1997, Leicester vs Derby)",457.0,sec,457,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,6,Robin van Persie,"8m 10s (2011, Arsenal vs Wigan)",490.0,sec,490,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,7,Andy Carroll,"8m 30s (2010, Newcastle vs Villa)",510.0,sec,510,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,8,Harry Kane,"8m 41s (2017, Spurs vs Leicester)",521.0,sec,521,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,9,Kevin Nolan,"9m (2006, Bolton vs West Ham)",540,sec,540,false
+52,Fastest Premier League Hat-Tricks (First to Third Goal),hat_tricks,10,Cole Palmer,"9m 46s (2024, Chelsea vs Brighton)",586.0,sec,586,false
+53,Premier League — Most Assists (All-Time),assists,1,Ryan Giggs,162,162.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,2,Kevin De Bruyne,121+,121.0,assists,,true
+53,Premier League — Most Assists (All-Time),assists,3,Cesc Fàbregas,112,112.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,4,Wayne Rooney,106,106.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,5,Frank Lampard,102,102.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,6,Steven Gerrard,99,99.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,7,David Silva,95,95.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,8,James Milner,90,90.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,9,Mohamed Salah,86,86.0,assists,,false
+53,Premier League — Most Assists (All-Time),assists,10,Thierry Henry,81,81.0,assists,,false
+54,Premier League — Most Free-Kick Goals,goals,1,David Beckham,18,18.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,2,James Ward-Prowse,17,17.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,3,Thierry Henry,12,12.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,4,Gianfranco Zola,12,12.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,5,Cristiano Ronaldo,12,12.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,6,Laurent Robert,11,11.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,7,Sebastian Larsson,11,11.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,8,Ian Harte,10,10.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,9,Morten Gamst Pedersen,10,10.0,goals,,false
+54,Premier League — Most Free-Kick Goals,goals,10,Nolberto Solano,9,9.0,goals,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,1,Petr Čech,202,202.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,2,David James,169,169.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,3,Mark Schwarzer,151,151.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,4,David Seaman,141,141.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,5,Edwin van der Sar,132,132.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,6,Tim Howard,132,132.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,7,Brad Friedel,132,132.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,8,Pepe Reina,136,136.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,9,Joe Hart,127,127.0,clean sheets,,false
+55,Premier League — Most Clean Sheets (Goalkeepers),clean_sheets,10,Alisson Becker,100+,100.0,clean sheets,,true
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,1,Sergio Agüero,12,12.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,2,Alan Shearer,11,11.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,3,Robbie Fowler,9,9.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,4,Harry Kane,9,9.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,5,Thierry Henry,8,8.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,6,Michael Owen,8,8.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,7,Wayne Rooney,7,7.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,8,Andrew Cole,7,7.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,9,Luis Suárez,6,6.0,hat-tricks,,false
+56,Premier League — Most Hat-Tricks (Players),hat_tricks,10,Jermain Defoe,5,5.0,hat-tricks,,false
+57,Premier League Managers — Most Wins,wins,1,Sir Alex Ferguson,528,528.0,wins,,false
+57,Premier League Managers — Most Wins,wins,2,Arsène Wenger,422,422.0,wins,,false
+57,Premier League Managers — Most Wins,wins,3,David Moyes,333,333.0,wins,,false
+57,Premier League Managers — Most Wins,wins,4,Harry Redknapp,236,236.0,wins,,false
+57,Premier League Managers — Most Wins,wins,5,Sam Allardyce,236,236.0,wins,,false
+57,Premier League Managers — Most Wins,wins,6,Pep Guardiola,210+,210.0,wins,,true
+57,Premier League Managers — Most Wins,wins,7,José Mourinho,217,217.0,wins,,false
+57,Premier League Managers — Most Wins,wins,8,Jürgen Klopp,209,209.0,wins,,false
+57,Premier League Managers — Most Wins,wins,9,Rafa Benítez,128,128.0,wins,,false
+57,Premier League Managers — Most Wins,wins,10,Carlo Ancelotti,115,115.0,wins,,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,1,Keith Gillespie,"9 sec (1997, Man Utd)",9.0,sec,9,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,2,David Prutton,14 sec,14.0,sec,14,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,3,Lee Cattermole,24 sec,24.0,sec,24,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,4,Pablo Zabaleta,27 sec,27.0,sec,27,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,5,Jos Hooiveld,47 sec,47.0,sec,47,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,6,Jon Walters,75 sec,75.0,sec,75,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,7,Nicolas Anelka,88 sec,88.0,sec,88,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,8,Alberto Aquilani,101 sec,101.0,sec,101,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,9,Kyle Walker,133 sec,133.0,sec,133,false
+58,Fastest Red Cards in Premier League (From Kick-Off),,10,Gustavo Poyet,144 sec,144.0,sec,144,false
+59,Premier League Clubs — Most Away Wins in a Season,,1,Man City,16 (2017–18),16.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,2,Liverpool,15 (2019–20),15.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,3,Chelsea,15 (2004–05),15.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,4,Man United,14 (2008–09),14.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,5,Arsenal,14 (2003–04),14.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,6,Tottenham,13 (2016–17),13.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,7,Newcastle,12 (1995–96),12.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,8,Leicester,12 (2015–16),12.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,9,Leeds,11 (1991–92),11.0,,,false
+59,Premier League Clubs — Most Away Wins in a Season,,10,Everton,11 (1984–85),11.0,,,false
+60,Stadiums — Highest PL Attendances,attendance,1,Old Trafford (Man United),"76,000",76.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,2,Tottenham Hotspur Stadium,"62,000",62.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,3,Emirates (Arsenal),"60,000",60.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,4,London Stadium (West Ham),"60,000",60.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,5,Anfield (Liverpool),"54,074",54.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,6,Etihad (Man City),"53,400",53.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,7,St James’ Park (Newcastle),"52,305",52.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,8,Villa Park (Aston Villa),"42,682",42.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,9,Stamford Bridge (Chelsea),"41,000",41.0,people,,false
+60,Stadiums — Highest PL Attendances,attendance,10,Goodison Park (Everton),"40,157",40.0,people,,false
+61,Premier League — Most Penalty Goals (Players),goals,1,Alan Shearer,56,56.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,2,Frank Lampard,43,43.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,3,Mohamed Salah,34,34.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,4,Harry Kane,33,33.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,5,Steven Gerrard,32,32.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,6,Mark Noble,28,28.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,7,Sergio Agüero,27,27.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,8,Jamie Vardy,27,27.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,9,Matt Le Tissier,25,25.0,goals,,false
+61,Premier League — Most Penalty Goals (Players),goals,10,Wayne Rooney,23,23.0,goals,,false
+62,Premier League — Most Points by Club (1992–present),points,1,Manchester United,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,2,Arsenal,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,3,Chelsea,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,4,Liverpool,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,5,Manchester City,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,6,Tottenham,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,7,Everton,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,8,Newcastle United,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,9,Aston Villa,,,points,,false
+62,Premier League — Most Points by Club (1992–present),points,10,West Ham United,,,points,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,1,Barcelona,4,4.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,2,Anderlecht,2,2.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,3,Chelsea,2,2.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,4,Dynamo Kyiv,2,2.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,5,AC Milan,2,2.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,6,Ajax,1,1.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,7,Arsenal,1,1.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,8,Bayern Munich,1,1.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,9,Juventus,1,1.0,titles,,false
+63,UEFA Cup Winners’ Cup — Most Titles (Clubs),titles,10,Manchester City,1,1.0,titles,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,1,David James,572,572.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,2,Mark Schwarzer,514,514.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,3,Brad Friedel,450,450.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,4,Shay Given,451,451.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,5,Petr Čech,443,443.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,6,Jussi Jääskeläinen,436,436.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,7,Tim Howard,399,399.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,8,Ben Foster,390,390.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,9,Edwin van der Sar,313,313.0,matches,,false
+64,Premier League — Most Appearances by Goalkeeper,appearances,10,Pepe Reina,297,297.0,matches,,false
+65,Premier League — Most Goals by African Players,goals,1,Mohamed Salah,155+,155.0,goals,,true
+65,Premier League — Most Goals by African Players,goals,2,Sadio Mané,111,111.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,3,Didier Drogba,104,104.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,4,Emmanuel Adebayor,97,97.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,5,Yakubu,95,95.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,6,Riyad Mahrez,82,82.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,7,Pierre-Emerick Aubameyang,68,68.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,8,Wilfried Zaha,68,68.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,9,Nwankwo Kanu,54,54.0,goals,,false
+65,Premier League — Most Goals by African Players,goals,10,Tony Yeboah,24,24.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,1,Sergio Agüero,184,184.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,2,Carlos Tevez,84,84.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,3,Roberto Firmino,82,82.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,4,Luis Suárez,69,69.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,5,Gabriel Jesus,63,63.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,6,Alexis Sánchez,63,63.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,7,Philippe Coutinho,41,41.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,8,Juninho,29,29.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,9,Hernán Crespo,20,20.0,goals,,false
+66,Premier League — Most Goals by South American Players,goals,10,Claudio López,9,9.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,1,Jermain Defoe,24,24.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,2,Olivier Giroud,21,21.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,3,Javier Hernández,19,19.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,4,Ole Gunnar Solskjær,17,17.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,5,Daniel Sturridge,17,17.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,6,Nwankwo Kanu,17,17.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,7,Adam Le Fondre,12,12.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,8,Andy Cole,11,11.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,9,Edin Džeko,10,10.0,goals,,false
+67,Premier League — Most Goals as a Substitute,goals,10,Kelechi Iheanacho,9,9.0,goals,,false
+68,Premier League — Most Own Goals,goals,1,Richard Dunne,10,10.0,goals,,false
+68,Premier League — Most Own Goals,goals,2,Jamie Carragher,7,7.0,goals,,false
+68,Premier League — Most Own Goals,goals,3,Phil Jagielka,7,7.0,goals,,false
+68,Premier League — Most Own Goals,goals,4,Martin Škrtel,7,7.0,goals,,false
+68,Premier League — Most Own Goals,goals,5,Wes Brown,6,6.0,goals,,false
+68,Premier League — Most Own Goals,goals,6,Frank Sinclair,6,6.0,goals,,false
+68,Premier League — Most Own Goals,goals,7,Ryan Shawcross,6,6.0,goals,,false
+68,Premier League — Most Own Goals,goals,8,Jonny Evans,6,6.0,goals,,false
+68,Premier League — Most Own Goals,goals,9,John Pantsil,5,5.0,goals,,false
+68,Premier League — Most Own Goals,goals,10,Joleon Lescott,5,5.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,1,Cristiano Ronaldo,67,67.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,2,Lionel Messi,49,49.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,3,Karim Benzema,34,34.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,4,Robert Lewandowski,33,33.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,5,Thomas Müller,27,27.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,6,Kylian Mbappé,26,26.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,7,Raúl,25,25.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,8,Thierry Henry,20,20.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,9,Mohamed Salah,18,18.0,goals,,false
+69,Champions League — Most Knockout Goals (Players),goals,10,Wayne Rooney,16,16.0,goals,,false
+70,World Cup — Most Matches Played (Players),appearances,1,Lionel Messi,26,26.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,2,Lothar Matthäus,25,25.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,3,Miroslav Klose,24,24.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,4,Paolo Maldini,23,23.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,5,Cristiano Ronaldo,22,22.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,6,Cafu,20,20.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,7,Javier Mascherano,20,20.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,8,Diego Maradona,21,21.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,9,Manuel Neuer,19,19.0,matches,,false
+70,World Cup — Most Matches Played (Players),appearances,10,Philipp Lahm,18,18.0,matches,,false
+71,Premier League — Most Headed Goals,goals,1,Peter Crouch,53,53.0,goals,,false
+71,Premier League — Most Headed Goals,goals,2,Alan Shearer,46,46.0,goals,,false
+71,Premier League — Most Headed Goals,goals,3,Dion Dublin,45,45.0,goals,,false
+71,Premier League — Most Headed Goals,goals,4,Les Ferdinand,40,40.0,goals,,false
+71,Premier League — Most Headed Goals,goals,5,Teddy Sheringham,33,33.0,goals,,false
+71,Premier League — Most Headed Goals,goals,6,Duncan Ferguson,32,32.0,goals,,false
+71,Premier League — Most Headed Goals,goals,7,Christian Benteke,31,31.0,goals,,false
+71,Premier League — Most Headed Goals,goals,8,Tim Cahill,31,31.0,goals,,false
+71,Premier League — Most Headed Goals,goals,9,Harry Kane,30+,30.0,goals,,true
+71,Premier League — Most Headed Goals,goals,10,Andy Carroll,30,30.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,1,Sevilla,27,27.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,2,Atlético Madrid,25,25.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,3,Getafe,23,23.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,4,Celta Vigo,20,20.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,5,Athletic Club,19,19.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,6,Barcelona,18,18.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,7,Villarreal,15,15.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,8,Espanyol,15,15.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,9,Real Sociedad,15,15.0,goals,,false
+72,Cristiano Ronaldo — Clubs He Has Scored the Most Goals Against (All Competitions),goals,10,Valencia,15,15.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,1,Sevilla,38,38.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,2,Atlético Madrid,32,32.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,3,Valencia,31,31.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,4,Athletic Club,29,29.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,5,Real Madrid,26,26.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,6,Osasuna,27,27.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,7,Espanyol,25,25.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,8,Deportivo La Coruña,20,20.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,9,Levante,20,20.0,goals,,false
+73,Lionel Messi — Clubs He Has Scored the Most Goals Against (All Competitions),goals,10,Real Betis,26,26.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,1,Iker Casillas,18,18.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,2,Diego Alves,21,21.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,3,Andrés Fernández,17,17.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,4,Gorka Iraizoz,17,17.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,5,Diego López,15,15.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,6,Roberto Jiménez,14,14.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,7,Antonio Adán,13,13.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,8,Jan Oblak,9,9.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,9,Claudio Bravo,8,8.0,goals,,false
+74,Lionel Messi — Goalkeepers He Has Scored the Most Goals Against,goals,10,Keylor Navas,8,8.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,1,Diego López,17,17.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,2,Andrés Fernández,14,14.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,3,Gorka Iraizoz,14,14.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,4,Jan Oblak,10,10.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,5,Diego Alves,10,10.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,6,Claudio Bravo,9,9.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,7,Keylor Navas,8,8.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,8,Marc-André ter Stegen,7,7.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,9,Petr Čech,7,7.0,goals,,false
+75,Cristiano Ronaldo — Goalkeepers He Has Scored the Most Goals Against,goals,10,Manuel Neuer,6,6.0,goals,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,1,Cristiano Ronaldo,187,187.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,2,Iker Casillas,177,177.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,3,Lionel Messi,163,163.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,4,Karim Benzema,152,152.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,5,Xavi,151,151.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,6,Thomas Müller,150+,150.0,matches,,true
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,7,Luka Modrić,150+,150.0,matches,,true
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,8,Sergio Ramos,138,138.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,9,Raúl,142,142.0,matches,,false
+76,UEFA Champions League — Players with Most Appearances (Matches Played),appearances,10,Ryan Giggs,141,141.0,matches,,false
+77,UEFA Champions League — Players with Most Wins,,1,Cristiano Ronaldo,115,115.0,,,false
+77,UEFA Champions League — Players with Most Wins,,2,Iker Casillas,101,101.0,,,false
+77,UEFA Champions League — Players with Most Wins,,3,Lionel Messi,98,98.0,,,false
+77,UEFA Champions League — Players with Most Wins,,4,Karim Benzema,90+,90.0,,,true
+77,UEFA Champions League — Players with Most Wins,,5,Xavi,91,91.0,,,false
+77,UEFA Champions League — Players with Most Wins,,6,Luka Modrić,90+,90.0,,,true
+77,UEFA Champions League — Players with Most Wins,,7,Sergio Ramos,90+,90.0,,,true
+77,UEFA Champions League — Players with Most Wins,,8,Dani Carvajal,85+,85.0,,,true
+77,UEFA Champions League — Players with Most Wins,,9,Gerard Piqué,80+,80.0,,,true
+77,UEFA Champions League — Players with Most Wins,,10,Andrés Iniesta,80+,80.0,,,true
+78,FIFA World Cup — Players with Most Assists,assists,1,Pelé,10,10.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,2,Lionel Messi,9,9.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,3,Diego Maradona,8,8.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,4,Pierre Littbarski,7,7.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,5,Thomas Müller,7,7.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,6,Kevin De Bruyne,7,7.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,7,David Beckham,6,6.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,8,Bastian Schweinsteiger,6,6.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,9,Mesut Özil,5,5.0,assists,,false
+78,FIFA World Cup — Players with Most Assists,assists,10,Francesco Totti,5,5.0,assists,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,1,Lionel Messi,26,26.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,2,Cristiano Ronaldo,18,18.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,3,Alfredo Di Stéfano,18,18.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,4,Raúl,15,15.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,5,Ferenc Puskás,14,14.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,6,César Rodríguez,14,14.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,7,Karim Benzema,14,14.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,8,Santillana,12,12.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,9,Luis Suárez (URU),11,11.0,goals,,false
+79,Players with Most Goals in El Clásico (Barcelona vs Real Madrid),goals,10,Hugo Sánchez,10,10.0,goals,,false
+80,Players with Most Appearances in El Clásico,appearances,1,Sergio Ramos,45,45.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,2,Lionel Messi,45,45.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,3,Sergio Busquets,43,43.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,4,Iker Casillas,37,37.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,5,Xavi,42,42.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,6,Karim Benzema,40+,40.0,matches,,true
+80,Players with Most Appearances in El Clásico,appearances,7,Gerard Piqué,36,36.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,8,Andrés Iniesta,36,36.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,9,Cristiano Ronaldo,30,30.0,matches,,false
+80,Players with Most Appearances in El Clásico,appearances,10,Luka Modrić,30+,30.0,matches,,true
+81,Players with Most Appearances for a Single Club (Europe),appearances,1,Ryan Giggs (Manchester United),963,963.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,2,Paolo Maldini (AC Milan),902,902.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,3,Francesco Totti (Roma),786,786.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,4,Xavi (Barcelona),767,767.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,5,Steven Gerrard (Liverpool),710,710.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,6,Paul Scholes (Man United),718,718.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,7,John Terry (Chelsea),717,717.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,8,Carles Puyol (Barcelona),593,593.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,9,Jamie Carragher (Liverpool),737,737.0,matches,,false
+81,Players with Most Appearances for a Single Club (Europe),appearances,10,Iker Casillas (Real Madrid),725,725.0,matches,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,1,Luis Suárez,47,47.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,2,Pedro,25,25.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,3,Neymar,25,25.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,4,Thierry Henry,21,21.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,5,Samuel Eto’o,18,18.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,6,David Villa,16,16.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,7,Cesc Fàbregas,15,15.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,8,Alexis Sánchez,13,13.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,9,Gerard Piqué,12,12.0,,,false
+82,Lionel Messi — Players He Has Assisted the Most (Club Career),,10,Ansu Fati,10,10.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,1,Karim Benzema,32,32.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,2,Gareth Bale,29,29.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,3,Wayne Rooney,23,23.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,4,Gonzalo Higuaín,22,22.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,5,Ángel Di María,20,20.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,6,Mesut Özil,18,18.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,7,Ryan Giggs,16,16.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,8,Paulo Dybala,15,15.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,9,Marcelo,15,15.0,,,false
+83,Cristiano Ronaldo — Players He Has Assisted the Most (Club Career),,10,Luka Modrić,14,14.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,1,Dani Alves,43,43.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,2,Luis Suárez,38,38.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,3,Xavi,31,31.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,4,Andrés Iniesta,30,30.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,5,Jordi Alba,25,25.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,6,Neymar,22,22.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,7,Cesc Fàbregas,20,20.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,8,Pedro,18,18.0,,,false
+84,Lionel Messi — Players Who Have Assisted Him the Most,,9,Ángel Di María,14 (NT + PSG),14.0,,,true
+84,Lionel Messi — Players Who Have Assisted Him the Most,,10,Kylian Mbappé,10+,10.0,,,true
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,1,Karim Benzema,45,45.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,2,Mesut Özil,27,27.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,3,Marcelo,25,25.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,4,Ángel Di María,23,23.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,5,Luka Modrić,20,20.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,6,Toni Kroos,18,18.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,7,Wayne Rooney,17,17.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,8,Gareth Bale,16,16.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,9,Ryan Giggs,15,15.0,,,false
+85,Cristiano Ronaldo — Players Who Have Assisted Him the Most,,10,Dani Carvajal,15,15.0,,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,1,Iker Casillas,88,88.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,2,Sergio Ramos,77,77.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,3,Paolo Maldini,74,74.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,4,Lionel Messi,72,72.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,5,Philipp Lahm,67,67.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,6,Steven Gerrard,60,60.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,7,Francesco Totti,60,60.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,8,John Terry,58,58.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,9,Alessandro Del Piero,55,55.0,matches,,false
+86,Players with Most Appearances as Captain (Champions League),appearances,10,Cristiano Ronaldo,54,54.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,1,Paolo Maldini,5,5.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,2,Dani Alves,5,5.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,3,Lionel Messi,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,4,Gerard Piqué,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,5,Iker Casillas,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,6,Cristiano Ronaldo,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,7,Sergio Ramos,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,8,Andrés Iniesta,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,9,Clarence Seedorf,4,4.0,matches,,false
+87,Players with Most UEFA Super Cup Appearances,appearances,10,Xavi,4,4.0,matches,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,1,Sevilla,5,5.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,2,Osasuna,4,4.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,3,Valencia,3,3.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,4,Espanyol,3,3.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,5,Deportivo La Coruña,3,3.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,6,Rayo Vallecano,3,3.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,7,Levante,2,2.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,8,Real Madrid,2,2.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,9,Mallorca,2,2.0,hat-tricks,,false
+88,Lionel Messi — Hat-Tricks by Opponent (La Liga),hat_tricks,10,Granada,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,1,Sevilla,5,5.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,2,Getafe,3,3.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,3,Espanyol,3,3.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,4,Atlético Madrid,3,3.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,5,Celta Vigo,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,6,Athletic Club,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,7,Deportivo La Coruña,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,8,Real Sociedad,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,9,Villarreal,2,2.0,hat-tricks,,false
+89,Cristiano Ronaldo — Hat-Tricks by Opponent (La Liga),hat_tricks,10,Granada,2,2.0,hat-tricks,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,1,Cristiano Ronaldo,25,25.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,2,Pepe,20,20.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,3,João Moutinho,19,19.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,4,Gianluigi Buffon,17,17.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,5,Leonardo Bonucci,17,17.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,6,Bastian Schweinsteiger,18,18.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,7,Lilian Thuram,16,16.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,8,Luka Modrić,15+,15.0,matches,,true
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,9,Iker Casillas,14,14.0,matches,,false
+90,Players with Most Appearances in UEFA European Championship (Euros),appearances,10,Andrés Iniesta,14,14.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,1,Sergio Ramos,10,10.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,2,Toni Kroos,10,10.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,3,Marcelo,10,10.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,4,Karim Benzema,9,9.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,5,Luka Modrić,9,9.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,6,Dani Carvajal,9,9.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,7,Lionel Messi,8,8.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,8,Gerard Piqué,7,7.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,9,Andrés Iniesta,7,7.0,matches,,false
+91,Players with Most Appearances in FIFA Club World Cup,appearances,10,Casemiro,7,7.0,matches,,false
+92,Lionel Messi — Most Games With Teammates,appearances,1,Sergio Busquets,~570,570.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,2,Gerard Piqué,~520,520.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,3,Andrés Iniesta,~490,490.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,4,Dani Alves,~390,390.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,5,Xavi,~400,400.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,6,Javier Mascherano,~335,335.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,7,Jordi Alba,~330,330.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,8,Pedro,~320,320.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,9,Víctor Valdés,~300,300.0,matches,,true
+92,Lionel Messi — Most Games With Teammates,appearances,10,Neymar,~190,190.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,1,Karim Benzema,~340,340.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,2,Sergio Ramos,~335,335.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,3,Marcelo,~330,330.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,4,Luka Modrić,~290,290.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,5,Pepe,~285,285.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,6,Toni Kroos,~240,240.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,7,Casemiro,~230,230.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,8,Gareth Bale,~205,205.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,9,Raphaël Varane,~200,200.0,matches,,true
+93,Cristiano Ronaldo — Most Games With Teammates,appearances,10,Ángel Di María,~190,190.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,1,Xavi,~570,570.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,2,Lionel Messi,~490,490.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,3,Sergio Busquets,~480,480.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,4,Gerard Piqué,~450,450.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,5,Carles Puyol,~375,375.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,6,Dani Alves,~370,370.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,7,Víctor Valdés,~350,350.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,8,Pedro,~345,345.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,9,Jordi Alba,~320,320.0,matches,,true
+94,Andrés Iniesta — Most Games With Teammates,appearances,10,Samuel Eto’o,~290,290.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,1,Paul Scholes,~480,480.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,2,Gary Neville,~440,440.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,3,Roy Keane,~400,400.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,4,Rio Ferdinand,~380,380.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,5,Wayne Rooney,~380,380.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,6,Nemanja Vidić,~350,350.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,7,Patrice Evra,~340,340.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,8,David Beckham,~330,330.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,9,Michael Carrick,~330,330.0,matches,,true
+95,Ryan Giggs — Most Games With Man United Teammates,appearances,10,Denis Irwin,~300,300.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,1,Iker Casillas,~470,470.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,2,Marcelo,~450,450.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,3,Karim Benzema,~430,430.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,4,Cristiano Ronaldo,~340,340.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,5,Luka Modrić,~320,320.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,6,Pepe,~300,300.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,7,Gerard Piqué,~300 (Spain),300.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,8,Xabi Alonso,~290,290.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,9,Toni Kroos,~280,280.0,matches,,true
+96,Sergio Ramos — Most Games With Teammates,appearances,10,Casemiro,~270,270.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,1,Daniele De Rossi,~550,550.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,2,Simone Perrotta,~280,280.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,3,Philippe Mexès,~250,250.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,4,Mirko Vučinić,~250,250.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,5,Christian Panucci,~240,240.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,6,Rodrigo Taddei,~230,230.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,7,Alessandro Florenzi,~220,220.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,8,Matteo Brighi,~200,200.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,9,Gabriel Batistuta,~190,190.0,matches,,true
+97,Francesco Totti — Most Games With Roma Teammates,appearances,10,Vincenzo Montella,~185,185.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,1,Andrés Iniesta,~570,570.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,2,Lionel Messi,~400,400.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,3,Sergio Busquets,~380,380.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,4,Carles Puyol,~375,375.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,5,Gerard Piqué,~350,350.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,6,Dani Alves,~320,320.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,7,Víctor Valdés,~310,310.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,8,Samuel Eto’o,~300,300.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,9,Thierry Henry,~180,180.0,matches,,true
+98,Xavi — Most Games With Teammates,appearances,10,Neymar,~150,150.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,1,Alessandro Costacurta,~660,660.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,2,Franco Baresi,~450,450.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,3,Demetrio Albertini,~420,420.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,4,Mauro Tassotti,~400,400.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,5,Roberto Donadoni,~390,390.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,6,Sebastiano Rossi,~370,370.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,7,Filippo Galli,~350,350.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,8,Daniele Massaro,~320,320.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,9,Clarence Seedorf,~310,310.0,matches,,true
+99,Paolo Maldini — Most Games With Teammates (AC Milan),appearances,10,Andriy Shevchenko,~300,300.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,1,Giorgio Chiellini,~550,550.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,2,Alessandro Del Piero,~510,510.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,3,Andrea Barzagli,~460,460.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,4,Claudio Marchisio,~440,440.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,5,Leonardo Bonucci,~430,430.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,6,Andrea Pirlo,~350,350.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,7,Fabio Cannavaro,~330,330.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,8,Lilian Thuram,~310,310.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,9,David Trezeguet,~300,300.0,matches,,true
+100,Gianluigi Buffon — Most Games With Teammates,appearances,10,Pavel Nedvěd,~290,290.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,1,Jamie Carragher,~600,600.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,2,Sami Hyypiä,~400,400.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,3,Dirk Kuyt,~280,280.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,4,Pepe Reina,~290,290.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,5,Xabi Alonso,~210,210.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,6,Luis Suárez,~150,150.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,7,Fernando Torres,~140,140.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,8,Michael Owen,~130,130.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,9,Robbie Fowler,~120,120.0,matches,,true
+101,Steven Gerrard — Most Games With Liverpool Teammates,appearances,10,John Arne Riise,~290,290.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,1,John Terry,~575,575.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,2,Petr Čech,~470,470.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,3,Didier Drogba,~370,370.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,4,Ashley Cole,~330,330.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,5,Michael Essien,~290,290.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,6,Claude Makélélé,~280,280.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,7,Ricardo Carvalho,~270,270.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,8,Joe Cole,~260,260.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,9,Arjen Robben,~160,160.0,matches,,true
+102,Frank Lampard — Most Games With Chelsea Teammates,appearances,10,Branislav Ivanović,~230,230.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,1,Dennis Bergkamp,~280,280.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,2,Patrick Vieira,~270,270.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,3,Robert Pirès,~260,260.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,4,Freddie Ljungberg,~240,240.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,5,Ashley Cole,~220,220.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,6,Sol Campbell,~210,210.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,7,Gilberto Silva,~210,210.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,8,Lauren,~200,200.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,9,Kolo Touré,~200,200.0,matches,,true
+103,Thierry Henry — Most Games With Arsenal Teammates,appearances,10,Jens Lehmann,~190,190.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,1,Thiago Silva,~200 (Milan/PSG),200.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,2,Maxwell,~195 (Ajax/Inter/Barça/PSG),195.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,3,Marco Verratti,~180 (PSG),180.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,4,Edinson Cavani,~150 (PSG),150.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,5,Javier Pastore,~140 (PSG),140.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,6,Clarence Seedorf,~130 (Milan),130.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,7,Wesley Sneijder,~120 (Ajax/Inter),120.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,8,Paul Pogba,~110 (Juve/Man Utd),110.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,9,Gerard Piqué,~100 (Barça),100.0,matches,,true
+104,Zlatan Ibrahimović — Most Games With Teammates (Mixed Clubs),appearances,10,Lucas Moura,~100 (PSG),100.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,1,Paolo Maldini,~320,320.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,2,Alessandro Nesta,~300,300.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,3,Andrea Pirlo,~290,290.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,4,Gennaro Gattuso,~280,280.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,5,Clarence Seedorf,~270,270.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,6,Filippo Inzaghi,~260,260.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,7,Cafu,~250,250.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,8,Ronaldinho,~200 (Brazil + Milan),200.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,9,Dida,~230,230.0,matches,,true
+105,Kaka — Most Games With Teammates (AC Milan + Brazil),appearances,10,Kakha Kaladze,~220,220.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,1,Paul Scholes,~480,480.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,2,Ryan Giggs,~450,450.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,3,Rio Ferdinand,~430,430.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,4,Michael Carrick,~420,420.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,5,Nemanja Vidić,~380,380.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,6,Patrice Evra,~370,370.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,7,Darren Fletcher,~330,330.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,8,Gary Neville,~300,300.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,9,David de Gea,~280,280.0,matches,,true
+106,Wayne Rooney — Most Games With Teammates (Man United + England),appearances,10,Cristiano Ronaldo,~206,206.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,1,Sergio Ramos,~470,470.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,2,Iker Casillas + Raúl,~450,450.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,3,Marcelo,~400,400.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,4,Roberto Carlos,~370,370.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,5,Fernando Hierro,~340,340.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,6,Xabi Alonso,~320,320.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,7,Guti,~310,310.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,8,Luka Modrić,~280,280.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,9,Cristiano Ronaldo,~250,250.0,matches,,true
+107,Iker Casillas — Most Games With Teammates (Real Madrid + Spain),appearances,10,Karim Benzema,~230,230.0,matches,,true

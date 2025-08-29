@@ -1,0 +1,701 @@
+Player,Club,Years,Apps,Goals
+Lionel Messi,Barcelona C,2003–2004,10,5
+Lionel Messi,Barcelona B,2004–2005,22,6
+Lionel Messi,Barcelona,2004–2021,520,474
+Lionel Messi,Paris Saint-Germain,2021–2023,58,22
+Lionel Messi,Inter Miami,2023–present,44,40
+Cristiano Ronaldo,Sporting CP B,2002–2003,2,0
+Cristiano Ronaldo,Sporting CP,2002–2003,25,3
+Cristiano Ronaldo,Manchester United (1st),2003–2009,196,84
+Cristiano Ronaldo,Real Madrid,2009–2018,292,311
+Cristiano Ronaldo,Juventus,2018–2021,98,81
+Cristiano Ronaldo,Manchester United (2nd),2021–2022,40,19
+Cristiano Ronaldo,Al-Nassr,2023–present,77,74
+Zinedine Zidane,Cannes,1989–1992,61,6
+Zinedine Zidane,Bordeaux,1992–1996,139,28
+Zinedine Zidane,Juventus,1996–2001,151,24
+Zinedine Zidane,Real Madrid,2001–2006,155,37
+Ronaldo Nazário,Cruzeiro,1993–1994,34,34
+Ronaldo Nazário,PSV,1994–1996,46,42
+Ronaldo Nazário,Barcelona,1996–1997,37,34
+Ronaldo Nazário,Inter Milan,1997–2002,68,49
+Ronaldo Nazário,Real Madrid,2002–2007,127,83
+Ronaldo Nazário,AC Milan,2007–2008,20,9
+Ronaldo Nazário,Corinthians,2009–2011,31,18
+Ronaldinho,Grêmio,1998–2001,89,23
+Ronaldinho,Paris Saint-Germain,2001–2003,55,17
+Ronaldinho,Barcelona,2003–2008,145,70
+Ronaldinho,AC Milan,2008–2010,76,26
+Ronaldinho,Flamengo,2011–2012,28,11
+Ronaldinho,Atlético Mineiro,2012–2014,40,9
+Ronaldinho,Querétaro,2014–2015,29,8
+Ronaldinho,Fluminense,2015,9,0
+Pelé,Santos,1956–1974,665,650
+Pelé,New York Cosmos,1975–1977,56,31
+Diego Maradona,Argentinos Juniors,1976–1981,166,116
+Diego Maradona,Boca Juniors (1st),1981–1982,40,28
+Diego Maradona,Barcelona,1982–1984,36,22
+Diego Maradona,Napoli,1984–1991,188,81
+Diego Maradona,Sevilla,1992–1993,26,5
+Diego Maradona,Newell's Old Boys,1993,5,0
+Diego Maradona,Boca Juniors (2nd),1995–1997,30,7
+Johan Cruyff,Ajax (1st),1964–1973,240,190
+Johan Cruyff,Barcelona,1973–1978,143,48
+Johan Cruyff,Los Angeles Aztecs,1979,27,16
+Johan Cruyff,Washington Diplomats,1980–1981,32,12
+Johan Cruyff,Levante,1981,10,2
+Johan Cruyff,Ajax (2nd),1981–1983,36,14
+Johan Cruyff,Feyenoord,1983–1984,33,11
+Franz Beckenbauer,Bayern Munich,1964–1977,427,44
+Franz Beckenbauer,New York Cosmos,1977–1980,99,17
+Franz Beckenbauer,Hamburg,1980–1982,38,0
+Franz Beckenbauer,New York Cosmos (2nd),1983,30,2
+Michel Platini,Nancy,1972–1979,181,98
+Michel Platini,Saint-Étienne,1979–1982,104,58
+Michel Platini,Juventus,1982–1987,147,68
+Kaká,São Paulo,2001–2003,58,12
+Kaká,AC Milan (1st),2003–2009,193,70
+Kaká,Real Madrid,2009–2013,120,29
+Kaká,AC Milan (2nd),2013–2014,30,7
+Kaká,Orlando City,2014–2017,75,24
+Kaká,São Paulo (2nd),2017,2,0
+Thierry Henry,Monaco,1994–1999,105,20
+Thierry Henry,Arsenal (1st),1999–2007,254,175
+Thierry Henry,Barcelona,2007–2010,80,35
+Thierry Henry,New York Red Bulls,2010–2014,122,51
+Thierry Henry,Arsenal (2nd),2012,4,1
+George Best,Manchester United,1963–1974,361,136
+George Best,Jewish Guild,1975,5,2
+George Best,Dunstable Town,1974,3,1
+George Best,Stockport County,1975,3,2
+George Best,Cork Celtic,1975–1976,3,0
+George Best,Los Angeles Aztecs,1976–1978,54,15
+George Best,Fulham,1976–1977,42,8
+George Best,Fort Lauderdale Strikers,1978–1979,39,8
+George Best,Hibernian,1979–1980,17,3
+George Best,San Jose Earthquakes,1980–1981,56,21
+Roberto Baggio,Vicenza,1982–1985,47,12
+Roberto Baggio,Fiorentina,1985–1990,136,39
+Roberto Baggio,Juventus,1990–1995,141,78
+Roberto Baggio,AC Milan,1995–1997,51,19
+Roberto Baggio,Bologna,1997–1998,30,22
+Roberto Baggio,Inter Milan,1998–2000,63,28
+Roberto Baggio,Brescia,2000–2004,95,45
+Gianluigi Buffon,Parma,1995–2001,168,0
+Gianluigi Buffon,Juventus (1st),2001–2018,509,0
+Gianluigi Buffon,Paris Saint-Germain,2018–2019,25,0
+Gianluigi Buffon,Juventus (2nd),2019–2021,29,0
+Gianluigi Buffon,Parma (2nd),2021–2023,17,0
+Paolo Maldini,AC Milan,1984–2009,647,29
+Franco Baresi,AC Milan,1977–1997,532,16
+Francesco Totti,Roma,1992–2017,619,250
+Ryan Giggs,Manchester United,1990–2014,672,114
+Paul Scholes,Manchester United,1993–2011,499,107
+Paul Scholes,Manchester United (return),2012–2013,21,1
+Steven Gerrard,Liverpool,1998–2015,504,120
+Steven Gerrard,LA Galaxy,2015–2016,34,5
+Frank Lampard,West Ham United,1995–2001,148,24
+Frank Lampard,Chelsea,2001–2014,429,147
+Frank Lampard,Manchester City,2014–2015,32,6
+Frank Lampard,New York City FC,2014–2015,29,15
+Andrés Iniesta,Barcelona B,2002–2004,54,5
+Andrés Iniesta,Barcelona,2002–2018,442,35
+Andrés Iniesta,Vissel Kobe,2018–2023,134,28
+Andrés Iniesta,Emirates Club,2023–present,12,0
+Xavi,Barcelona B,1997–1998,17,1
+Xavi,Barcelona,1998–2015,505,58
+Xavi,Al Sadd,2015–2019,85,12
+Sergio Busquets,Barcelona B,2007–2008,34,1
+Sergio Busquets,Barcelona,2008–2023,722,18
+Sergio Busquets,Inter Miami,2023–present,33,0
+Luka Modrić,Dinamo Zagreb,2003–2008,112,31
+Luka Modrić,Tottenham Hotspur,2008–2012,127,13
+Luka Modrić,Real Madrid,2012–present,534,39
+Kevin De Bruyne,Genk,2008–2012,84,16
+Kevin De Bruyne,Chelsea,2012–2014,3,0
+Kevin De Bruyne,Werder Bremen,2012–2013,33,10
+Kevin De Bruyne,VfL Wolfsburg,2014–2015,51,16
+Kevin De Bruyne,Manchester City,2015–present,382,102
+N'Golo Kanté,Boulogne,2012–2013,38,1
+N'Golo Kanté,Caen,2013–2015,75,4
+N'Golo Kanté,Leicester City,2015–2016,37,1
+N'Golo Kanté,Chelsea,2016–2023,269,13
+N'Golo Kanté,Al-Ittihad,2023–present,44,2
+Virgil van Dijk,Willem II,2011–2013,62,7
+Virgil van Dijk,Groningen,2013–2015,62,6
+Virgil van Dijk,Celtic,2013–2015,76,11
+Virgil van Dijk,Southampton,2015–2018,67,4
+Virgil van Dijk,Liverpool,2018–present,271,23
+Sergio Ramos,Sevilla,2003–2005,61,2
+Sergio Ramos,Real Madrid,2005–2021,469,72
+Sergio Ramos,Paris Saint-Germain,2021–2023,58,4
+Sergio Ramos,Sevilla (return),2023–present,37,7
+Karim Benzema,Lyon,2004–2009,148,43
+Karim Benzema,Real Madrid,2009–2023,648,354
+Karim Benzema,Al-Ittihad,2023–present,42,15
+Robert Lewandowski,Znicz Pruszków,2006–2008,59,36
+Robert Lewandowski,Lech Poznań,2008–2010,58,32
+Robert Lewandowski,Borussia Dortmund,2010–2014,131,74
+Robert Lewandowski,Bayern Munich,2014–2022,375,344
+Robert Lewandowski,Barcelona,2022–present,100,56
+Erling Haaland,Bryne,2016–2017,16,18
+Erling Haaland,Molde,2017–2019,50,20
+Erling Haaland,Red Bull Salzburg,2019–2020,27,29
+Erling Haaland,Borussia Dortmund,2020–2022,89,86
+Erling Haaland,Manchester City,2022–present,108,105
+Kylian Mbappé,Monaco,2015–2017,41,15
+Kylian Mbappé,Paris Saint-Germain,2017–2024,308,255
+Kylian Mbappé,Real Madrid,2024–present,21,12
+Harry Kane,Tottenham Hotspur,2009–2023,435,280
+Harry Kane,Bayern Munich,2023–present,55,50
+Gareth Bale,Southampton,2006–2007,40,5
+Gareth Bale,Tottenham Hotspur,2007–2013,146,42
+Gareth Bale,Real Madrid,2013–2022,258,106
+Gareth Bale,Los Angeles FC,2022–2023,14,3
+Neymar,Santos,2009–2013,177,70
+Neymar,Barcelona,2013–2017,123,68
+Neymar,Paris Saint-Germain,2017–2023,173,118
+Neymar,Al-Hilal,2023–present,7,1
+Eden Hazard,Lille,2007–2012,147,20
+Eden Hazard,Chelsea,2012–2019,245,85
+Eden Hazard,Real Madrid,2019–2023,76,7
+Sadio Mané,Metz,2011–2012,22,2
+Sadio Mané,Red Bull Salzburg,2012–2014,87,45
+Sadio Mané,Southampton,2014–2016,75,25
+Sadio Mané,Liverpool,2016–2022,269,120
+Sadio Mané,Bayern Munich,2022–2023,38,12
+Sadio Mané,Al-Nassr,2023–present,47,21
+Mohamed Salah,El Mokawloon,2010–2012,41,11
+Mohamed Salah,Basel,2012–2014,79,20
+Mohamed Salah,Chelsea,2014–2016,13,2
+Mohamed Salah,Fiorentina,2015,16,6
+Mohamed Salah,Roma,2015–2017,65,29
+Mohamed Salah,Liverpool,2017–present,367,218
+Antoine Griezmann,Real Sociedad,2009–2014,180,52
+Antoine Griezmann,Atlético Madrid (1st),2014–2019,180,94
+Antoine Griezmann,Barcelona,2019–2021,102,35
+Antoine Griezmann,Atlético Madrid (2nd),2021–present,158,66
+Paul Pogba,Le Havre,2007–2009,21,0
+Paul Pogba,Manchester United (youth),2009–2012,3,0
+Paul Pogba,Juventus (1st),2012–2016,124,28
+Paul Pogba,Manchester United (2nd),2016–2022,178,29
+Paul Pogba,Juventus (2nd),2022–2023,10,0
+Bruno Fernandes,Boavista,2012–2013,13,0
+Bruno Fernandes,Udinese,2013–2016,11,0
+Bruno Fernandes,Sampdoria,2016–2017,33,5
+Bruno Fernandes,Sporting CP,2017–2020,137,63
+Bruno Fernandes,Manchester City,2020–present,234,79
+Jadon Sancho,Watford,2015–2017,13,1
+Jadon Sancho,Manchester City,2015–2017,0,0
+Jadon Sancho,Borussia Dortmund,2017–2021,104,38
+Jadon Sancho,Manchester United,2021–present,82,12
+Marcus Rashford,Manchester United,2015–present,426,131
+Phil Foden,Manchester City,2017–present,274,71
+Bukayo Saka,Arsenal,2018–present,235,63
+Jude Bellingham,Birmingham City,2019–2020,41,4
+Jude Bellingham,Borussia Dortmund,2020–2023,132,24
+Jude Bellingham,Real Madrid,2023–present,42,23
+Pedri,Las Palmas,2019–2020,18,4
+Pedri,Barcelona,2020–present,174,22
+Gavi,Barcelona,2021–present,110,5
+Fabio Vieira,Porto,2020–2022,76,9
+Fabio Vieira,Arsenal,2022–present,49,3
+Mason Mount,Chelsea,2017–2023,195,27
+Mason Mount,Manchester United,2023–present,20,1
+Declan Rice,West Ham United,2017–2023,245,15
+Declan Rice,Arsenal,2023–present,69,7
+Jack Grealish,Aston Villa,2012–2021,213,32
+Jack Grealish,Manchester City,2021–present,119,11
+João Félix,Benfica,2018–2019,26,15
+João Félix,Atlético Madrid,2019–2023,131,34
+João Félix,Chelsea,2023–2024,20,4
+João Félix,Barcelona,2023–2024,44,10
+João Félix,Atlético Madrid (return),2024–present,2,0
+Vinicius Jr.,Flamengo,2017–2018,71,14
+Vinicius Jr.,Real Madrid,2018–present,264,83
+Rodrygo,Santos,2017–2019,41,17
+Rodrygo,Real Madrid,2019–present,221,55
+Ousmane Dembélé,Rennes,2015–2016,26,12
+Ousmane Dembélé,Borussia Dortmund,2016–2017,32,6
+Ousmane Dembélé,Barcelona,2017–2023,185,40
+Ousmane Dembélé,Paris Saint-Germain,2023–present,42,11
+Rafael Leão,Sporting CP,2018–2019,0,0
+Rafael Leão,Lille,2018–2019,24,8
+Rafael Leão,AC Milan,2019–present,215,58
+Alphonso Davies,Vancouver Whitecaps,2016–2018,31,8
+Alphonso Davies,Bayern Munich,2019–present,213,11
+Florian Wirtz,FC Köln,2020–2021,11,1
+Florian Wirtz,Bayer Leverkusen,2020–present,149,38
+Eduardo Camavinga,Rennes,2018–2021,88,2
+Eduardo Camavinga,Real Madrid,2021–present,167,2
+Aurélien Tchouaméni,Bordeaux,2018–2020,37,3
+Aurélien Tchouaméni,AS Monaco,2020–2022,95,5
+Aurélien Tchouaméni,Real Madrid,2022–present,98,3
+Enzo Fernández,River Plate,2019–2022,52,3
+Enzo Fernández,Benfica,2022–2023,29,4
+Enzo Fernández,Chelsea,2023–present,67,7
+Cody Gakpo,PSV,2018–2022,142,55
+Cody Gakpo,Liverpool,2023–present,78,16
+Darwin Núñez,Peñarol,2017–2019,24,2
+Darwin Núñez,Almería,2019–2020,16,4
+Darwin Núñez,Benfica,2020–2022,85,48
+Darwin Núñez,Liverpool,2022–present,110,33
+Ronaldo Nazário,Real Madrid,127,83
+Ronaldo Nazário,AC Milan,20,9
+Ronaldo Nazário,Corinthians,52,29
+Ronaldinho,Grêmio,89,47
+Ronaldinho,Paris Saint-Germain,55,17
+Ronaldinho,Barcelona,145,70
+Ronaldinho,AC Milan,76,20
+Ronaldinho,Flamengo,56,23
+Ronaldinho,Atlético Mineiro,58,20
+Ronaldinho,Querétaro,25,8
+Ronaldinho,Fluminense,7,0
+Thierry Henry,Monaco B,19,6
+Thierry Henry,Monaco,105,20
+Thierry Henry,Juventus,16,3
+Thierry Henry,Arsenal,254,174
+Thierry Henry,Barcelona,80,35
+Thierry Henry,New York Red Bulls,122,51
+Thierry Henry,Arsenal (loan),4,1
+Kaká,São Paulo,58,23
+Kaká,AC Milan (1st spell),193,70
+Kaká,Real Madrid,85,23
+Kaká,AC Milan (2nd spell),30,7
+Kaká,São Paulo (loan),19,2
+Kaká,Orlando City,75,24
+Paolo Maldini,AC Milan,647,29
+Francesco Totti,Roma,619,250
+Gianluigi Buffon,Parma (1st spell),168,0
+Gianluigi Buffon,Juventus (1st spell),509,0
+Gianluigi Buffon,Paris Saint-Germain,17,0
+Gianluigi Buffon,Juventus (2nd spell),17,0
+Gianluigi Buffon,Parma (2nd spell),43,0
+Xavi,Barcelona B,55,3
+Xavi,Barcelona,505,58
+Xavi,Al Sadd,82,20
+Rivaldo,Santa Cruz,10,0
+Rivaldo,Mogi Mirim,30,7
+Rivaldo,Corinthians,21,11
+Rivaldo,Palmeiras,45,21
+Rivaldo,Deportivo La Coruña,41,11
+Rivaldo,Barcelona,157,86
+Rivaldo,AC Milan,22,5
+Rivaldo,Cruzeiro,8,2
+Rivaldo,Olympiacos,70,36
+Rivaldo,AEK Athens,35,12
+Rivaldo,Bunyodkor,53,33
+Rivaldo,São Paulo (loan),46,12
+Rivaldo,Kabús SC,10,1
+Rivaldo,São Caetano,7,1
+Rivaldo,Mogi Mirim (return),46,22
+Rivaldo,Kabús SC (return),12,5
+Romário,Vasco da Gama,240,131
+Romário,PSV Eindhoven,109,98
+Romário,Barcelona,46,34
+Romário,Flamengo,240,152
+Romário,Valencia,11,2
+Romário,Fluminense,77,39
+Romário,Adelaide United,4,1
+Romário,Miami FC,25,19
+Romário,America-RJ,7,1
+Cafu,São Paulo,95,6
+Cafu,Real Zaragoza,16,0
+Cafu,Palmeiras,35,2
+Cafu,AS Roma,163,5
+Cafu,AC Milan,119,4
+Roberto Carlos,União São João,33,0
+Roberto Carlos,Atlético Mineiro,17,1
+Roberto Carlos,Palmeiras,20,5
+Roberto Carlos,Inter Milan,34,7
+Roberto Carlos,Real Madrid,370,47
+Roberto Carlos,Fenerbahçe,65,10
+Roberto Carlos,Corinthians,35,1
+Roberto Carlos,Anzhi Makhachkala,28,5
+Roberto Carlos,Delhi Dynamos,3,0
+Alessandro Del Piero,Padova,14,1
+Alessandro Del Piero,Juventus,513,208
+Alessandro Del Piero,Sydney FC,48,24
+Alessandro Del Piero,Delhi Dynamos,10,1
+Alessandro Nesta,Lazio,193,10
+Alessandro Nesta,AC Milan,224,10
+Alessandro Nesta,Montreal Impact,31,0
+Alessandro Nesta,Chennaiyin FC,3,0
+Fabio Cannavaro,Napoli,58,1
+Fabio Cannavaro,Parma,212,4
+Fabio Cannavaro,Inter Milan,74,2
+Fabio Cannavaro,Juventus,94,7
+Fabio Cannavaro,Real Madrid,94,0
+Fabio Cannavaro,Al-Ahli Dubai,16,2
+Youri Djorkaeff,Grenoble,82,23
+Youri Djorkaeff,Strasbourg,35,4
+Youri Djorkaeff,Monaco,87,38
+Youri Djorkaeff,Paris Saint-Germain,47,20
+Youri Djorkaeff,Inter Milan,87,29
+Youri Djorkaeff,Kaiserslautern,55,11
+Youri Djorkaeff,Bolton Wanderers,75,20
+Youri Djorkaeff,Blackburn Rovers,3,0
+Youri Djorkaeff,New York Red Bulls,45,10
+Marcel Desailly,Nantes,162,5
+Marcel Desailly,Marseille,47,1
+Marcel Desailly,AC Milan,137,5
+Marcel Desailly,Chelsea,158,6
+Marcel Desailly,Qatar SC,28,3
+Patrick Vieira,Cannes,49,2
+Patrick Vieira,AC Milan,2,0
+Patrick Vieira,Arsenal,279,29
+Patrick Vieira,Juventus,31,5
+Patrick Vieira,Inter Milan,67,6
+Patrick Vieira,Manchester City,28,3
+Claude Makélélé,Nantes,169,9
+Claude Makélélé,Marseille,32,3
+Claude Makélélé,Celta de Vigo,70,5
+Claude Makélélé,Real Madrid,94,1
+Claude Makélélé,Chelsea,144,2
+Claude Makélélé,Paris Saint-Germain,98,1
+Lilian Thuram,Monaco,155,8
+Lilian Thuram,Parma,163,1
+Lilian Thuram,Juventus,144,1
+Lilian Thuram,Barcelona,41,0
+Laurent Blanc,Montpellier,251,76
+Laurent Blanc,Napoli,31,6
+Laurent Blanc,Nîmes,29,1
+Laurent Blanc,Saint-Étienne,107,18
+Laurent Blanc,Auxerre,30,2
+Laurent Blanc,Barcelona,28,1
+Laurent Blanc,Marseille,63,11
+Laurent Blanc,Inter Milan,85,6
+Laurent Blanc,Manchester United,48,1
+Emmanuel Petit,Monaco,222,4
+Emmanuel Petit,Arsenal,85,9
+Emmanuel Petit,Barcelona,23,1
+Emmanuel Petit,Chelsea,55,2
+David Trezeguet,Monaco,93,38
+David Trezeguet,Juventus,245,138
+David Trezeguet,Hércules,31,12
+David Trezeguet,River Plate,35,16
+David Trezeguet,Newell's Old Boys,24,7
+David Trezeguet,Pune City,9,2
+Nicolas Anelka,Paris Saint-Germain,40,10
+Nicolas Anelka,Arsenal,65,23
+Nicolas Anelka,Real Madrid,19,2
+Nicolas Anelka,Paris Saint-Germain (return),39,10
+Nicolas Anelka,Liverpool (loan),20,4
+Nicolas Anelka,Manchester City,89,37
+Nicolas Anelka,Fenerbahçe,39,14
+Nicolas Anelka,Bolton Wanderers,53,23
+Nicolas Anelka,Chelsea,125,38
+Nicolas Anelka,Shanghai Shenhua,22,3
+Nicolas Anelka,Juventus (loan),2,0
+Nicolas Anelka,West Bromwich Albion,12,2
+Nicolas Anelka,Mumbai City,7,2
+Franck Ribéry,Metz,20,1
+Franck Ribéry,Galatasaray,14,0
+Franck Ribéry,Marseille,60,11
+Franck Ribéry,Bayern Munich,273,86
+Franck Ribéry,Fiorentina,50,5
+Franck Ribéry,Salernitana,25,1
+Karim Benzema,Lyon,112,43
+Karim Benzema,Real Madrid,439,238
+Karim Benzema,Al-Ittihad,15,9
+Xabi Alonso,Real Sociedad B,47,3
+Xabi Alonso,Real Sociedad,114,9
+Xabi Alonso,Eibar (loan),14,0
+Xabi Alonso,Liverpool,143,15
+Xabi Alonso,Real Madrid,158,4
+Xabi Alonso,Bayern Munich,79,5
+Andrés Iniesta,Barcelona B,54,13
+Andrés Iniesta,Barcelona,442,35
+Andrés Iniesta,Vissel Kobe,113,21
+Andrés Iniesta,Emirates Club,10,0
+Sergio Busquets,Barcelona B,32,2
+Sergio Busquets,Barcelona,481,11
+Sergio Busquets,Inter Miami,39,0
+Iker Casillas,Real Madrid C,26,0
+Iker Casillas,Real Madrid B,37,0
+Iker Casillas,Real Madrid,510,0
+Iker Casillas,Porto,116,0
+David Villa,Sporting Gijón B,38,14
+David Villa,Sporting Gijón,80,38
+David Villa,Zaragoza,73,32
+David Villa,Valencia,166,108
+David Villa,Barcelona,77,33
+David Villa,Atlético Madrid,36,13
+David Villa,New York City FC,124,77
+David Villa,Melbourne City (loan),4,2
+David Villa,Vissel Kobe,28,13
+Fernando Torres,Atlético Madrid B,40,7
+Fernando Torres,Atlético Madrid (1st spell),214,82
+Fernando Torres,Liverpool,102,65
+Fernando Torres,Chelsea,110,20
+Fernando Torres,AC Milan (loan),10,0
+Fernando Torres,Atlético Madrid (loan),35,6
+Fernando Torres,Atlético Madrid (return),58,13
+Fernando Torres,Sagan Tosu,35,5
+Raúl González,Real Madrid C,7,16
+Raúl González,Real Madrid B,1,1
+Raúl González,Real Madrid,550,228
+Raúl González,Schalke 04,66,28
+Raúl González,Al Sadd,39,11
+Raúl González,New York Cosmos,28,8
+Gerard Piqué,Manchester United,12,0
+Gerard Piqué,Zaragoza (loan),22,2
+Gerard Piqué,Barcelona,397,29
+Carles Puyol,Barcelona B,89,6
+Carles Puyol,Barcelona,392,12
+Jordi Alba,Barcelona B,73,3
+Jordi Alba,Valencia,74,5
+Jordi Alba,Barcelona,313,17
+Jordi Alba,Inter Miami,28,3
+Cesc Fàbregas,Arsenal,212,35
+Cesc Fàbregas,Barcelona,96,28
+Cesc Fàbregas,Chelsea,138,15
+Cesc Fàbregas,Monaco,68,3
+Cesc Fàbregas,Como,15,0
+Ruud van Nistelrooy,Den Bosch,69,17
+Ruud van Nistelrooy,Heerenveen,31,12
+Ruud van Nistelrooy,PSV Eindhoven,67,62
+Ruud van Nistelrooy,Manchester United,150,95
+Ruud van Nistelrooy,Real Madrid,68,46
+Ruud van Nistelrooy,Hamburger SV,36,12
+Ruud van Nistelrooy,Málaga,32,4
+Dennis Bergkamp,Ajax,185,103
+Dennis Bergkamp,Inter Milan,52,11
+Dennis Bergkamp,Arsenal,315,87
+Clarence Seedorf,Ajax,65,11
+Clarence Seedorf,Sampdoria,32,3
+Clarence Seedorf,Real Madrid,121,16
+Clarence Seedorf,Inter Milan,64,8
+Clarence Seedorf,AC Milan,300,47
+Clarence Seedorf,Botafogo,58,17
+Patrick Kluivert,Ajax,70,39
+Patrick Kluivert,AC Milan,27,6
+Patrick Kluivert,Barcelona,182,90
+Patrick Kluivert,Newcastle United,25,6
+Patrick Kluivert,Valencia,10,1
+Patrick Kluivert,PSV Eindhoven,13,3
+Patrick Kluivert,Lille,13,4
+Marc Overmars,Go Ahead Eagles,11,1
+Marc Overmars,Willem II,31,1
+Marc Overmars,Ajax,136,36
+Marc Overmars,Arsenal,100,25
+Marc Overmars,Barcelona,97,15
+Edwin van der Sar,Ajax,226,0
+Edwin van der Sar,Juventus,66,0
+Edwin van der Sar,Fulham,127,0
+Edwin van der Sar,Manchester United,186,0
+Arjen Robben,Groningen,46,8
+Arjen Robben,PSV Eindhoven,56,17
+Arjen Robben,Chelsea,67,15
+Arjen Robben,Real Madrid,50,11
+Arjen Robben,Bayern Munich,201,99
+Arjen Robben,Groningen (return),7,2
+Wesley Sneijder,Ajax,126,43
+Wesley Sneijder,Real Madrid,52,11
+Wesley Sneijder,Inter Milan,116,13
+Wesley Sneijder,Galatasaray,124,35
+Wesley Sneijder,Nice,5,0
+Wesley Sneijder,Al-Gharafa,22,15
+Memphis Depay,PSV Eindhoven,90,39
+Memphis Depay,Manchester United,33,2
+Memphis Depay,Lyon,139,63
+Memphis Depay,Barcelona,30,12
+Memphis Depay,Atlético Madrid,31,9
+Alan Shearer,Southampton,118,23
+Alan Shearer,Blackburn Rovers,138,112
+Alan Shearer,Newcastle United,303,148
+Paul Scholes,Manchester United,499,107
+David Beckham,Manchester United,265,62
+David Beckham,Preston North End (loan),5,2
+David Beckham,Real Madrid,116,13
+David Beckham,LA Galaxy,98,18
+David Beckham,AC Milan (loan),29,2
+David Beckham,Paris Saint-Germain,10,0
+Michael Owen,Liverpool,216,118
+Michael Owen,Real Madrid,36,13
+Michael Owen,Newcastle United,71,26
+Michael Owen,Manchester United,31,5
+Michael Owen,Stoke City,8,1
+Steven Gerrard,Liverpool,504,120
+Steven Gerrard,LA Galaxy,34,5
+Frank Lampard,West Ham United,148,24
+Frank Lampard,Swansea City (loan),9,1
+Frank Lampard,Chelsea,429,147
+Frank Lampard,Manchester City,32,6
+Frank Lampard,New York City FC,29,15
+John Terry,Chelsea,492,41
+John Terry,Nottingham Forest (loan),6,0
+John Terry,Aston Villa,32,1
+Rio Ferdinand,West Ham United,127,2
+Rio Ferdinand,Bournemouth (loan),10,0
+Rio Ferdinand,Leeds United,54,2
+Rio Ferdinand,Manchester United,312,7
+Rio Ferdinand,Queens Park Rangers,11,0
+Wayne Rooney,Everton (1st spell),67,15
+Wayne Rooney,Manchester United,393,183
+Wayne Rooney,Everton (2nd spell),31,10
+Wayne Rooney,D.C. United,48,23
+Wayne Rooney,Derby County,30,8
+Toni Kroos,Bayern Munich II,13,4
+Toni Kroos,Bayern Munich,130,13
+Toni Kroos,Bayer Leverkusen (loan),43,10
+Toni Kroos,Real Madrid,306,22
+Luís Figo,Sporting CP,137,16
+Luís Figo,Barcelona,172,30
+Luís Figo,Real Madrid,164,38
+Luís Figo,Inter Milan,105,9
+Rui Costa,Benfica,106,13
+Rui Costa,Fiorentina,215,38
+Rui Costa,AC Milan,124,4
+Rui Costa,Benfica (return),43,3
+Deco,Corinthians,2,0
+Deco,Alverca (loan),32,13
+Deco,Salgueiros,12,2
+Deco,Porto,148,32
+Deco,Barcelona,113,11
+Deco,Chelsea,43,5
+Deco,Fluminense,56,2
+Pepe,Marítimo B,14,1
+Pepe,Marítimo,63,3
+Pepe,Porto (1st spell),64,6
+Pepe,Real Madrid,229,15
+Pepe,Beşiktaş,33,5
+Pepe,Porto (return),135,13
+João Moutinho,Sporting CP B,30,1
+João Moutinho,Sporting CP,163,21
+João Moutinho,Porto,83,4
+João Moutinho,Monaco,155,9
+João Moutinho,Wolverhampton Wanderers,176,7
+João Moutinho,Braga,28,2
+Bernardo Silva,Benfica B,38,7
+Bernardo Silva,Benfica,1,0
+Bernardo Silva,Monaco,101,22
+Bernardo Silva,Manchester City,223,36
+Bruno Fernandes,Novara,23,4
+Bruno Fernandes,Udinese,95,11
+Bruno Fernandes,Sampdoria,33,5
+Bruno Fernandes,Sporting CP,83,39
+Bruno Fernandes,Manchester United,155,47
+Ángel Di María,Rosario Central,35,6
+Ángel Di María,Benfica,76,7
+Ángel Di María,Real Madrid,124,22
+Ángel Di María,Manchester United,27,3
+Ángel Di María,Paris Saint-Germain,197,55
+Ángel Di María,Juventus,26,4
+Ángel Di María,Benfica (return),24,5
+Sergio Agüero,Independiente,54,23
+Sergio Agüero,Atlético Madrid,175,74
+Sergio Agüero,Manchester City,275,184
+Sergio Agüero,Barcelona,4,1
+Carlos Tevez,Boca Juniors (1st spell),75,26
+Carlos Tevez,Corinthians,29,25
+Carlos Tevez,West Ham United,26,7
+Carlos Tevez,Manchester United,63,19
+Carlos Tevez,Manchester City,113,58
+Carlos Tevez,Juventus,66,39
+Carlos Tevez,Boca Juniors (2nd spell),56,25
+Carlos Tevez,Shanghai Shenhua,16,4
+Carlos Tevez,Boca Juniors (3rd spell),77,20
+Diego Simeone,Vélez Sarsfield,76,14
+Diego Simeone,Pisa,55,6
+Diego Simeone,Sevilla,64,12
+Diego Simeone,Atlético Madrid (1st spell),98,21
+Diego Simeone,Inter Milan,57,11
+Diego Simeone,Lazio,90,15
+Diego Simeone,Atlético Madrid (2nd spell),128,9
+Diego Simeone,Racing Club,37,7
+Javier Mascherano,River Plate,46,0
+Javier Mascherano,Corinthians,17,0
+Javier Mascherano,West Ham United,5,0
+Javier Mascherano,Liverpool,94,1
+Javier Mascherano,Barcelona,203,1
+Javier Mascherano,Hebei China Fortune,53,1
+Javier Mascherano,Estudiantes,10,0
+Neymar,Santos,103,54
+Neymar,Barcelona,123,68
+Neymar,Paris Saint-Germain,112,82
+Neymar,Al-Hilal,3,0
+Dani Alves,Bahia,25,2
+Dani Alves,Sevilla,175,11
+Dani Alves,Barcelona,247,14
+Dani Alves,Juventus,19,2
+Dani Alves,Paris Saint-Germain,48,8
+Dani Alves,São Paulo,86,8
+Dani Alves,Barcelona (return),14,1
+Dani Alves,UNAM,13,0
+Kylian Mbappé,Monaco B,12,4
+Kylian Mbappé,Monaco,41,16
+Kylian Mbappé,Paris Saint-Germain,183,163
+Antoine Griezmann,Real Sociedad B,1,0
+Antoine Griezmann,Real Sociedad,180,46
+Antoine Griezmann,Atlético Madrid (1st spell),180,94
+Antoine Griezmann,Barcelona,74,22
+Antoine Griezmann,Atlético Madrid (loan),35,3
+Antoine Griezmann,Atlético Madrid (return),71,33
+N'Golo Kanté,Boulogne B,22,1
+N'Golo Kanté,Boulogne,38,3
+N'Golo Kanté,Caen,75,4
+N'Golo Kanté,Leicester City,37,1
+N'Golo Kanté,Chelsea,180,11
+N'Golo Kanté,Al-Ittihad,29,4
+Paul Pogba,Manchester United (1st spell),3,0
+Paul Pogba,Juventus (1st spell),124,28
+Paul Pogba,Manchester United (2nd spell),157,29
+Paul Pogba,Juventus (2nd spell),10,1
+Olivier Giroud,Grenoble,23,2
+Olivier Giroud,Istres (loan),33,14
+Olivier Giroud,Tours,67,36
+Olivier Giroud,Montpellier,73,33
+Olivier Giroud,Arsenal,180,73
+Olivier Giroud,Chelsea,75,17
+Olivier Giroud,AC Milan,93,38
+Olivier Giroud,Los Angeles FC,10,4
+Thomas Müller,Bayern Munich II,35,16
+Thomas Müller,Bayern Munich,472,144
+Mesut Özil,Schalke 04,30,0
+Mesut Özil,Werder Bremen,71,13
+Mesut Özil,Real Madrid,105,19
+Mesut Özil,Arsenal,184,33
+Mesut Özil,Fenerbahçe,32,8
+Mesut Özil,İstanbul Başakşehir,12,1
+Manuel Neuer,Schalke 04 II,26,0
+Manuel Neuer,Schalke 04,156,0
+Manuel Neuer,Bayern Munich,342,0
+Philipp Lahm,Bayern Munich II,63,3
+Philipp Lahm,VfB Stuttgart (loan),53,2
+Philipp Lahm,Bayern Munich,332,12
+Bastian Schweinsteiger,Bayern Munich II,34,2
+Bastian Schweinsteiger,Bayern Munich,342,45
+Bastian Schweinsteiger,Manchester United,18,1
+Bastian Schweinsteiger,Chicago Fire,85,8
+Miroslav Klose,FC 08 Homburg II,15,1
+Miroslav Klose,FC 08 Homburg,18,1
+Miroslav Klose,Kaiserslautern II,50,26
+Miroslav Klose,Kaiserslautern,120,44
+Miroslav Klose,Werder Bremen,89,53
+Miroslav Klose,Bayern Munich,98,24
+Miroslav Klose,Lazio,139,54
+Michael Ballack,Chemnitzer FC II,18,0
+Michael Ballack,Chemnitzer FC,49,10
+Michael Ballack,Kaiserslautern,46,4
+Michael Ballack,Bayer Leverkusen (1st spell),79,19
+Michael Ballack,Bayern Munich,107,44
+Michael Ballack,Chelsea,105,17
+Michael Ballack,Bayer Leverkusen (2nd spell),35,2
+Lothar Matthäus,Borussia Mönchengladbach,162,36
+Lothar Matthäus,Bayern Munich (1st spell),113,57
+Lothar Matthäus,Inter Milan,115,40
+Lothar Matthäus,Bayern Munich (2nd spell),189,28
+Lothar Matthäus,MetroStars,16,0
+Jürgen Klinsmann,Stuttgarter Kickers,61,22
+Jürgen Klinsmann,VfB Stuttgart,156,79
+Jürgen Klinsmann,Inter Milan,95,34
+Jürgen Klinsmann,Monaco,65,19
+Jürgen Klinsmann,Tottenham Hotspur,68,29
+Jürgen Klinsmann,Bayern Munich,65,31
+Jürgen Klinsmann,Sampdoria,8,2
+Jürgen Klinsmann,VfB Stuttgart (return),8,2
+Jürgen Klinsmann,Orange County Blue Star,8,5
+Oliver Kahn,Karlsruher SC II,73,0
+Oliver Kahn,Karlsruher SC,128,0
+Oliver Kahn,Bayern Munich,429,0

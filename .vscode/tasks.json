@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter: Run App",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"--debug"
+			],
+			"isBackground": true,
+			"problemMatcher": [
+				"$flutter"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter: Run App",
+			"type": "shell",
+			"command": "cd app && flutter run --debug",
+			"isBackground": true,
+			"problemMatcher": [
+				"$flutter"
+			],
+			"group": "build"
+		}
+	]
+}

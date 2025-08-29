@@ -1,0 +1,11 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+// iOS Release settings for App Store
+CODE_SIGN_IDENTITY = "Apple Development"
+CODE_SIGNING_REQUIRED = YES
+CODE_SIGNING_ALLOWED = YES
+DEVELOPMENT_TEAM = 
+PROVISIONING_PROFILE_SPECIFIER = 
+ENABLE_BITCODE = NO
+VALIDATE_PRODUCT = YES
