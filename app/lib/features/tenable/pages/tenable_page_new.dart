@@ -127,7 +127,7 @@ class _TenablePageNewState extends ConsumerState<TenablePageNew>
               size: 32,
               shadows: [
                 Shadow(
-                  color: Colors.black.withOpacity(0.5),
+                  color: Colors.black.withValues(alpha: 0.5),
                   blurRadius: 4,
                   offset: const Offset(2, 2),
                 ),
@@ -228,7 +228,7 @@ class _TenablePageNewState extends ConsumerState<TenablePageNew>
             decoration: RetroTheme.retroContainer(
               color: isFound
                   ? RetroTheme.accentGreen
-                  : RetroTheme.primaryPurple.withOpacity(0.3),
+                  : RetroTheme.primaryPurple.withValues(alpha: 0.3),
               hasGradient: isFound,
             ),
             child: Center(
@@ -285,7 +285,7 @@ class _TenablePageNewState extends ConsumerState<TenablePageNew>
     return Text(
       '$position.',
       style: RetroTheme.retroBody.copyWith(
-        color: Colors.white.withOpacity(0.5),
+        color: Colors.white.withValues(alpha: 0.5),
         fontWeight: FontWeight.w600,
         fontSize: 14,
       ),

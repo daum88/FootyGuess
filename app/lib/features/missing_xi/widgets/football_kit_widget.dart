@@ -70,7 +70,7 @@ class FootballKitWidget extends StatelessWidget {
       boxShadow: [
         if (isSelected)
           BoxShadow(
-            color: Colors.amber.withOpacity(0.5),
+            color: Colors.amber.withValues(alpha: 0.5),
             blurRadius: 4,
             offset: const Offset(0, 2),
           ),
@@ -203,7 +203,7 @@ class FootballKitWidget extends StatelessWidget {
   /// Get number section background color
   Color _getNumberBackgroundColor() {
     final kitColor = _getKitColor();
-    return kitColor.withOpacity(0.9);
+    return kitColor.withValues(alpha: 0.9);
   }
 
   /// Get display name from CSV or fallback

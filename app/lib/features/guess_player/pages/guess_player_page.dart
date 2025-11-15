@@ -643,26 +643,6 @@ class _GuessPlayerPageState extends ConsumerState<GuessPlayerPage> {
     );
   }
 
-  Widget _buildMobileAttributeCell(String value, bool isMatch,
-      {double fontSize = 8, FontWeight fontWeight = FontWeight.w500}) {
-    final color = isMatch ? Colors.green.shade700 : Colors.red.shade700;
-    return Container(
-      alignment: Alignment.centerLeft,
-      padding: const EdgeInsets.symmetric(horizontal: 1),
-      child: Text(
-        value,
-        style: TextStyle(
-          fontSize: fontSize,
-          fontWeight: fontWeight,
-          color: color,
-        ),
-        textAlign: TextAlign.left,
-        overflow: TextOverflow.ellipsis,
-        maxLines: 1,
-      ),
-    );
-  }
-
   Widget _buildMobileEmptyState() {
     return Center(
       child: Padding(

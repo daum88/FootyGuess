@@ -1,5 +1,7 @@
 // Example: How to update any game provider to use OptimizedDataService
+// This is a documentation file showing before/after patterns
 
+/*
 // BEFORE (slow loading):
 class GameProvider extends StateNotifier<GameState> {
   Future<void> initialize() async {
@@ -57,3 +59,4 @@ class GamePage extends ConsumerWidget {
         );
   }
 }
+*/

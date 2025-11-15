@@ -737,49 +737,6 @@ class _GuessPlayerPageState extends ConsumerState<GuessPlayerPage> {
           ),
         ],
       ),
-          ),
-
-          // Position
-          Expanded(
-            flex: 10, // Compact position
-            child: _buildAttributeCell(
-              guess['position'],
-              guess['positionMatch'],
-              fontSize: 9, // Even smaller for position
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-
-          // Age with direction
-          Expanded(
-            flex: 5, // Minimal age
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  '${guess['age']}',
-                  style: TextStyle(
-                    fontSize: 10, // Smaller age font
-                    fontWeight: FontWeight.bold,
-                    color: guess['ageMatch'] ? Colors.green.shade700 : Colors.red.shade700,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-                Text(
-                  '${guess['ageDirection']}',
-                  style: TextStyle(
-                    fontSize: 12, // Slightly smaller arrow
-                    color: guess['ageMatch'] ? Colors.green.shade700 : Colors.red.shade700,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-        ],
-      ),
     );
   }
 

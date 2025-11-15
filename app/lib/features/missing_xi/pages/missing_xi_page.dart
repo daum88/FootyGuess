@@ -370,7 +370,7 @@ class _MissingXiPageState extends ConsumerState<MissingXiPage>
       width: double.infinity,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: RetroTheme.accentGreen.withOpacity(0.1),
+        color: RetroTheme.accentGreen.withValues(alpha: 0.1),
         border: Border.all(color: RetroTheme.accentGreen, width: 2),
         borderRadius: BorderRadius.circular(8),
       ),

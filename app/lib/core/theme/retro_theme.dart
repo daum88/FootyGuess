@@ -73,21 +73,21 @@ class RetroTheme {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                (color ?? cardPurple).withOpacity(0.9),
-                (color ?? cardPurple).withOpacity(0.7),
+                (color ?? cardPurple).withValues(alpha: 0.9),
+                (color ?? cardPurple).withValues(alpha: 0.7),
               ],
             )
           : null,
       borderRadius: BorderRadius.circular(12),
       border: hasBorder
           ? Border.all(
-              color: Colors.white.withOpacity(0.2),
+              color: Colors.white.withValues(alpha: 0.2),
               width: 1.5,
             )
           : null,
       boxShadow: [
         BoxShadow(
-          color: Colors.black.withOpacity(0.3),
+          color: Colors.black.withValues(alpha: 0.3),
           blurRadius: 8,
           offset: const Offset(2, 4),
         ),
@@ -104,7 +104,7 @@ class RetroTheme {
       borderRadius: BorderRadius.circular(12),
       boxShadow: [
         BoxShadow(
-          color: glowColor.withOpacity(0.5),
+          color: glowColor.withValues(alpha: 0.5),
           blurRadius: glowRadius,
           spreadRadius: glowRadius / 4,
         ),
@@ -118,17 +118,17 @@ class RetroTheme {
     required int position,
   }) {
     return BoxDecoration(
-      color: isRevealed ? accentGreen.withOpacity(0.8) : cardPurple,
+      color: isRevealed ? accentGreen.withValues(alpha: 0.8) : cardPurple,
       borderRadius: BorderRadius.circular(8),
       border: Border.all(
-        color: isRevealed ? accentGreen : Colors.white.withOpacity(0.3),
+        color: isRevealed ? accentGreen : Colors.white.withValues(alpha: 0.3),
         width: 2,
       ),
       boxShadow: [
         BoxShadow(
           color: isRevealed
-              ? accentGreen.withOpacity(0.3)
-              : Colors.black.withOpacity(0.3),
+              ? accentGreen.withValues(alpha: 0.3)
+              : Colors.black.withValues(alpha: 0.3),
           blurRadius: isRevealed ? 12 : 6,
           offset: const Offset(0, 2),
         ),
@@ -145,12 +145,12 @@ class RetroTheme {
       color: isRevealed ? teamColor : cardPurple,
       borderRadius: BorderRadius.circular(8),
       border: Border.all(
-        color: Colors.white.withOpacity(0.4),
+        color: Colors.white.withValues(alpha: 0.4),
         width: 2,
       ),
       boxShadow: [
         BoxShadow(
-          color: Colors.black.withOpacity(0.4),
+          color: Colors.black.withValues(alpha: 0.4),
           blurRadius: 6,
           offset: const Offset(2, 2),
         ),

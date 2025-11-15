@@ -98,7 +98,7 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
           colors: [Color(0xFF2D2E47), Color(0xFF1F2038)],
         ),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withOpacity(0.1)),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
       ),
       child: Column(
         children: [
@@ -186,7 +186,7 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
       decoration: BoxDecoration(
         color: const Color(0xFF2D2E47),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withOpacity(0.1)),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -226,12 +226,12 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
                         color: gameState.scoreRevealed
                             ? (gameState.userHomeScore ==
                                     gameState.currentMatch!.homeScore.toString()
-                                ? Colors.green.withOpacity(0.3)
-                                : Colors.red.withOpacity(0.3))
+                                ? Colors.green.withValues(alpha: 0.3)
+                                : Colors.red.withValues(alpha: 0.3))
                             : const Color(0xFF3A3B5C),
                         borderRadius: BorderRadius.circular(12),
                         border:
-                            Border.all(color: Colors.white.withOpacity(0.2)),
+                            Border.all(color: Colors.white.withValues(alpha: 0.2)),
                       ),
                       child: gameState.scoreRevealed
                           ? Center(
@@ -297,12 +297,12 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
                         color: gameState.scoreRevealed
                             ? (gameState.userAwayScore ==
                                     gameState.currentMatch!.awayScore.toString()
-                                ? Colors.green.withOpacity(0.3)
-                                : Colors.red.withOpacity(0.3))
+                                ? Colors.green.withValues(alpha: 0.3)
+                                : Colors.red.withValues(alpha: 0.3))
                             : const Color(0xFF3A3B5C),
                         borderRadius: BorderRadius.circular(12),
                         border:
-                            Border.all(color: Colors.white.withOpacity(0.2)),
+                            Border.all(color: Colors.white.withValues(alpha: 0.2)),
                       ),
                       child: gameState.scoreRevealed
                           ? Center(
@@ -377,7 +377,7 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
       decoration: BoxDecoration(
         color: const Color(0xFF2D2E47),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withOpacity(0.1)),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -424,9 +424,9 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
                                 guess
                                     .toLowerCase()
                                     .contains(scorer.name.toLowerCase()))
-                            ? Colors.green.withOpacity(0.3)
-                            : Colors.red.withOpacity(0.3))
-                        : Colors.blue.withOpacity(0.3),
+                            ? Colors.green.withValues(alpha: 0.3)
+                            : Colors.red.withValues(alpha: 0.3))
+                        : Colors.blue.withValues(alpha: 0.3),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Row(
@@ -591,12 +591,12 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Colors.green.withOpacity(0.3),
-            Colors.blue.withOpacity(0.3),
+            Colors.green.withValues(alpha: 0.3),
+            Colors.blue.withValues(alpha: 0.3),
           ],
         ),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withOpacity(0.2)),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.2)),
       ),
       child: Column(
         children: [
