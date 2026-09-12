@@ -27,15 +27,16 @@ COMPETITIONS_URL = f"{BASE}/competitions.json"
 
 # Competition ids that map to the six games (men's, top competitions).
 COMPETITIONS = [
-    {"id": 43, "seasons": [106, 3]},       # FIFA World Cup 2022, 2018
-    {"id": 55, "seasons": [282, 43]},      # UEFA Euro 2024, 2020
-    {"id": 223, "seasons": [282]},         # Copa America 2024
-    {"id": 16, "seasons": [4, 1]},         # Champions League 2018/19, 2017/18
-    {"id": 2, "seasons": [27, 44]},        # Premier League 2015/16, 2003/04
-    {"id": 11, "seasons": [90, 42, 4, 1, 27]},  # La Liga
-    {"id": 9, "seasons": [281, 27]},       # Bundesliga
-    {"id": 12, "seasons": [27, 86]},       # Serie A
-    {"id": 7, "seasons": [235, 108, 27]},  # Ligue 1
+    {"id": 43, "seasons": [106, 3, 55, 54, 51, 272, 270, 269]},  # World Cup
+    {"id": 55, "seasons": [282, 43]},       # UEFA Euro 2024, 2020
+    {"id": 223, "seasons": [282]},           # Copa America 2024
+    # Champions League: 2018/19 -> 1999/00
+    {"id": 16, "seasons": [4, 1, 2, 27, 26, 25, 24, 23, 22, 21, 41, 39, 37, 44, 76]},
+    {"id": 2, "seasons": [27, 44]},          # Premier League 2015/16, 2003/04
+    {"id": 11, "seasons": [90, 42, 4, 1, 27, 2, 26]},  # La Liga
+    {"id": 9, "seasons": [281, 27]},         # Bundesliga
+    {"id": 12, "seasons": [27, 86]},         # Serie A
+    {"id": 7, "seasons": [235, 108, 27]},    # Ligue 1
 ]
 
 # Priority when capping expensive event downloads: higher = downloaded first.

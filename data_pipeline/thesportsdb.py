@@ -26,6 +26,11 @@ LEAGUES = [
     "American Major League Soccer",
     "Saudi Pro League",
     "English League Championship",
+    "Scottish Premiership",
+    "Turkish Super Lig",
+    "Belgian First Division A",
+    "Argentine Primera Division",
+    "Brazilian Serie A",
 ]
 
 _RATE = 2.2  # seconds between requests (free key is aggressive with 429s)

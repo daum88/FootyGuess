@@ -30,10 +30,10 @@ Writes 5 canonical files to `app/assets/data/`:
 
 | File | Used by | Contents |
 |---|---|---|
-| `players.json` | Guess the Player, Career Path, Missing XI, Tenable, Who Scored | ~5,000 players |
-| `matches.json` | Who Scored | ~2,200 matches (479 with scorers) |
-| `lineups.json` | Missing XI | ~4,100 starting XIs with formations |
-| `clubs.json` | Tenable, general search | ~240 clubs |
+| `players.json` | Guess the Player, Career Path, Missing XI, Tenable, Who Scored | ~5,900 players |
+| `matches.json` | Who Scored | ~2,300 matches (1,500 with scorers) |
+| `lineups.json` | Missing XI | ~4,400 starting XIs with formations |
+| `clubs.json` | Tenable, general search | ~270 clubs |
 | `tenable.json` | Tenable | Top-N list categories (generated) |
 
 ## Schema
