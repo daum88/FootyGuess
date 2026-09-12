@@ -19,8 +19,8 @@ void main() {
       ),
     );
 
-    // Verify that our app starts with the home page
+    // Verify that our app starts with the home page.
     expect(find.text('FootyGuess'), findsOneWidget);
-    expect(find.text('Football Guessing Games'), findsOneWidget);
+    expect(find.text('Choose Your Game'), findsOneWidget);
   });
 }

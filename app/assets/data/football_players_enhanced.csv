@@ -1,0 +1,686 @@
+name,nationality,club,league,position,age
+Lionel Messi,Argentina,Inter Miami,MLS,RW,37
+Cristiano Ronaldo,Portugal,Al Nassr,Saudi Pro League,ST,39
+Neymar Jr,Brazil,Al Hilal,Saudi Pro League,LW,32
+Kylian Mbappé,France,Real Madrid,La Liga,ST,25
+Erling Haaland,Norway,Manchester City,Premier League,ST,24
+Kevin De Bruyne,Belgium,Manchester City,Premier League,CAM,33
+Luka Modrić,Croatia,Real Madrid,La Liga,CM,39
+Virgil van Dijk,Netherlands,Liverpool,Premier League,CB,33
+Mohamed Salah,Egypt,Liverpool,Premier League,RW,32
+Robert Lewandowski,Poland,Barcelona,La Liga,ST,36
+Sadio Mané,Senegal,Al Nassr,Saudi Pro League,LW,32
+Karim Benzema,France,Al-Ittihad,Saudi Pro League,ST,36
+Pedri,Spain,Barcelona,La Liga,CM,21
+Gavi,Spain,Barcelona,La Liga,CM,20
+Jude Bellingham,England,Real Madrid,La Liga,CM,21
+Phil Foden,England,Manchester City,Premier League,CAM,24
+Bukayo Saka,England,Arsenal,Premier League,RW,23
+Vinicius Jr,Brazil,Real Madrid,La Liga,LW,24
+Jamal Musiala,Germany,Bayern Munich,Bundesliga,CAM,21
+Florian Wirtz,Germany,Bayer Leverkusen,Bundesliga,CAM,21
+Bruno Fernandes,Portugal,Manchester United,Premier League,CAM,30
+Harry Kane,England,Bayern Munich,Bundesliga,ST,31
+Victor Osimhen,Nigeria,Napoli,Serie A,ST,25
+Rafael Leão,Portugal,AC Milan,Serie A,LW,25
+Khvicha Kvaratskhelia,Georgia,Napoli,Serie A,LW,23
+Eduardo Camavinga,France,Real Madrid,La Liga,CM,22
+Aurélien Tchouaméni,France,Real Madrid,La Liga,CDM,24
+Declan Rice,England,Arsenal,Premier League,CDM,25
+Rodri,Spain,Wrexham,Premier League,CDM,28
+Joshua Kimmich,Germany,Bayern Munich,Bundesliga,CDM,29
+Trent Alexander-Arnold,England,Liverpool,Premier League,RB,26
+Andrew Robertson,Scotland,Liverpool,Premier League,LB,30
+João Cancelo,Portugal,Manchester City,Premier League,RB,30
+Theo Hernández,France,AC Milan,Serie A,LB,27
+Achraf Hakimi,Morocco,Paris Saint-Germain,Ligue 1,RB,26
+Marquinhos,Brazil,Paris Saint-Germain,Ligue 1,CB,30
+Rúben Dias,Portugal,Manchester City,Premier League,CB,27
+Eder Militão,Brazil,Real Madrid,La Liga,CB,26
+Alessandro Bastoni,Italy,Inter Milan,Serie A,CB,25
+William Saliba,France,Arsenal,Premier League,CB,23
+Alisson,Brazil,Liverpool,Premier League,GK,31
+Thibaut Courtois,Belgium,Real Madrid,La Liga,GK,32
+Manuel Neuer,Germany,Bayern Munich,Bundesliga,GK,38
+Gianluigi Donnarumma,Italy,Paris Saint-Germain,Ligue 1,GK,25
+Mike Maignan,France,AC Milan,Serie A,GK,29
+Marc-André ter Stegen,Germany,Barcelona,La Liga,GK,32
+Jan Oblak,Slovenia,Atlético Madrid,La Liga,GK,31
+Emiliano Martínez,Argentina,Aston Villa,Premier League,GK,32
+Ederson,Brazil,Fenerbahce,Premier League,GK,31
+Keylor Navas,Costa Rica,Paris Saint-Germain,Ligue 1,GK,37
+Martin Ødegaard,Norway,Arsenal,Premier League,CAM,26
+Gabriel Jesus,Brazil,Arsenal,Premier League,ST,28
+Gabriel Martinelli,Brazil,Arsenal,Premier League,LW,24
+Leandro Trossard,Belgium,Arsenal,Premier League,LW,31
+Kai Havertz,Germany,Arsenal,Premier League,CAM,26
+Thomas Partey,Ghana,Arsenal,Premier League,CDM,32
+Jorginho,Italy,Arsenal,Premier League,CM,33
+Ben White,England,Arsenal,Premier League,CB,27
+Gabriel Magalhães,Brazil,Arsenal,Premier League,CB,27
+Oleksandr Zinchenko,Ukraine,Arsenal,Premier League,LB,28
+Takehiro Tomiyasu,Japan,Arsenal,Premier League,RB,26
+David Raya,Spain,Arsenal,Premier League,GK,30
+Aaron Ramsdale,England,Arsenal,Premier League,GK,27
+Fábio Vieira,Portugal,Arsenal,Premier League,CAM,25
+Emile Smith Rowe,England,Arsenal,Premier League,CAM,25
+Eddie Nketiah,England,Arsenal,Premier League,ST,26
+Jakub Kiwior,Poland,Arsenal,Premier League,CB,25
+Reiss Nelson,England,Arsenal,Premier League,RW,26
+Jurriën Timber,Netherlands,Arsenal,Premier League,CB,24
+Bernardo Silva,Portugal,Manchester City,Premier League,CAM,31
+Jack Grealish,England,Manchester City,Premier League,LW,29
+Julián Álvarez,Argentina,Manchester City,Premier League,ST,25
+Mateo Kovačić,Croatia,Manchester City,Premier League,CM,31
+John Stones,England,Manchester City,Premier League,CB,31
+Kyle Walker,England,Manchester City,Premier League,RB,35
+Nathan Aké,Netherlands,Manchester City,Premier League,CB,30
+Manuel Akanji,Switzerland,Manchester City,Premier League,CB,30
+Stefan Ortega,Germany,Manchester City,Premier League,GK,32
+Matheus Nunes,Portugal,Manchester City,Premier League,CM,26
+Sávio,Brazil,Manchester City,Premier League,LW,21
+Sergio Gómez,Spain,Manchester City,Premier League,LB,25
+Darwin Núñez,Uruguay,Liverpool,Premier League,ST,26
+Luis Díaz,Colombia,Liverpool,Premier League,LW,28
+Cody Gakpo,Netherlands,Liverpool,Premier League,ST,26
+Diogo Jota,Portugal,Liverpool,Premier League,ST,28
+Dominik Szoboszlai,Hungary,Liverpool,Premier League,CAM,24
+Alexis Mac Allister,Argentina,Liverpool,Premier League,CM,26
+Wataru Endo,Japan,Liverpool,Premier League,CDM,32
+Curtis Jones,England,Liverpool,Premier League,CM,24
+Harvey Elliott,England,Liverpool,Premier League,RW,22
+Ibrahima Konaté,France,Liverpool,Premier League,CB,26
+Joe Gomez,England,Liverpool,Premier League,CB,28
+Jarell Quansah,England,Liverpool,Premier League,CB,22
+Kostas Tsimikas,Greece,Liverpool,Premier League,LB,29
+Caoimhín Kelleher,Republic of Ireland,Liverpool,Premier League,GK,26
+Marcus Rashford,England,Manchester United,Premier League,LW,27
+Rasmus Højlund,Denmark,Manchester United,Premier League,ST,22
+Alejandro Garnacho,Argentina,Manchester United,Premier League,LW,21
+Antony,Brazil,Manchester United,Premier League,RW,25
+Jadon Sancho,England,Manchester United,Premier League,RW,25
+Kobbie Mainoo,England,Manchester United,Premier League,CM,20
+Casemiro,Brazil,Manchester United,Premier League,CDM,33
+Christian Eriksen,Denmark,Manchester United,Premier League,CAM,33
+Mason Mount,England,Manchester United,Premier League,CAM,26
+Lisandro Martínez,Argentina,Manchester United,Premier League,CB,27
+Luke Shaw,England,Manchester United,Premier League,LB,30
+Diogo Dalot,Portugal,Manchester United,Premier League,RB,26
+Aaron Wan-Bissaka,England,Manchester United,Premier League,RB,27
+Harry Maguire,England,Manchester United,Premier League,CB,32
+Victor Lindelöf,Sweden,Manchester United,Premier League,CB,31
+André Onana,Cameroon,Manchester United,Premier League,GK,29
+Altay Bayındır,Turkey,Manchester United,Premier League,GK,27
+Joshua Zirkzee,Netherlands,Manchester United,Premier League,ST,24
+Raheem Sterling,England,Chelsea,Premier League,LW,30
+Enzo Fernández,Argentina,Chelsea,Premier League,CM,24
+Moisés Caicedo,Ecuador,Chelsea,Premier League,CDM,23
+Mykhailo Mudryk,Ukraine,Chelsea,Premier League,LW,24
+Nicolas Jackson,Senegal,Chelsea,Premier League,ST,24
+Christopher Nkunku,France,Chelsea,Premier League,ST,27
+Reece James,England,Chelsea,Premier League,RB,25
+Ben Chilwell,England,Chelsea,Premier League,LB,28
+Levi Colwill,England,Chelsea,Premier League,CB,22
+Malo Gusto,France,Chelsea,Premier League,RB,22
+Cole Palmer,England,Chelsea,Premier League,CAM,23
+Robert Sánchez,Spain,Chelsea,Premier League,GK,27
+Marc Cucurella,Spain,Chelsea,Premier League,LB,27
+Conor Gallagher,England,Chelsea,Premier League,CM,25
+Axel Disasi,France,Chelsea,Premier League,CB,27
+Son Heung-min,South Korea,Tottenham Hotspur,Premier League,LW,33
+James Maddison,England,Tottenham Hotspur,Premier League,CAM,28
+Dejan Kulusevski,Sweden,Tottenham Hotspur,Premier League,RW,25
+Richarlison,Brazil,Tottenham Hotspur,Premier League,ST,28
+Brennan Johnson,Wales,Tottenham Hotspur,Premier League,RW,24
+Rodrigo Bentancur,Uruguay,Tottenham Hotspur,Premier League,CM,28
+Yves Bissouma,Mali,Tottenham Hotspur,Premier League,CDM,28
+Pierre-Emile Højbjerg,Denmark,Tottenham Hotspur,Premier League,CDM,30
+Pape Matar Sarr,Senegal,Tottenham Hotspur,Premier League,CM,22
+Cristian Romero,Argentina,Tottenham Hotspur,Premier League,CB,27
+Micky van de Ven,Netherlands,Tottenham Hotspur,Premier League,CB,24
+Pedro Porro,Spain,Tottenham Hotspur,Premier League,RB,25
+Destiny Udogie,Italy,Tottenham Hotspur,Premier League,LB,22
+Guglielmo Vicario,Italy,Tottenham Hotspur,Premier League,GK,29
+Alexander Isak,Sweden,Newcastle United,Premier League,ST,25
+Anthony Gordon,England,Newcastle United,Premier League,LW,24
+Bruno Guimarães,Brazil,Newcastle United,Premier League,CM,27
+Sandro Tonali,Italy,Newcastle United,Premier League,CM,25
+Kieran Trippier,England,Newcastle United,Premier League,RB,34
+Sven Botman,Netherlands,Newcastle United,Premier League,CB,25
+Miguel Almirón,Paraguay,Newcastle United,Premier League,RW,31
+Callum Wilson,England,Newcastle United,Premier League,ST,33
+Nick Pope,England,Newcastle United,Premier League,GK,33
+Lewis Hall,England,Newcastle United,Premier League,LB,20
+Joe Willock,England,Newcastle United,Premier League,CM,25
+Sean Longstaff,England,Newcastle United,Premier League,CM,27
+Tino Livramento,England,Newcastle United,Premier League,RB,22
+Jacob Murphy,England,Newcastle United,Premier League,RW,30
+Fabian Schär,Switzerland,Newcastle United,Premier League,CB,33
+Jarrod Bowen,England,West Ham United,Premier League,RW,28
+James Ward-Prowse,England,West Ham United,Premier League,CM,30
+Mohammed Kudus,Ghana,West Ham United,Premier League,CAM,25
+Lucas Paquetá,Brazil,West Ham United,Premier League,CAM,28
+Michail Antonio,Jamaica,West Ham United,Premier League,ST,35
+Tomáš Souček,Czech Republic,West Ham United,Premier League,CDM,30
+Edson Álvarez,Mexico,West Ham United,Premier League,CDM,27
+Nayef Aguerd,Morocco,West Ham United,Premier League,CB,29
+Kurt Zouma,France,West Ham United,Premier League,CB,30
+Alphonse Areola,France,West Ham United,Premier League,GK,32
+Ollie Watkins,England,Aston Villa,Premier League,ST,29
+Leon Bailey,Jamaica,Aston Villa,Premier League,RW,28
+Pau Torres,Spain,Aston Villa,Premier League,CB,28
+John McGinn,Scotland,Aston Villa,Premier League,CM,30
+Moussa Diaby,France,Aston Villa,Premier League,RW,26
+Youri Tielemans,Belgium,Aston Villa,Premier League,CM,28
+Boubacar Kamara,France,Aston Villa,Premier League,CDM,25
+Matty Cash,Poland,Aston Villa,Premier League,RB,28
+Diego Carlos,Brazil,Aston Villa,Premier League,CB,32
+Ezri Konsa,England,Aston Villa,Premier League,CB,27
+Robin Olsen,Sweden,Aston Villa,Premier League,GK,35
+Kaoru Mitoma,Japan,Brighton & Hove Albion,Premier League,LW,28
+Evan Ferguson,Republic of Ireland,Brighton & Hove Albion,Premier League,ST,20
+João Pedro,Brazil,Brighton & Hove Albion,Premier League,ST,23
+Lewis Dunk,England,Brighton & Hove Albion,Premier League,CB,33
+Pascal Groß,Germany,Brighton & Hove Albion,Premier League,CM,34
+Simon Adingra,Ivory Coast,Brighton & Hove Albion,Premier League,RW,23
+Billy Gilmour,Scotland,Brighton & Hove Albion,Premier League,CM,24
+Bart Verbruggen,Netherlands,Brighton & Hove Albion,Premier League,GK,23
+Ivan Toney,England,Brentford,Premier League,ST,29
+Bryan Mbeumo,Cameroon,Brentford,Premier League,RW,26
+Yoane Wissa,DR Congo,Brentford,Premier League,LW,29
+Christian Nørgaard,Denmark,Brentford,Premier League,CDM,31
+Mark Flekken,Netherlands,Brentford,Premier League,GK,32
+Eberechi Eze,England,Crystal Palace,Premier League,CAM,27
+Marc Guéhi,England,Crystal Palace,Premier League,CB,25
+Jean-Philippe Mateta,France,Crystal Palace,Premier League,ST,28
+Odsonne Édouard,France,Crystal Palace,Premier League,ST,27
+Joachim Andersen,Denmark,Crystal Palace,Premier League,CB,29
+Dominic Calvert-Lewin,England,Everton,Premier League,ST,28
+Jordan Pickford,England,Everton,Premier League,GK,31
+James Tarkowski,England,Everton,Premier League,CB,32
+Jarrad Branthwaite,England,Everton,Premier League,CB,23
+Pedro Neto,Portugal,Wolverhampton Wanderers,Premier League,RW,25
+Matheus Cunha,Brazil,Wolverhampton Wanderers,Premier League,ST,26
+Hwang Hee-chan,South Korea,Wolverhampton Wanderers,Premier League,ST,29
+José Sá,Portugal,Wolverhampton Wanderers,Premier League,GK,32
+Dominic Solanke,England,AFC Bournemouth,Premier League,ST,27
+Philip Billing,Denmark,AFC Bournemouth,Premier League,CM,29
+Neto,Brazil,AFC Bournemouth,Premier League,GK,36
+Milos Kerkez,Hungary,AFC Bournemouth,Premier League,LB,21
+Justin Kluivert,Netherlands,AFC Bournemouth,Premier League,RW,26
+Morgan Gibbs-White,England,Nottingham Forest,Premier League,CAM,25
+Anthony Elanga,Sweden,Nottingham Forest,Premier League,RW,23
+Taiwo Awoniyi,Nigeria,Nottingham Forest,Premier League,ST,28
+Callum Hudson-Odoi,England,Nottingham Forest,Premier League,LW,25
+Federico Valverde,Uruguay,Real Madrid,La Liga,CM,27
+Rodrygo,Brazil,Real Madrid,La Liga,RW,24
+Antonio Rüdiger,Germany,Real Madrid,La Liga,CB,32
+David Alaba,Austria,Real Madrid,La Liga,CB,33
+Ferland Mendy,France,Real Madrid,La Liga,LB,30
+Dani Carvajal,Spain,Real Madrid,La Liga,RB,33
+Brahim Díaz,Spain,Real Madrid,La Liga,CAM,26
+Arda Güler,Turkey,Real Madrid,La Liga,CAM,20
+Andriy Lunin,Ukraine,Real Madrid,La Liga,GK,26
+Frenkie de Jong,Netherlands,Barcelona,La Liga,CM,28
+İlkay Gündoğan,Germany,Galatasaray,La Liga,CM,34
+Raphinha,Brazil,Barcelona,La Liga,RW,28
+Ferran Torres,Spain,Barcelona,La Liga,ST,25
+Lamine Yamal,Spain,Barcelona,La Liga,RW,18
+Ronald Araújo,Uruguay,Barcelona,La Liga,CB,26
+Pau Cubarsí,Spain,Barcelona,La Liga,CB,18
+Jules Koundé,France,Barcelona,La Liga,CB,26
+Andreas Christensen,Denmark,Barcelona,La Liga,CB,29
+Alejandro Balde,Spain,Barcelona,La Liga,LB,21
+Oriol Romeu,Spain,Barcelona,La Liga,CDM,33
+Antoine Griezmann,France,Atlético Madrid,La Liga,ST,34
+Álvaro Morata,Spain,Atlético Madrid,La Liga,ST,32
+Rodrigo De Paul,Argentina,Atlético Madrid,La Liga,CM,31
+Marcos Llorente,Spain,Atlético Madrid,La Liga,CM,30
+Koke,Spain,Atlético Madrid,La Liga,CM,33
+José María Giménez,Uruguay,Atlético Madrid,La Liga,CB,30
+Nahuel Molina,Argentina,Atlético Madrid,La Liga,RB,27
+Samuel Lino,Brazil,Atlético Madrid,La Liga,LW,26
+Mikel Oyarzabal,Spain,Real Sociedad,La Liga,LW,28
+Takefusa Kubo,Japan,Real Sociedad,La Liga,RW,24
+Martín Zubimendi,Spain,Real Sociedad,La Liga,CDM,26
+Brais Méndez,Spain,Real Sociedad,La Liga,CM,28
+Nico Williams,Spain,Athletic Bilbao,La Liga,LW,23
+Iñaki Williams,Ghana,Athletic Bilbao,La Liga,RW,31
+Oihan Sancet,Spain,Athletic Bilbao,La Liga,CAM,25
+Unai Simón,Spain,Athletic Bilbao,La Liga,GK,28
+Gerard Moreno,Spain,Villarreal,La Liga,ST,33
+Joshua Zirkzee,Netherlands,Manchester United,Premier League,ST,24
+Amadou Onana,Belgium,Everton,Premier League,CDM,24
+Dwight McNeil,England,Everton,Premier League,LW,25
+Abdoulaye Doucouré,Mali,Everton,Premier League,CM,32
+Beto,Portugal,Everton,Premier League,ST,27
+Daniel James,Wales,Leeds United,Championship,LW,27
+Crysencio Summerville,Netherlands,Leeds United,Championship,RW,23
+Georginio Rutter,France,Leeds United,Championship,ST,23
+Wilfried Gnonto,Italy,Leeds United,Championship,LW,21
+Archie Gray,England,Leeds United,Championship,CM,19
+Patrick Bamford,England,Leeds United,Championship,ST,32
+Kalvin Phillips,England,Manchester City,Premier League,CDM,29
+Rico Lewis,England,Manchester City,Premier League,RB,20
+Oscar Bobb,Norway,Manchester City,Premier League,RW,22
+Cole Palmer,England,Chelsea,Premier League,CAM,23
+Mason Greenwood,England,Getafe,La Liga,RW,24
+Borja Mayoral,Spain,Getafe,La Liga,ST,28
+Mauro Arambarri,Uruguay,Getafe,La Liga,CM,30
+Nemanja Maksimović,Serbia,Getafe,La Liga,CM,30
+Marc Cucurella,Spain,Chelsea,Premier League,LB,27
+Thiago Silva,Brazil,Fluminense,Brazil Serie A,CB,40
+Raúl Jiménez,Mexico,Fulham,Premier League,ST,34
+Willian,Brazil,Fulham,Premier League,LW,37
+Andreas Pereira,Brazil,Fulham,Premier League,CAM,29
+João Palhinha,Portugal,Fulham,Premier League,CDM,30
+Tosin Adarabioyo,England,Fulham,Premier League,CB,28
+Bernd Leno,Germany,Fulham,Premier League,GK,33
+Aleksandar Mitrović,Serbia,Al Hilal,Saudi Pro League,ST,31
+Kalidou Koulibaly,Senegal,Al Hilal,Saudi Pro League,CB,34
+Sergej Milinković-Savić,Serbia,Al Hilal,Saudi Pro League,CM,30
+Salem Al-Dawsari,Saudi Arabia,Al Hilal,Saudi Pro League,LW,34
+Yassine Bounou,Morocco,Al Hilal,Saudi Pro League,GK,34
+Éver Banega,Argentina,Al Shabab,Saudi Pro League,CM,37
+Roberto Firmino,Brazil,Al Ahli,Saudi Pro League,ST,33
+Riyad Mahrez,Algeria,Al Ahli,Saudi Pro League,RW,34
+Franck Kessié,Ivory Coast,Al Ahli,Saudi Pro League,CM,28
+Allan Saint-Maximin,France,Al Ahli,Saudi Pro League,LW,28
+Édouard Mendy,Senegal,Al Ahli,Saudi Pro League,GK,33
+Roger Ibañez,Brazil,Al Ahli,Saudi Pro League,CB,26
+Jordan Henderson,England,Ajax,Eredivisie,CM,35
+Steven Bergwijn,Netherlands,Ajax,Eredivisie,LW,28
+Brian Brobbey,Netherlands,Ajax,Eredivisie,ST,23
+Kenneth Taylor,Netherlands,Ajax,Eredivisie,CM,23
+Jorrel Hato,Netherlands,Ajax,Eredivisie,CB,19
+Gerónimo Rulli,Argentina,Ajax,Eredivisie,GK,33
+Santiago Giménez,Mexico,Feyenoord,Eredivisie,ST,24
+Calvin Stengs,Netherlands,Feyenoord,Eredivisie,RW,26
+Lutsharel Geertruida,Netherlands,Feyenoord,Eredivisie,CB,25
+Quilindschy Hartman,Netherlands,Feyenoord,Eredivisie,LB,23
+Justin Bijlow,Netherlands,Feyenoord,Eredivisie,GK,27
+Mats Wieffer,Netherlands,Feyenoord,Eredivisie,CDM,25
+Donyell Malen,Netherlands,Borussia Dortmund,Bundesliga,RW,26
+Youssoufa Moukoko,Germany,Borussia Dortmund,Bundesliga,ST,20
+Julian Brandt,Germany,Borussia Dortmund,Bundesliga,CAM,29
+Marco Reus,Germany,Borussia Dortmund,Bundesliga,CAM,36
+Niklas Süle,Germany,Borussia Dortmund,Bundesliga,CB,29
+Gregor Kobel,Switzerland,Borussia Dortmund,Bundesliga,GK,27
+Mats Hummels,Germany,Borussia Dortmund,Bundesliga,CB,36
+Karim Adeyemi,Germany,Borussia Dortmund,Bundesliga,LW,23
+Florian Grillitsch,Austria,Hoffenheim,Bundesliga,CDM,30
+Maximilian Beier,Germany,Hoffenheim,Bundesliga,ST,23
+Andrej Kramarić,Croatia,Hoffenheim,Bundesliga,ST,34
+Oliver Baumann,Germany,Hoffenheim,Bundesliga,GK,35
+Jeremie Frimpong,Netherlands,Bayer Leverkusen,Bundesliga,RB,24
+Granit Xhaka,Switzerland,Bayer Leverkusen,Bundesliga,CM,32
+Victor Boniface,Nigeria,Bayer Leverkusen,Bundesliga,ST,25
+Patrik Schick,Czech Republic,Bayer Leverkusen,Bundesliga,ST,29
+Jonathan Tah,Germany,Bayer Leverkusen,Bundesliga,CB,29
+Piero Hincapié,Ecuador,Bayer Leverkusen,Bundesliga,CB,23
+Lukas Hrádecký,Finland,Bayer Leverkusen,Bundesliga,GK,35
+Alejandro Grimaldo,Spain,Bayer Leverkusen,Bundesliga,LB,29
+Amine Adli,France,Bayer Leverkusen,Bundesliga,LW,25
+Nicolás González,Argentina,Fiorentina,Serie A,RW,27
+Lucas Beltrán,Argentina,Fiorentina,Serie A,ST,24
+Rolando Mandragora,Italy,Fiorentina,Serie A,CM,28
+Christian Kouamé,Ivory Coast,Fiorentina,Serie A,ST,28
+Giacomo Bonaventura,Italy,Fiorentina,Serie A,CM,36
+Pietro Terracciano,Italy,Fiorentina,Serie A,GK,35
+Ciro Immobile,Italy,Lazio,Serie A,ST,35
+Mattia Zaccagni,Italy,Lazio,Serie A,LW,30
+Luis Alberto,Spain,Lazio,Serie A,CAM,32
+Daichi Kamada,Japan,Lazio,Serie A,CM,29
+Elseid Hysaj,Albania,Lazio,Serie A,LB,31
+Ivan Provedel,Italy,Lazio,Serie A,GK,31
+Nicolo Barella,Italy,Inter Milan,Serie A,CM,28
+Lautaro Martínez,Argentina,Inter Milan,Serie A,ST,28
+Hakan Çalhanoğlu,Turkey,Inter Milan,Serie A,CAM,31
+Federico Dimarco,Italy,Inter Milan,Serie A,LB,27
+Marcus Thuram,France,Inter Milan,Serie A,ST,28
+Stefan de Vrij,Netherlands,Inter Milan,Serie A,CB,33
+Henrikh Mkhitaryan,Armenia,Inter Milan,Serie A,CM,36
+Yann Sommer,Switzerland,Inter Milan,Serie A,GK,36
+Adrien Rabiot,France,Juventus,Serie A,CM,30
+Federico Chiesa,Italy,Juventus,Serie A,LW,27
+Dusan Vlahovic,Serbia,Juventus,Serie A,ST,25
+Weston McKennie,USA,Juventus,Serie A,CM,27
+Danilo,Brazil,Juventus,Serie A,RB,34
+Wojciech Szczęsny,Poland,Juventus,Serie A,GK,35
+Bremer,Brazil,Juventus,Serie A,CB,28
+Manuel Locatelli,Italy,Juventus,Serie A,CM,27
+Andrea Cambiaso,Italy,Juventus,Serie A,LB,25
+Arkadiusz Milik,Poland,Juventus,Serie A,ST,31
+Nicolo Zaniolo,Italy,Aston Villa,Premier League,CAM,26
+Giovanni Di Lorenzo,Italy,Napoli,Serie A,RB,32
+Stanislav Lobotka,Slovakia,Napoli,Serie A,CM,30
+Piotr Zieliński,Poland,Napoli,Serie A,CM,31
+Alex Meret,Italy,Napoli,Serie A,GK,28
+Matteo Politano,Italy,Napoli,Serie A,RW,32
+Tijjani Reijnders,Netherlands,AC Milan,Serie A,CM,27
+Samuel Chukwueze,Nigeria,AC Milan,Serie A,RW,26
+Christian Pulisic,USA,AC Milan,Serie A,LW,26
+Noah Okafor,Switzerland,AC Milan,Serie A,ST,25
+Mike Maignan,France,AC Milan,Serie A,GK,29
+Fikayo Tomori,England,AC Milan,Serie A,CB,27
+Ismaël Bennacer,Algeria,AC Milan,Serie A,CDM,27
+Giorgos Giakoumakis,Greece,Atlanta United,MLS,ST,30
+Thiago Almada,Argentina,Atlanta United,MLS,CAM,24
+Josef Martínez,Venezuela,CF Montréal,MLS,ST,32
+Héctor Herrera,Mexico,Houston Dynamo,MLS,CM,35
+Carlos Vela,Mexico,LAFC,MLS,RW,36
+Raúl,Rui,Spain,Real Madrid Legends,N/A,ST
+Sergio Busquets,Spain,Inter Miami,MLS,CDM,37
+Jordi Alba,Spain,Inter Miami,MLS,LB,36
+Mats Wieffer,Netherlands,Feyenoord,Eredivisie,CDM,25
+Isco,Spain,Real Betis,La Liga,CAM,33
+Ayoze Pérez,Spain,Real Betis,La Liga,ST,32
+Nabil Fekir,France,Real Betis,La Liga,CAM,32
+Guido Rodríguez,Argentina,Real Betis,La Liga,CDM,31
+Claudio Bravo,Chile,Real Betis,La Liga,GK,42
+Álex Moreno,Spain,Aston Villa,Premier League,LB,32
+Gerard Deulofeu,Spain,Udinese,Serie A,LW,31
+Rodrigo Bentancur,Uruguay,Tottenham Hotspur,Premier League,CM,28
+Leonardo Bonucci,Italy,Fenerbahçe,Turkish Süper Lig,CB,38
+Edin Džeko,Bosnia,Fenerbahçe,Turkish Süper Lig,ST,39
+Dusan Tadic,Serbia,Fenerbahçe,Turkish Süper Lig,CAM,36
+Cengiz Ünder,Turkey,Fenerbahçe,Turkish Süper Lig,RW,28
+Dominik Livaković,Croatia,Fenerbahçe,Turkish Süper Lig,GK,30
+Wilfried Zaha,Ivory Coast,Galatasaray,Turkish Süper Lig,LW,32
+Mauro Icardi,Argentina,Galatasaray,Turkish Süper Lig,ST,32
+Lucas Torreira,Uruguay,Galatasaray,Turkish Süper Lig,CDM,29
+Dries Mertens,Belgium,Galatasaray,Turkish Süper Lig,CAM,38
+Hakim Ziyech,Morocco,Galatasaray,Turkish Süper Lig,RW,32
+Fernando Muslera,Uruguay,Galatasaray,Turkish Süper Lig,GK,39
+André Silva,Portugal,Real Sociedad,La Liga,ST,29
+Robin Le Normand,Spain,Real Sociedad,La Liga,CB,29
+Álex Remiro,Spain,Real Sociedad,La Liga,GK,30
+Yeremy Pino,Spain,Villarreal,La Liga,RW,23
+Dani Parejo,Spain,Villarreal,La Liga,CM,36
+Álex Baena,Spain,Villarreal,La Liga,CAM,24
+Arnaut Danjuma,Netherlands,Everton,Premier League,LW,28
+Samuel Chimerenka,England,Leicester City,Championship,CAM,22
+Kiernan Dewsbury-Hall,England,Leicester City,Championship,CM,27
+Jamie Vardy,England,Leicester City,Championship,ST,38
+James Justin,England,Leicester City,Championship,RB,27
+Wout Faes,Belgium,Leicester City,Championship,CB,27
+Harvey Barnes,England,Newcastle United,Premier League,LW,27
+Joe Rodon,Wales,Tottenham Hotspur,Premier League,CB,29
+Ben Davies,Wales,Tottenham Hotspur,Premier League,LB,32
+Eric Dier,England,Bayern Munich,Bundesliga,CB,31
+Dayot Upamecano,France,Bayern Munich,Bundesliga,CB,26
+Noussair Mazraoui,Morocco,Bayern Munich,Bundesliga,RB,27
+Kingsley Coman,France,Bayern Munich,Bundesliga,LW,29
+Thomas Müller,Germany,Bayern Munich,Bundesliga,CAM,35
+Leon Goretzka,Germany,Bayern Munich,Bundesliga,CM,30
+Serge Gnabry,Germany,Bayern Munich,Bundesliga,RW,30
+Raphaël Guerreiro,Portugal,Bayern Munich,Bundesliga,LB,31
+Ricardo Pereira,Portugal,Leicester City,Championship,RB,31
+Wilfred Ndidi,Nigeria,Leicester City,Championship,CDM,28
+Hamza Choudhury,England,Leicester City,Championship,CDM,27
+Stephy Mavididi,England,Leicester City,Championship,LW,27
+Kelechi Iheanacho,Nigeria,Aston Villa,Premier League,ST,28
+Youri Tielemans,Belgium,Aston Villa,Premier League,CM,28
+Douglas Luiz,Brazil,Juventus,Serie A,CM,27
+Lucas Digne,France,Aston Villa,Premier League,LB,32
+Emiliano Buendía,Argentina,Aston Villa,Premier League,CAM,28
+Bertrand Traoré,Burkina Faso,Aston Villa,Premier League,RW,29
+Ángel Di María,Argentina,Benfica,Primeira Liga,RW,37
+Nicolás Otamendi,Argentina,Benfica,Primeira Liga,CB,37
+João Mário,Portugal,Benfica,Primeira Liga,CM,32
+Rafa Silva,Portugal,Benfica,Primeira Liga,RW,32
+Orkun Kökçü,Turkey,Benfica,Primeira Liga,CM,24
+Anatoliy Trubin,Ukraine,Benfica,Primeira Liga,GK,24
+Darwin Machís,Venezuela,Cádiz,La Liga,LW,32
+Rubén Alcaraz,Spain,Cádiz,La Liga,CM,34
+Jeremías Ledesma,Argentina,Cádiz,La Liga,GK,32
+Roger Martí,Spain,Cádiz,La Liga,ST,34
+Lucas Ocampos,Argentina,Sevilla,La Liga,LW,31
+Ivan Rakitić,Croatia,Sevilla,La Liga,CM,37
+Youssef En-Nesyri,Morocco,Sevilla,La Liga,ST,28
+Jesús Navas,Spain,Sevilla,La Liga,RB,39
+Nemanja Gudelj,Serbia,Sevilla,La Liga,CDM,34
+Marko Dmitrović,Serbia,Sevilla,La Liga,GK,34
+Sergio Ramos,Spain,Sevilla,La Liga,CB,39
+Óliver Torres,Spain,Sevilla,La Liga,CM,30
+Isco,Spain,Real Betis,La Liga,CAM,33
+Luiz Henrique,Brazil,Real Betis,La Liga,RW,24
+Juan Miranda,Spain,Real Betis,La Liga,LB,25
+Borja Iglesias,Spain,Bayer Leverkusen,Bundesliga,ST,32
+Andreas Christensen,Denmark,Barcelona,La Liga,CB,29
+Ansu Fati,Spain,Brighton & Hove Albion,Premier League,LW,22
+Álex Remiro,Spain,Real Sociedad,La Liga,GK,30
+Nacho,Spain,Real Madrid,La Liga,CB,35
+Marc Roca,Spain,Real Betis,La Liga,CM,28
+Samu Omorodion,Spain,Atlético Madrid,La Liga,ST,21
+Renan Lodi,Brazil,Marseille,Ligue 1,LB,27
+Pierre-Emerick Aubameyang,Gabon,Marseille,Ligue 1,ST,36
+Jonathan Clauss,France,Marseille,Ligue 1,RB,32
+Jordan Veretout,France,Marseille,Ligue 1,CM,32
+Samuel Gigot,France,Marseille,Ligue 1,CB,31
+Pau López,Spain,Marseille,Ligue 1,GK,30
+Geoffrey Kondogbia,Central African Republic,Marseille,Ligue 1,CDM,32
+Amine Harit,Morocco,Marseille,Ligue 1,CAM,28
+Alexis Sánchez,Chile,Internacional,Brazil Serie A,ST,36
+Felipe Anderson,Brazil,Palmeiras,Brazil Serie A,RW,32
+Dani Olmo,Spain,RB Leipzig,Bundesliga,CAM,27
+Loïs Openda,Belgium,RB Leipzig,Bundesliga,ST,25
+Xavi Simons,Netherlands,RB Leipzig,Bundesliga,CAM,22
+Benjamin Šeško,Slovenia,RB Leipzig,Bundesliga,ST,22
+David Raum,Germany,RB Leipzig,Bundesliga,LB,27
+Willi Orbán,Hungary,RB Leipzig,Bundesliga,CB,32
+Janis Blaswich,Germany,RB Leipzig,Bundesliga,GK,34
+Kevin Kampl,Slovenia,RB Leipzig,Bundesliga,CM,34
+Ángel Correa,Argentina,Atlético Madrid,La Liga,ST,30
+Reinildo Mandava,Mozambique,Atlético Madrid,La Liga,LB,31
+Thomas Lemar,France,Atlético Madrid,La Liga,LW,29
+Memphis Depay,Netherlands,Atlético Madrid,La Liga,ST,31
+Rodrigo Riquelme,Spain,Atlético Madrid,La Liga,LW,25
+Pablo Barrios,Spain,Atlético Madrid,La Liga,CM,22
+Andriy Yarmolenko,Ukraine,Dynamo Kyiv,Ukrainian Premier League,RW,35
+Viktor Tsygankov,Ukraine,Girona,La Liga,RW,27
+Artem Dovbyk,Ukraine,Girona,La Liga,ST,28
+Aleix García,Spain,Girona,La Liga,CM,28
+Pablo Torre,Spain,Girona,La Liga,CAM,22
+David López,Spain,Girona,La Liga,CB,35
+Paulo Gazzaniga,Argentina,Girona,La Liga,GK,34
+Cristian Portugués,Spain,Girona,La Liga,RW,33
+Ander Herrera,Spain,Athletic Bilbao,La Liga,CM,36
+Dani Vivian,Spain,Athletic Bilbao,La Liga,CB,26
+Iñigo Lekue,Spain,Athletic Bilbao,La Liga,RB,32
+Óscar de Marcos,Spain,Athletic Bilbao,La Liga,RB,36
+Unai Gómez,Spain,Athletic Bilbao,La Liga,CM,22
+Dani Olmo,Spain,RB Leipzig,Bundesliga,CAM,27
+Ángel Gomes,England,Lille,Ligue 1,CAM,24
+Jonathan David,Canada,Lille,Ligue 1,ST,25
+Remy Cabella,France,Lille,Ligue 1,CAM,35
+Benjamin André,France,Lille,Ligue 1,CM,34
+Tiago Djaló,Portugal,Lille,Ligue 1,CB,25
+Lucas Chevalier,France,Lille,Ligue 1,GK,24
+Edon Zhegrova,Kosovo,Lille,Ligue 1,RW,26
+Bafodé Diakité,France,Lille,Ligue 1,CB,24
+Mohamed Simakan,France,RB Leipzig,Bundesliga,CB,25
+Christopher Trimmel,Austria,Union Berlin,Bundesliga,RB,37
+Robin Knoche,Germany,Union Berlin,Bundesliga,CB,33
+Rani Khedira,Germany,Union Berlin,Bundesliga,CDM,31
+Kevin Behrens,Germany,Union Berlin,Bundesliga,ST,34
+Josip Juranović,Croatia,Union Berlin,Bundesliga,RB,30
+Frederik Rønnow,Denmark,Union Berlin,Bundesliga,GK,33
+Aïssa Laïdouni,Tunisia,Union Berlin,Bundesliga,CM,29
+Sheraldo Becker,Suriname,Real Sociedad,La Liga,RW,30
+Hugo Lloris,France,Los Angeles FC,MLS,GK,38
+Paul Pogba,France,Juventus,Serie A,CM,32
+Renato Sanches,Portugal,Roma,Serie A,CM,28
+Paulo Dybala,Argentina,Roma,Serie A,ST,31
+Tammy Abraham,England,Roma,Serie A,ST,27
+Lorenzo Pellegrini,Italy,Roma,Serie A,CAM,29
+Leonardo Spinazzola,Italy,Roma,Serie A,LB,32
+Chris Smalling,England,Roma,Serie A,CB,35
+Diego Llorente,Spain,Roma,Serie A,CB,32
+Mile Svilar,Serbia,Roma,Serie A,GK,26
+Gianluca Mancini,Italy,Roma,Serie A,CB,29
+Bryan Cristante,Italy,Roma,Serie A,CDM,30
+Andrea Belotti,Italy,Fiorentina,Serie A,ST,31
+Rasmus Kristensen,Denmark,Roma,Serie A,RB,28
+Mateo Retegui,Italy,Genoa,Serie A,ST,26
+Albert Gudmundsson,Iceland,Genoa,Serie A,ST,28
+Morten Thorsby,Norway,Genoa,Serie A,CM,29
+Mattia Perin,Italy,Juventus,Serie A,GK,32
+Giacomo Raspadori,Italy,Napoli,Serie A,ST,25
+Daniel Maldini,Italy,Monza,Serie A,CAM,23
+Andrea Colpani,Italy,Monza,Serie A,CAM,26
+Armando Broja,Albania,Chelsea,Premier League,ST,24
+Mario Götze,Germany,Eintracht Frankfurt,Bundesliga,CAM,33
+Kevin Trapp,Germany,Eintracht Frankfurt,Bundesliga,GK,35
+Randal Kolo Muani,France,Paris Saint-Germain,Ligue 1,ST,26
+Lee Kang-in,South Korea,Paris Saint-Germain,Ligue 1,CAM,24
+Gonçalo Ramos,Portugal,Paris Saint-Germain,Ligue 1,ST,24
+Manuel Ugarte,Uruguay,Paris Saint-Germain,Ligue 1,CDM,24
+Bradley Barcola,France,Paris Saint-Germain,Ligue 1,LW,22
+Carlos Soler,Spain,Paris Saint-Germain,Ligue 1,CM,28
+Marco Asensio,Spain,Paris Saint-Germain,Ligue 1,RW,29
+Fabian Ruiz,Spain,Paris Saint-Germain,Ligue 1,CM,29
+Presnel Kimpembe,France,Paris Saint-Germain,Ligue 1,CB,30
+Layvin Kurzawa,France,Paris Saint-Germain,Ligue 1,LB,32
+Gerson, Brazil, Flamengo, Brazil Serie A, CM, 28
+Pedro, Brazil, Flamengo, Brazil Serie A, ST, 28
+Gabigol, Brazil, Flamengo, Brazil Serie A, ST, 28
+Arrascaeta, Uruguay, Flamengo, Brazil Serie A, CAM, 31
+Toni Kroos,Germany,Real Madrid,La Liga,CM,35
+Nacho Fernández,Spain,Real Madrid,La Liga,CB,35
+Álvaro Rodríguez,Uruguay,Real Madrid,La Liga,ST,21
+Dani Ceballos,Spain,Real Madrid,La Liga,CM,29
+Joselu,Spain,Real Madrid,La Liga,ST,35
+Mario Hermoso,Spain,Atlético Madrid,La Liga,CB,30
+Axel Witsel,Belgium,Atlético Madrid,La Liga,CDM,36
+César Azpilicueta,Spain,Atlético Madrid,La Liga,RB,36
+Jan Oblak,Slovenia,Atlético Madrid,La Liga,GK,32
+Memphis Depay,Netherlands,Atlético Madrid,La Liga,ST,31
+Andrés Iniesta,Spain,Emirates Club,UAE Pro League,CM,41
+Santi Cazorla,Spain,Real Oviedo,La Liga 2,CM,40
+Adama Traoré,Spain,Fulham,Premier League,RW,29
+Aleksandar Mitrović,Serbia,Al Hilal,Saudi Pro League,ST,31
+André Gomes,Portugal,Everton,Premier League,CM,32
+Arnaut Danjuma,Netherlands,Everton,Premier League,LW,28
+Michael Keane,England,Everton,Premier League,CB,32
+Seamus Coleman,Republic of Ireland,Everton,Premier League,RB,36
+Idrissa Gueye,Senegal,Everton,Premier League,CDM,35
+Ashley Young,England,Everton,Premier League,LB,40
+Sepp van den Berg,Netherlands,Mainz,Bundesliga,CB,24
+Karim Adeyemi,Germany,Borussia Dortmund,Bundesliga,LW,23
+Salih Özcan,Germany,Borussia Dortmund,Bundesliga,CDM,27
+Marius Wolf,Germany,Borussia Dortmund,Bundesliga,RB,30
+Marcel Sabitzer,Austria,Borussia Dortmund,Bundesliga,CM,31
+Felix Nmecha,Germany,Borussia Dortmund,Bundesliga,CM,24
+Jamie Bynoe-Gittens,England,Borussia Dortmund,Bundesliga,LW,21
+Ian Maatsen,Netherlands,Borussia Dortmund,Bundesliga,LB,23
+Roman Bürki,Switzerland,St. Louis City,MLS,GK,34
+Chris Durkin,USA,St. Louis City,MLS,CM,25
+João Félix,Portugal,Barcelona,La Liga,ST,25
+Marcos Alonso,Spain,Barcelona,La Liga,LB,34
+Inaki Pena,Spain,Barcelona,La Liga,GK,26
+Eric García,Spain,Girona,La Liga,CB,24
+Clément Lenglet,France,Aston Villa,Premier League,CB,30
+Samuel Umtiti,France,Lille,Ligue 1,CB,31
+David de Gea,Spain,Free Agent,N/A,GK,34
+Kepa Arrizabalaga,Spain,Real Madrid,La Liga,GK,30
+Antonio Sanabria,Paraguay,Torino,Serie A,ST,29
+Ricardo Rodríguez,Switzerland,Torino,Serie A,LB,32
+Perr Schuurs,Netherlands,Torino,Serie A,CB,25
+Vanja Milinković-Savić,Serbia,Torino,Serie A,GK,28
+Nemanja Radonjić,Serbia,Torino,Serie A,LW,29
+Wilfried Singo,Ivory Coast,Monaco,Ligue 1,RB,25
+Aleksandr Golovin,Russia,Monaco,Ligue 1,CAM,29
+Wissam Ben Yedder,France,Monaco,Ligue 1,ST,35
+Youssouf Fofana,France,Monaco,Ligue 1,CDM,26
+Takumi Minamino,Japan,Monaco,Ligue 1,RW,30
+Breel Embolo,Switzerland,Monaco,Ligue 1,ST,28
+Caio Henrique,Brazil,Monaco,Ligue 1,LB,28
+Guillermo Maripán,Chile,Monaco,Ligue 1,CB,31
+Kevin Volland,Germany,Union Berlin,Bundesliga,ST,33
+Ángel Di María,Argentina,Benfica,Primeira Liga,RW,37
+Leandro Paredes,Argentina,Roma,Serie A,CDM,31
+Rick Karsdorp,Netherlands,Roma,Serie A,RB,30
+Houssem Aouar,Algeria,Roma,Serie A,CAM,27
+Stephan El Shaarawy,Italy,Roma,Serie A,LW,32
+Diego Costa,Brazil,Botafogo,Brazil Serie A,ST,36
+Claudio Bravo,Chile,Real Betis,La Liga,GK,42
+Ayoze Pérez,Spain,Real Betis,La Liga,ST,32
+Luiz Felipe,Brazil,Al-Ittihad,Saudi Pro League,CB,28
+Fabinho,Brazil,Al-Ittihad,Saudi Pro League,CDM,31
+N'Golo Kanté,France,Al Ittihad,Saudi Pro League,CDM,34
+Igor Coronado,Brazil,Al-Ittihad,Saudi Pro League,CAM,33
+Jota,Portugal,Al-Ittihad,Saudi Pro League,LW,26
+Karim Rekik,Netherlands,Al-Jazira,UAE Pro League,CB,30
+Omar Al-Somah,Syria,Al-Arabi,Qatar Stars League,ST,36
+Baghdad Bounedjah,Algeria,Al Sadd,Qatar Stars League,ST,33
+Akram Afif,Qatar,Al Sadd,Qatar Stars League,LW,28
+Hassan Al-Haydos,Qatar,Al Sadd,Qatar Stars League,RW,34
+Matthias Ginter,Germany,Freiburg,Bundesliga,CB,31
+Vincenzo Grifo,Italy,Freiburg,Bundesliga,LW,32
+Maximilian Eggestein,Germany,Freiburg,Bundesliga,CM,28
+Christian Günter,Germany,Freiburg,Bundesliga,LB,32
+Ritsu Doan,Japan,Freiburg,Bundesliga,RW,27
+Nils Petersen,Germany,Freiburg,Bundesliga,ST,36
+Mark Flekken,Netherlands,Brentford,Premier League,GK,32
+M'Baye Niang,Senegal,Adana Demirspor,Turkish Süper Lig,ST,30
+Mario Balotelli,Italy,Adana Demirspor,Turkish Süper Lig,ST,35
+Younès Belhanda,Morocco,Adana Demirspor,Turkish Süper Lig,CAM,35
+Edinson Cavani,Uruguay,Boca Juniors,Argentina Primera,ST,38
+Marcos Rojo,Argentina,Boca Juniors,Argentina Primera,CB,35
+Sergio Romero,Argentina,Boca Juniors,Argentina Primera,GK,38
+Darío Benedetto,Argentina,Boca Juniors,Argentina Primera,ST,35
+Guillermo Fernández,Argentina,Boca Juniors,Argentina Primera,CM,34
+Enzo Pérez,Argentina,Estudiantes,Argentina Primera,CM,39
+Luciano Vietto,Argentina,Al-Qadsiah,Saudi Pro League,ST,31
+Jonathan Calleri,Argentina,São Paulo,Brazil Serie A,ST,32
+James Rodríguez,Colombia,São Paulo,Brazil Serie A,CAM,34
+Lucas Moura,Brazil,São Paulo,Brazil Serie A,RW,33
+Rafinha,Brazil,São Paulo,Brazil Serie A,RB,39
+Éder Militão,Brazil,Real Madrid,La Liga,CB,27
+Anderson Talisca,Brazil,Al Nassr,Saudi Pro League,CAM,31
+Otávio,Portugal,Al Nassr,Saudi Pro League,CM,30
+Marcelo Brozović,Croatia,Al Nassr,Saudi Pro League,CM,33
+David Ospina,Colombia,Al Nassr,Saudi Pro League,GK,36
+Ali Al-Hassan,Saudi Arabia,Al Nassr,Saudi Pro League,CM,27
+Abdulelah Al-Amri,Saudi Arabia,Al Nassr,Saudi Pro League,CB,28
+Pizzi,Portugal,Braga,Primeira Liga,CM,35
+Abel Ruiz,Spain,Braga,Primeira Liga,ST,25
+Ricardo Horta,Portugal,Braga,Primeira Liga,LW,30
+José Fonte,Portugal,Braga,Primeira Liga,CB,41
+Simon Banza,DR Congo,Braga,Primeira Liga,ST,29
+Pepe,Portugal,Porto,Primeira Liga,CB,42
+Diogo Costa,Portugal,Porto,Primeira Liga,GK,26
+Evanilson,Brazil,Porto,Primeira Liga,ST,26
+Mehdi Taremi,Iran,Porto,Primeira Liga,ST,33
+Stephen Eustáquio,Canada,Porto,Primeira Liga,CM,28
+Otávio,Brazil,Porto,Primeira Liga,RW,30
+Galeno,Brazil,Porto,Primeira Liga,LW,28
+Mateus Uribe,Colombia,Al-Sadd,Qatar Stars League,CM,34
+André-Franck Zambo Anguissa,Cameroon,Napoli,Serie A,CM,29
+Manuel Lazzari,Italy,Lazio,Serie A,RB,31
+Patric,Spain,Lazio,Serie A,CB,32
+Felipe Anderson,Brazil,Palmeiras,Brazil Serie A,RW,32
+Dudu,Brazil,Palmeiras,Brazil Serie A,LW,33
+Raphael Veiga,Brazil,Palmeiras,Brazil Serie A,CAM,30
+Endrick,Brazil,Palmeiras,Brazil Serie A,ST,19
+Weverton,Brazil,Palmeiras,Brazil Serie A,GK,37
+Marquinhos Cipriano,Brazil,Cruzeiro,Brazil Serie A,LW,26
+Paulinho,Brazil,Corrinthians,Brazil Serie A,CM,36
+Gustavo Scarpa,Brazil,Nottingham Forest,Premier League,CM,31
+Emerson Royal,Brazil,Tottenham Hotspur,Premier League,RB,26
+Rodinei,Brazil,Olympiacos,Greek Super League,RB,33
+James Tavernier,England,Rangers,Scottish Premiership,RB,33
+Kemar Roofe,Jamaica,Rangers,Scottish Premiership,ST,32
+Ryan Kent,England,Fenerbahçe,Turkish Süper Lig,LW,28
+John Souttar,Scotland,Rangers,Scottish Premiership,CB,29
+Joe Hart,England,Celtic,Scottish Premiership,GK,38
+Kyogo Furuhashi,Japan,Celtic,Scottish Premiership,ST,30
+Callum McGregor,Scotland,Celtic,Scottish Premiership,CM,32
+Daizen Maeda,Japan,Celtic,Scottish Premiership,LW,27
+Liel Abada,Israel,Celtic,Scottish Premiership,RW,23
+Jota,Portugal,Al-Ittihad,Saudi Pro League,LW,26
+Nordin Amrabat,Morocco,Al-Ittihad,Saudi Pro League,RW,36
+Vinícius Júnior,Brazil,Real Madrid,La Liga,Left Wing,30
+Neymar,Brazil,Al Hilal,Saudi Pro League,Left Wing,30
+Alisson Becker,Brazil,Liverpool,Premier League,Goalkeeper,30

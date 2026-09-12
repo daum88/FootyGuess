@@ -10,8 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
 
   # State Management
   flutter_riverpod: ^2.4.10
@@ -19,51 +17,6 @@ dependencies:
 
   # Navigation
   go_router: ^13.2.0
-
-  # Firebase - Temporarily disabled for basic setup
-  # firebase_core: ^2.24.2
-  # firebase_auth: ^4.15.3
-  # cloud_firestore: ^4.13.6
-  # cloud_functions: ^4.6.1
-  # firebase_remote_config: ^4.3.8
-  # firebase_analytics: ^10.7.4
-  # firebase_crashlytics: ^3.4.8
-  # firebase_app_check: ^0.2.1+7
-  # firebase_storage: ^11.5.6
-
-  # Authentication - Temporarily disabled for basic setup
-  # google_sign_in: ^6.2.1
-
-  # UI & Animations
-  cupertino_icons: ^1.0.6
-  flutter_animate: ^4.5.0
-  confetti: ^0.7.0
-  lottie: ^3.1.0
-
-  # Network & HTTP
-  http: ^1.2.0
-  dio: ^5.4.0
-
-  # Data & Serialization
-  json_annotation: ^4.8.1
-  freezed_annotation: ^2.4.1
-  csv: ^6.0.0
-
-  # Utils
-  intl: ^0.20.2
-  crypto: ^3.0.3
-  uuid: ^4.3.3
-  # package_info_plus: ^8.0.0  # Temporarily disabled for basic setup
-  # device_info_plus: ^10.1.0  # Temporarily disabled for basic setup
-
-  # Storage
-  shared_preferences: ^2.2.2
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-
-  # UI Helpers
-  gap: ^3.0.1
-  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -73,16 +26,10 @@ dev_dependencies:
   # Code Generation
   build_runner: ^2.4.7
   riverpod_generator: ^2.3.9
-  json_serializable: ^6.7.1
-  freezed: ^2.4.7
-
-  # Testing
-  mocktail: ^1.0.3
-  golden_toolkit: ^0.15.0
 
 flutter:
   uses-material-design: true
-  
+
   assets:
     - assets/data/
     - assets/images/
@@ -90,5 +37,5 @@ flutter:
     - assets/images/clubs/
     - assets/images/badges/
     - assets/animations/
-    
+
   generate: true

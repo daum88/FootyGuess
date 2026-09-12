@@ -1,0 +1,1450 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-07T22:52:52.062139",
+    "description": "Historic match data for Who Scored game mode",
+    "source": "Official match records",
+    "totalMatches": 120,
+    "verifiedDate": "2026-02-07"
+  },
+  "matches": [
+    {
+      "match": "2018 World Cup Final",
+      "teams": "France vs Croatia",
+      "score": "4-2",
+      "date": "2018-07-15",
+      "scorers": [
+        "Mario Mandžukić (OG)",
+        "Antoine Griezmann",
+        "Paul Pogba",
+        "Kylian Mbappé",
+        "Ivan Perišić",
+        "Mario Mandžukić"
+      ],
+      "venue": "Luzhniki Stadium, Moscow"
+    },
+    {
+      "match": "2022 World Cup Final",
+      "teams": "Argentina vs France",
+      "score": "3-3 (4-2 pens)",
+      "date": "2022-12-18",
+      "scorers": [
+        "Lionel Messi (2)",
+        "Ángel Di María",
+        "Kylian Mbappé (3)"
+      ],
+      "venue": "Lusail Stadium, Qatar"
+    },
+    {
+      "match": "Champions League Final 2005",
+      "teams": "Liverpool vs AC Milan",
+      "score": "3-3 (3-2 pens)",
+      "date": "2005-05-25",
+      "scorers": [
+        "Paolo Maldini",
+        "Hernán Crespo (2)",
+        "Steven Gerrard",
+        "Vladimír Šmicer",
+        "Xabi Alonso"
+      ],
+      "venue": "Atatürk Stadium, Istanbul"
+    },
+    {
+      "match": "Champions League Final 2023",
+      "teams": "Manchester City vs Inter Milan",
+      "score": "1-0",
+      "date": "2023-06-10",
+      "scorers": [
+        "Rodri"
+      ],
+      "venue": "Atatürk Stadium, Istanbul"
+    },
+    {
+      "match": "El Clásico 2010",
+      "teams": "Barcelona vs Real Madrid",
+      "score": "5-0",
+      "date": "2010-11-29",
+      "scorers": [
+        "Xavi",
+        "Pedro",
+        "David Villa (2)",
+        "Jeffrén"
+      ],
+      "venue": "Camp Nou"
+    },
+    {
+      "match": "Champions League Semi-Final 2019",
+      "teams": "Liverpool vs Barcelona",
+      "score": "4-0",
+      "date": "2019-05-07",
+      "scorers": [
+        "Divock Origi (2)",
+        "Georginio Wijnaldum (2)"
+      ],
+      "venue": "Anfield",
+      "note": "Historic 4-0 comeback (3-0 down from first leg)"
+    },
+    {
+      "match": "Premier League 2011/12 - Aguero Moment",
+      "teams": "Manchester City vs QPR",
+      "score": "3-2",
+      "date": "2012-05-13",
+      "scorers": [
+        "Pablo Zabaleta",
+        "Djibril Cissé",
+        "Jamie Mackie",
+        "Edin Džeko",
+        "Sergio Agüero"
+      ],
+      "venue": "Etihad Stadium",
+      "note": "Title-winning goal in 93:20"
+    },
+    {
+      "match": "Champions League Final 2024",
+      "teams": "Borussia Dortmund vs Real Madrid",
+      "score": "0-2",
+      "date": "2024-06-01",
+      "scorers": [
+        "Dani Carvajal",
+        "Vinícius Júnior"
+      ],
+      "venue": "Wembley Stadium, London"
+    },
+    {
+      "match": "Euro 2024 Final",
+      "teams": "Spain vs England",
+      "score": "2-1",
+      "date": "2024-07-14",
+      "scorers": [
+        "Nico Williams",
+        "Cole Palmer",
+        "Mikel Oyarzabal"
+      ],
+      "venue": "Olympiastadion, Berlin"
+    },
+    {
+      "match": "2024 Copa América Final",
+      "teams": "Argentina vs Colombia",
+      "score": "1-0",
+      "date": "2024-07-14",
+      "scorers": [
+        "Lautaro Martínez"
+      ],
+      "venue": "Hard Rock Stadium, Miami"
+    },
+    {
+      "match": "Manchester Derby 2024",
+      "teams": "Manchester City vs Manchester United",
+      "score": "3-1",
+      "date": "2024-10-26",
+      "scorers": [
+        "Erling Haaland (2)",
+        "Phil Foden",
+        "Amad Diallo"
+      ],
+      "venue": "Etihad Stadium"
+    },
+    {
+      "match": "Champions League 2024/25 - Group Stage",
+      "teams": "Barcelona vs Bayern Munich",
+      "score": "4-1",
+      "date": "2024-10-23",
+      "scorers": [
+        "Raphinha (3)",
+        "Robert Lewandowski",
+        "Harry Kane"
+      ],
+      "venue": "Camp Nou, Barcelona"
+    },
+    {
+      "match": "Premier League 2024/25",
+      "teams": "Arsenal vs Liverpool",
+      "score": "3-1",
+      "date": "2024-10-27",
+      "scorers": [
+        "Bukayo Saka",
+        "Gabriel Martinelli",
+        "Leandro Trossard",
+        "Luis Díaz"
+      ],
+      "venue": "Emirates Stadium"
+    },
+    {
+      "match": "El Clásico 2024",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "0-4",
+      "date": "2024-10-26",
+      "scorers": [
+        "Robert Lewandowski (2)",
+        "Lamine Yamal",
+        "Raphinha"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Premier League 2024/25",
+      "teams": "Tottenham vs Aston Villa",
+      "score": "4-1",
+      "date": "2024-11-03",
+      "scorers": [
+        "Dominic Solanke (2)",
+        "Brennan Johnson",
+        "James Maddison",
+        "Morgan Rogers"
+      ],
+      "venue": "Tottenham Hotspur Stadium"
+    },
+    {
+      "match": "Champions League 2024/25",
+      "teams": "Real Madrid vs Borussia Dortmund",
+      "score": "5-2",
+      "date": "2024-10-22",
+      "scorers": [
+        "Vinícius Júnior (3)",
+        "Lucas Vázquez",
+        "Antonio Rüdiger",
+        "Donyell Malen",
+        "Jamie Gittens"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Premier League 2023/24 - Title Race",
+      "teams": "Manchester City vs Arsenal",
+      "score": "0-0",
+      "date": "2024-03-31",
+      "scorers": [],
+      "venue": "Etihad Stadium",
+      "note": "Crucial title race draw"
+    },
+    {
+      "match": "Champions League Semi-Final 2024",
+      "teams": "Paris Saint-Germain vs Borussia Dortmund",
+      "score": "0-1",
+      "date": "2024-05-07",
+      "scorers": [
+        "Mats Hummels"
+      ],
+      "venue": "Parc des Princes",
+      "note": "Dortmund reached final"
+    },
+    {
+      "match": "FA Cup Final 2024",
+      "teams": "Manchester City vs Manchester United",
+      "score": "1-2",
+      "date": "2024-05-25",
+      "scorers": [
+        "Kobbie Mainoo",
+        "Alejandro Garnacho",
+        "Jérémy Doku"
+      ],
+      "venue": "Wembley Stadium",
+      "note": "United upset City"
+    },
+    {
+      "match": "Europa League Final 2024",
+      "teams": "Atalanta vs Bayer Leverkusen",
+      "score": "3-0",
+      "date": "2024-05-22",
+      "scorers": [
+        "Ademola Lookman (3)"
+      ],
+      "venue": "Aviva Stadium, Dublin",
+      "note": "Lookman hat-trick"
+    },
+    {
+      "match": "Premier League 2023/24 - Final Day",
+      "teams": "Manchester City vs West Ham",
+      "score": "3-1",
+      "date": "2024-05-19",
+      "scorers": [
+        "Phil Foden (2)",
+        "Mohammed Kudus"
+      ],
+      "venue": "Etihad Stadium",
+      "note": "City won 4th consecutive title"
+    },
+    {
+      "match": "Champions League Semi-Final 2023",
+      "teams": "Real Madrid vs Manchester City",
+      "score": "1-1",
+      "date": "2023-05-09",
+      "scorers": [
+        "Vinícius Júnior",
+        "Kevin De Bruyne"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Champions League Semi-Final 2023 - 2nd Leg",
+      "teams": "Manchester City vs Real Madrid",
+      "score": "4-0",
+      "date": "2023-05-17",
+      "scorers": [
+        "Bernardo Silva (2)",
+        "Manuel Akanji",
+        "Julián Álvarez"
+      ],
+      "venue": "Etihad Stadium"
+    },
+    {
+      "match": "FA Cup Final 2023",
+      "teams": "Manchester City vs Manchester United",
+      "score": "2-1",
+      "date": "2023-06-03",
+      "scorers": [
+        "İlkay Gündoğan (2)",
+        "Bruno Fernandes"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Premier League 2022/23",
+      "teams": "Newcastle vs Tottenham",
+      "score": "6-1",
+      "date": "2023-04-23",
+      "scorers": [
+        "Jacob Murphy",
+        "Joelinton",
+        "Callum Wilson (3)",
+        "Alexander Isak",
+        "Harry Kane"
+      ],
+      "venue": "St James' Park"
+    },
+    {
+      "match": "Champions League Final 2022",
+      "teams": "Liverpool vs Real Madrid",
+      "score": "0-1",
+      "date": "2022-05-28",
+      "scorers": [
+        "Vinícius Júnior"
+      ],
+      "venue": "Stade de France, Paris"
+    },
+    {
+      "match": "Champions League Semi-Final 2022",
+      "teams": "Real Madrid vs Manchester City",
+      "score": "3-1",
+      "date": "2022-05-04",
+      "scorers": [
+        "Riyad Mahrez",
+        "Rodrygo (2)",
+        "Karim Benzema"
+      ],
+      "venue": "Santiago Bernabéu",
+      "note": "90+1 Rodrygo brace"
+    },
+    {
+      "match": "Premier League 2021/22 - Final Day",
+      "teams": "Manchester City vs Aston Villa",
+      "score": "3-2",
+      "date": "2022-05-22",
+      "scorers": [
+        "Matty Cash",
+        "Philippe Coutinho",
+        "İlkay Gündoğan (2)",
+        "Rodri"
+      ],
+      "venue": "Etihad Stadium",
+      "note": "2-0 down comeback for title"
+    },
+    {
+      "match": "FA Cup Final 2022",
+      "teams": "Chelsea vs Liverpool",
+      "score": "0-0 (5-6 pens)",
+      "date": "2022-05-14",
+      "scorers": [],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "EFL Cup Final 2022",
+      "teams": "Chelsea vs Liverpool",
+      "score": "0-0 (10-11 pens)",
+      "date": "2022-02-27",
+      "scorers": [],
+      "venue": "Wembley Stadium",
+      "note": "Record penalty shootout"
+    },
+    {
+      "match": "Champions League Final 2021",
+      "teams": "Manchester City vs Chelsea",
+      "score": "0-1",
+      "date": "2021-05-29",
+      "scorers": [
+        "Kai Havertz"
+      ],
+      "venue": "Estádio do Dragão, Porto"
+    },
+    {
+      "match": "Champions League Semi-Final 2021",
+      "teams": "Real Madrid vs Chelsea",
+      "score": "1-1",
+      "date": "2021-04-27",
+      "scorers": [
+        "Christian Pulisic",
+        "Karim Benzema"
+      ],
+      "venue": "Estadio Alfredo Di Stéfano"
+    },
+    {
+      "match": "Euro 2020 Final (2021)",
+      "teams": "Italy vs England",
+      "score": "1-1 (3-2 pens)",
+      "date": "2021-07-11",
+      "scorers": [
+        "Luke Shaw",
+        "Leonardo Bonucci"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Euro 2020 Semi-Final",
+      "teams": "Italy vs Spain",
+      "score": "1-1 (4-2 pens)",
+      "date": "2021-07-06",
+      "scorers": [
+        "Federico Chiesa",
+        "Álvaro Morata"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "FA Cup Final 2021",
+      "teams": "Chelsea vs Leicester City",
+      "score": "1-0",
+      "date": "2021-05-15",
+      "scorers": [
+        "Youri Tielemans"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Champions League Final 2020",
+      "teams": "Paris Saint-Germain vs Bayern Munich",
+      "score": "0-1",
+      "date": "2020-08-23",
+      "scorers": [
+        "Kingsley Coman"
+      ],
+      "venue": "Estádio da Luz, Lisbon"
+    },
+    {
+      "match": "Champions League Quarter-Final 2020",
+      "teams": "Barcelona vs Bayern Munich",
+      "score": "2-8",
+      "date": "2020-08-14",
+      "scorers": [
+        "Thomas Müller (2)",
+        "Ivan Perišić",
+        "Serge Gnabry (2)",
+        "Joshua Kimmich",
+        "Robert Lewandowski",
+        "Philippe Coutinho (2)",
+        "David Alaba",
+        "Luis Suárez"
+      ],
+      "venue": "Estádio da Luz, Lisbon",
+      "note": "Historic humiliation"
+    },
+    {
+      "match": "Premier League 2019/20 - Title Clinched",
+      "teams": "Chelsea vs Manchester City",
+      "score": "2-1",
+      "date": "2020-06-25",
+      "scorers": [
+        "Christian Pulisic",
+        "Willian",
+        "Kevin De Bruyne"
+      ],
+      "venue": "Stamford Bridge",
+      "note": "Liverpool clinched title"
+    },
+    {
+      "match": "Champions League Final 2019",
+      "teams": "Tottenham vs Liverpool",
+      "score": "0-2",
+      "date": "2019-06-01",
+      "scorers": [
+        "Mohamed Salah",
+        "Divock Origi"
+      ],
+      "venue": "Wanda Metropolitano, Madrid"
+    },
+    {
+      "match": "Champions League Semi-Final 2019 - 1st Leg",
+      "teams": "Barcelona vs Liverpool",
+      "score": "3-0",
+      "date": "2019-05-01",
+      "scorers": [
+        "Luis Suárez",
+        "Lionel Messi (2)"
+      ],
+      "venue": "Camp Nou"
+    },
+    {
+      "match": "Champions League Semi-Final 2019",
+      "teams": "Ajax vs Tottenham",
+      "score": "2-3",
+      "date": "2019-05-08",
+      "scorers": [
+        "Matthijs de Ligt",
+        "Hakim Ziyech",
+        "Lucas Moura (3)"
+      ],
+      "venue": "Johan Cruyff Arena",
+      "note": "Lucas hat-trick in 45 mins"
+    },
+    {
+      "match": "Premier League 2018/19",
+      "teams": "Manchester City vs Liverpool",
+      "score": "2-1",
+      "date": "2019-01-03",
+      "scorers": [
+        "Sergio Agüero",
+        "Leroy Sané",
+        "Roberto Firmino"
+      ],
+      "venue": "Etihad Stadium",
+      "note": "Title race decider"
+    },
+    {
+      "match": "Champions League Final 2017",
+      "teams": "Juventus vs Real Madrid",
+      "score": "1-4",
+      "date": "2017-06-03",
+      "scorers": [
+        "Mario Mandžukić",
+        "Cristiano Ronaldo (2)",
+        "Casemiro",
+        "Marco Asensio"
+      ],
+      "venue": "Millennium Stadium, Cardiff"
+    },
+    {
+      "match": "Champions League Final 2016",
+      "teams": "Real Madrid vs Atlético Madrid",
+      "score": "1-1 (5-3 pens)",
+      "date": "2016-05-28",
+      "scorers": [
+        "Sergio Ramos",
+        "Yannick Carrasco"
+      ],
+      "venue": "San Siro, Milan"
+    },
+    {
+      "match": "Champions League Final 2015",
+      "teams": "Juventus vs Barcelona",
+      "score": "1-3",
+      "date": "2015-06-06",
+      "scorers": [
+        "Ivan Rakitić",
+        "Álvaro Morata",
+        "Luis Suárez",
+        "Neymar"
+      ],
+      "venue": "Olympiastadion, Berlin"
+    },
+    {
+      "match": "Champions League Final 2014",
+      "teams": "Real Madrid vs Atlético Madrid",
+      "score": "4-1",
+      "date": "2014-05-24",
+      "scorers": [
+        "Diego Godín",
+        "Sergio Ramos",
+        "Gareth Bale",
+        "Marcelo",
+        "Cristiano Ronaldo"
+      ],
+      "venue": "Estádio da Luz, Lisbon",
+      "note": "La Décima"
+    },
+    {
+      "match": "Champions League Final 2013",
+      "teams": "Borussia Dortmund vs Bayern Munich",
+      "score": "1-2",
+      "date": "2013-05-25",
+      "scorers": [
+        "Mario Mandžukić",
+        "İlkay Gündoğan",
+        "Arjen Robben"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Champions League Final 2012",
+      "teams": "Chelsea vs Bayern Munich",
+      "score": "1-1 (4-3 pens)",
+      "date": "2012-05-19",
+      "scorers": [
+        "Thomas Müller",
+        "Didier Drogba"
+      ],
+      "venue": "Allianz Arena, Munich"
+    },
+    {
+      "match": "Champions League Semi-Final 2012",
+      "teams": "Chelsea vs Barcelona",
+      "score": "2-2",
+      "date": "2012-04-24",
+      "scorers": [
+        "Ramires",
+        "Fernando Torres",
+        "Sergio Busquets",
+        "Lionel Messi"
+      ],
+      "venue": "Camp Nou",
+      "note": "10-man Chelsea through"
+    },
+    {
+      "match": "Champions League Final 2011",
+      "teams": "Manchester United vs Barcelona",
+      "score": "1-3",
+      "date": "2011-05-28",
+      "scorers": [
+        "Pedro",
+        "Wayne Rooney",
+        "Lionel Messi",
+        "David Villa"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Champions League Final 2010",
+      "teams": "Bayern Munich vs Inter Milan",
+      "score": "0-2",
+      "date": "2010-05-22",
+      "scorers": [
+        "Diego Milito (2)"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Champions League Final 2009",
+      "teams": "Manchester United vs Barcelona",
+      "score": "0-2",
+      "date": "2009-05-27",
+      "scorers": [
+        "Samuel Eto'o",
+        "Lionel Messi"
+      ],
+      "venue": "Stadio Olimpico, Rome"
+    },
+    {
+      "match": "Champions League Final 2008",
+      "teams": "Manchester United vs Chelsea",
+      "score": "1-1 (6-5 pens)",
+      "date": "2008-05-21",
+      "scorers": [
+        "Cristiano Ronaldo",
+        "Frank Lampard"
+      ],
+      "venue": "Luzhniki Stadium, Moscow"
+    },
+    {
+      "match": "Champions League Final 2007",
+      "teams": "AC Milan vs Liverpool",
+      "score": "2-1",
+      "date": "2007-05-23",
+      "scorers": [
+        "Filippo Inzaghi (2)",
+        "Dirk Kuyt"
+      ],
+      "venue": "Olympic Stadium, Athens",
+      "note": "Milan revenge for 2005"
+    },
+    {
+      "match": "Champions League Final 2006",
+      "teams": "Barcelona vs Arsenal",
+      "score": "2-1",
+      "date": "2006-05-17",
+      "scorers": [
+        "Sol Campbell",
+        "Samuel Eto'o",
+        "Juliano Belletti"
+      ],
+      "venue": "Stade de France, Paris"
+    },
+    {
+      "match": "Champions League Final 2004",
+      "teams": "Monaco vs Porto",
+      "score": "0-3",
+      "date": "2004-05-26",
+      "scorers": [
+        "Carlos Alberto",
+        "Deco",
+        "Dmitri Alenichev"
+      ],
+      "venue": "Arena AufSchalke, Gelsenkirchen"
+    },
+    {
+      "match": "Champions League Final 2003",
+      "teams": "Juventus vs AC Milan",
+      "score": "0-0 (2-3 pens)",
+      "date": "2003-05-28",
+      "scorers": [],
+      "venue": "Old Trafford, Manchester"
+    },
+    {
+      "match": "Champions League Final 2002",
+      "teams": "Bayer Leverkusen vs Real Madrid",
+      "score": "1-2",
+      "date": "2002-05-15",
+      "scorers": [
+        "Raúl",
+        "Lúcio",
+        "Zinedine Zidane"
+      ],
+      "venue": "Hampden Park, Glasgow",
+      "note": "Zidane volley"
+    },
+    {
+      "match": "Champions League Final 2001",
+      "teams": "Bayern Munich vs Valencia",
+      "score": "1-1 (5-4 pens)",
+      "date": "2001-05-23",
+      "scorers": [
+        "Gaizka Mendieta",
+        "Stefan Effenberg"
+      ],
+      "venue": "San Siro, Milan"
+    },
+    {
+      "match": "Champions League Final 2000",
+      "teams": "Real Madrid vs Valencia",
+      "score": "3-0",
+      "date": "2000-05-24",
+      "scorers": [
+        "Fernando Morientes",
+        "Steve McManaman",
+        "Raúl"
+      ],
+      "venue": "Stade de France, Paris"
+    },
+    {
+      "match": "World Cup 2014 Final",
+      "teams": "Germany vs Argentina",
+      "score": "1-0",
+      "date": "2014-07-13",
+      "scorers": [
+        "Mario Götze"
+      ],
+      "venue": "Maracanã, Rio de Janeiro"
+    },
+    {
+      "match": "World Cup 2014 Semi-Final",
+      "teams": "Brazil vs Germany",
+      "score": "1-7",
+      "date": "2014-07-08",
+      "scorers": [
+        "Oscar",
+        "Thomas Müller",
+        "Miroslav Klose",
+        "Toni Kroos (2)",
+        "Sami Khedira",
+        "André Schürrle (2)"
+      ],
+      "venue": "Mineirão, Belo Horizonte",
+      "note": "Mineirazo"
+    },
+    {
+      "match": "World Cup 2010 Semi-Final",
+      "teams": "Germany vs Spain",
+      "score": "0-1",
+      "date": "2010-07-07",
+      "scorers": [
+        "Carles Puyol"
+      ],
+      "venue": "Moses Mabhida Stadium, Durban"
+    },
+    {
+      "match": "World Cup 2006 Final",
+      "teams": "Italy vs France",
+      "score": "1-1 (5-3 pens)",
+      "date": "2006-07-09",
+      "scorers": [
+        "Zinedine Zidane",
+        "Marco Materazzi"
+      ],
+      "venue": "Olympiastadion, Berlin",
+      "note": "Zidane headbutt"
+    },
+    {
+      "match": "World Cup 2002 Final",
+      "teams": "Germany vs Brazil",
+      "score": "0-2",
+      "date": "2002-06-30",
+      "scorers": [
+        "Ronaldo (2)"
+      ],
+      "venue": "International Stadium, Yokohama"
+    },
+    {
+      "match": "Premier League 2020/21",
+      "teams": "Manchester United vs Southampton",
+      "score": "9-0",
+      "date": "2021-02-02",
+      "scorers": [
+        "Aaron Wan-Bissaka",
+        "Marcus Rashford",
+        "Edinson Cavani",
+        "Anthony Martial",
+        "Scott McTominay",
+        "Bruno Fernandes",
+        "Daniel James (2)",
+        "Jan Bednarek (OG)"
+      ],
+      "venue": "Old Trafford"
+    },
+    {
+      "match": "Premier League 2019/20",
+      "teams": "Leicester City vs Southampton",
+      "score": "9-0",
+      "date": "2019-10-25",
+      "scorers": [
+        "Ben Chilwell",
+        "Youri Tielemans",
+        "Ayoze Pérez (3)",
+        "Jamie Vardy (3)",
+        "James Maddison"
+      ],
+      "venue": "King Power Stadium"
+    },
+    {
+      "match": "Premier League 2011/12",
+      "teams": "Manchester United vs Arsenal",
+      "score": "8-2",
+      "date": "2011-08-28",
+      "scorers": [
+        "Wayne Rooney (3)",
+        "Ashley Young (2)",
+        "Danny Welbeck (2)",
+        "Nani",
+        "Theo Walcott",
+        "Robin van Persie"
+      ],
+      "venue": "Old Trafford"
+    },
+    {
+      "match": "Premier League 2009/10",
+      "teams": "Portsmouth vs Manchester United",
+      "score": "0-0",
+      "date": "2010-02-03",
+      "scorers": [],
+      "venue": "Fratton Park",
+      "note": "Critical draw"
+    },
+    {
+      "match": "Premier League 2007/08 - Final Day",
+      "teams": "Bolton vs Chelsea",
+      "score": "1-1",
+      "date": "2008-05-11",
+      "scorers": [
+        "Ricardo Gardner",
+        "Michael Ballack"
+      ],
+      "venue": "Reebok Stadium",
+      "note": "Chelsea lost title on goal difference"
+    },
+    {
+      "match": "El Clásico 2017",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "2-3",
+      "date": "2017-04-23",
+      "scorers": [
+        "Casemiro",
+        "Cristiano Ronaldo",
+        "Ivan Rakitić",
+        "Lionel Messi (2)"
+      ],
+      "venue": "Santiago Bernabéu",
+      "note": "Messi 92nd minute winner"
+    },
+    {
+      "match": "El Clásico 2014",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "3-4",
+      "date": "2014-03-23",
+      "scorers": [
+        "Andrés Iniesta",
+        "Alexis Sánchez",
+        "Lionel Messi (2)",
+        "Sergio Ramos",
+        "Gareth Bale",
+        "Cristiano Ronaldo"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "El Clásico 2011",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "1-1",
+      "date": "2011-04-16",
+      "scorers": [
+        "Cristiano Ronaldo",
+        "Lionel Messi"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "La Liga 2004/05",
+      "teams": "Barcelona vs Real Madrid",
+      "score": "3-0",
+      "date": "2004-11-20",
+      "scorers": [
+        "Samuel Eto'o",
+        "Ronaldinho (2)"
+      ],
+      "venue": "Camp Nou",
+      "note": "Ronaldinho standing ovation"
+    },
+    {
+      "match": "Serie A 2022/23",
+      "teams": "Napoli vs Juventus",
+      "score": "5-1",
+      "date": "2023-01-13",
+      "scorers": [
+        "Khvicha Kvaratskhelia",
+        "Victor Osimhen (2)",
+        "Amir Rrahmani",
+        "Elif Elmas",
+        "Ángel Di María"
+      ],
+      "venue": "Diego Armando Maradona Stadium",
+      "note": "Napoli title march"
+    },
+    {
+      "match": "Derby d'Italia 2018",
+      "teams": "Juventus vs Inter Milan",
+      "score": "1-0",
+      "date": "2018-12-07",
+      "scorers": [
+        "Mario Mandžukić"
+      ],
+      "venue": "Allianz Stadium"
+    },
+    {
+      "match": "Derby della Madonnina 2022",
+      "teams": "AC Milan vs Inter Milan",
+      "score": "3-2",
+      "date": "2022-09-03",
+      "scorers": [
+        "Marcelo Brozović",
+        "Edin Džeko",
+        "Rafael Leão",
+        "Olivier Giroud (2)"
+      ],
+      "venue": "San Siro"
+    },
+    {
+      "match": "Bundesliga 2023/24",
+      "teams": "Bayer Leverkusen vs Bayern Munich",
+      "score": "3-0",
+      "date": "2024-02-10",
+      "scorers": [
+        "Josip Stanišić",
+        "Álex Grimaldo",
+        "Jeremie Frimpong"
+      ],
+      "venue": "BayArena",
+      "note": "Leverkusen unbeaten season"
+    },
+    {
+      "match": "Bundesliga 2019/20",
+      "teams": "Borussia Dortmund vs Bayern Munich",
+      "score": "0-1",
+      "date": "2020-05-26",
+      "scorers": [
+        "Joshua Kimmich"
+      ],
+      "venue": "Signal Iduna Park",
+      "note": "Post-COVID restart"
+    },
+    {
+      "match": "Der Klassiker 2018",
+      "teams": "Bayern Munich vs Borussia Dortmund",
+      "score": "5-0",
+      "date": "2018-10-06",
+      "scorers": [
+        "Mats Hummels",
+        "Robert Lewandowski (2)",
+        "Arjen Robben",
+        "Franck Ribéry"
+      ],
+      "venue": "Allianz Arena"
+    },
+    {
+      "match": "Euro 2016 Final",
+      "teams": "Portugal vs France",
+      "score": "1-0",
+      "date": "2016-07-10",
+      "scorers": [
+        "Éder"
+      ],
+      "venue": "Stade de France, Paris"
+    },
+    {
+      "match": "Euro 2012 Final",
+      "teams": "Spain vs Italy",
+      "score": "4-0",
+      "date": "2012-07-01",
+      "scorers": [
+        "David Silva",
+        "Jordi Alba",
+        "Fernando Torres",
+        "Juan Mata"
+      ],
+      "venue": "Olympic Stadium, Kyiv"
+    },
+    {
+      "match": "Euro 2008 Final",
+      "teams": "Germany vs Spain",
+      "score": "0-1",
+      "date": "2008-06-29",
+      "scorers": [
+        "Fernando Torres"
+      ],
+      "venue": "Ernst-Happel-Stadion, Vienna"
+    },
+    {
+      "match": "Euro 2004 Final",
+      "teams": "Portugal vs Greece",
+      "score": "0-1",
+      "date": "2004-07-04",
+      "scorers": [
+        "Angelos Charisteas"
+      ],
+      "venue": "Estádio da Luz, Lisbon",
+      "note": "Greece shock"
+    },
+    {
+      "match": "Copa América 2021 Final",
+      "teams": "Argentina vs Brazil",
+      "score": "1-0",
+      "date": "2021-07-10",
+      "scorers": [
+        "Ángel Di María"
+      ],
+      "venue": "Maracanã, Rio de Janeiro"
+    },
+    {
+      "match": "Copa América 2019 Final",
+      "teams": "Brazil vs Peru",
+      "score": "3-1",
+      "date": "2019-07-07",
+      "scorers": [
+        "Everton",
+        "Gabriel Jesus",
+        "Richarlison",
+        "Paolo Guerrero"
+      ],
+      "venue": "Maracanã, Rio de Janeiro"
+    },
+    {
+      "match": "Copa América 2016 Final",
+      "teams": "Argentina vs Chile",
+      "score": "0-0 (2-4 pens)",
+      "date": "2016-06-26",
+      "scorers": [],
+      "venue": "MetLife Stadium, New Jersey"
+    },
+    {
+      "match": "Copa América 2015 Final",
+      "teams": "Chile vs Argentina",
+      "score": "0-0 (4-1 pens)",
+      "date": "2015-07-04",
+      "scorers": [],
+      "venue": "Estadio Nacional, Santiago"
+    },
+    {
+      "match": "Premier League 2023/24",
+      "teams": "Liverpool vs Newcastle",
+      "score": "4-2",
+      "date": "2024-01-01",
+      "scorers": [
+        "Mohamed Salah (2)",
+        "Curtis Jones",
+        "Cody Gakpo",
+        "Alexander Isak",
+        "Sven Botman"
+      ],
+      "venue": "Anfield"
+    },
+    {
+      "match": "Champions League 2023/24",
+      "teams": "Bayern Munich vs Real Madrid",
+      "score": "2-2",
+      "date": "2024-05-08",
+      "scorers": [
+        "Vinícius Júnior (2)",
+        "Leroy Sané",
+        "Harry Kane"
+      ],
+      "venue": "Allianz Arena"
+    },
+    {
+      "match": "Premier League 2022/23",
+      "teams": "Manchester United vs Manchester City",
+      "score": "2-1",
+      "date": "2023-01-14",
+      "scorers": [
+        "Bruno Fernandes",
+        "Marcus Rashford",
+        "Jack Grealish"
+      ],
+      "venue": "Old Trafford"
+    },
+    {
+      "match": "Carabao Cup Final 2023",
+      "teams": "Newcastle vs Manchester United",
+      "score": "0-2",
+      "date": "2023-02-26",
+      "scorers": [
+        "Casemiro",
+        "Sven Botman (OG)"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "FA Cup Semi-Final 2023",
+      "teams": "Manchester City vs Sheffield United",
+      "score": "3-0",
+      "date": "2023-04-22",
+      "scorers": [
+        "Riyad Mahrez (3)"
+      ],
+      "venue": "Wembley Stadium"
+    },
+    {
+      "match": "Champions League 2022/23 - Quarter-Final",
+      "teams": "Chelsea vs Real Madrid",
+      "score": "0-2",
+      "date": "2023-04-18",
+      "scorers": [
+        "Rodrygo (2)"
+      ],
+      "venue": "Stamford Bridge"
+    },
+    {
+      "match": "Premier League 2021/22",
+      "teams": "Liverpool vs Manchester City",
+      "score": "2-2",
+      "date": "2021-10-03",
+      "scorers": [
+        "Sadio Mané",
+        "Mohamed Salah",
+        "Phil Foden",
+        "Kevin De Bruyne"
+      ],
+      "venue": "Anfield"
+    },
+    {
+      "match": "Serie A 2020/21",
+      "teams": "Inter Milan vs Juventus",
+      "score": "2-0",
+      "date": "2021-01-17",
+      "scorers": [
+        "Arturo Vidal",
+        "Nicolò Barella"
+      ],
+      "venue": "San Siro"
+    },
+    {
+      "match": "Ligue 1 2019/20",
+      "teams": "Paris Saint-Germain vs Borussia Dortmund",
+      "score": "2-0",
+      "date": "2020-03-11",
+      "scorers": [
+        "Neymar (2)"
+      ],
+      "venue": "Parc des Princes",
+      "note": "Behind closed doors"
+    },
+    {
+      "match": "La Liga 2020/21",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "2-1",
+      "date": "2021-04-10",
+      "scorers": [
+        "Karim Benzema",
+        "Toni Kroos",
+        "Oscar Mingueza"
+      ],
+      "venue": "Estadio Alfredo Di Stéfano"
+    },
+    {
+      "match": "Premier League 2019/20 - Liverpool Title",
+      "teams": "Liverpool vs Crystal Palace",
+      "score": "4-0",
+      "date": "2020-06-24",
+      "scorers": [
+        "Trent Alexander-Arnold",
+        "Mohamed Salah",
+        "Fabinho",
+        "Sadio Mané"
+      ],
+      "venue": "Anfield",
+      "note": "First title in 30 years celebration"
+    },
+    {
+      "match": "Champions League 2018/19 - Quarter-Final",
+      "teams": "Manchester United vs Paris Saint-Germain",
+      "score": "3-1",
+      "date": "2019-03-06",
+      "scorers": [
+        "Romelu Lukaku (2)",
+        "Marcus Rashford",
+        "Juan Bernat"
+      ],
+      "venue": "Parc des Princes",
+      "note": "Comeback from 0-2 down"
+    },
+    {
+      "match": "Premier League 2017/18",
+      "teams": "Manchester City vs Manchester United",
+      "score": "2-3",
+      "date": "2018-04-07",
+      "scorers": [
+        "Vincent Kompany",
+        "İlkay Gündoğan",
+        "Paul Pogba (2)",
+        "Chris Smalling"
+      ],
+      "venue": "Etihad Stadium",
+      "note": "Derby comeback"
+    },
+    {
+      "match": "Champions League 2016/17 - Round of 16",
+      "teams": "Paris Saint-Germain vs Barcelona",
+      "score": "4-0",
+      "date": "2017-02-14",
+      "scorers": [
+        "Ángel Di María",
+        "Julian Draxler",
+        "Edinson Cavani (2)"
+      ],
+      "venue": "Parc des Princes"
+    },
+    {
+      "match": "Champions League 2016/17 - Round of 16 2nd Leg",
+      "teams": "Barcelona vs Paris Saint-Germain",
+      "score": "6-1",
+      "date": "2017-03-08",
+      "scorers": [
+        "Luis Suárez (2)",
+        "Layvin Kurzawa",
+        "Lionel Messi",
+        "Neymar (2)",
+        "Sergi Roberto"
+      ],
+      "venue": "Camp Nou",
+      "note": "La Remontada - 6-5 aggregate"
+    },
+    {
+      "match": "Premier League 2015/16 - Title Clincher",
+      "teams": "Chelsea vs Tottenham",
+      "score": "2-2",
+      "date": "2016-05-02",
+      "scorers": [
+        "Harry Kane",
+        "Son Heung-min",
+        "Gary Cahill",
+        "Eden Hazard"
+      ],
+      "venue": "Stamford Bridge",
+      "note": "Leicester won title"
+    },
+    {
+      "match": "Premier League 2013/14 - Slip",
+      "teams": "Liverpool vs Chelsea",
+      "score": "0-2",
+      "date": "2014-04-27",
+      "scorers": [
+        "Demba Ba",
+        "Willian"
+      ],
+      "venue": "Anfield",
+      "note": "Gerrard slip"
+    },
+    {
+      "match": "Champions League 2013/14 - Quarter-Final",
+      "teams": "Chelsea vs Paris Saint-Germain",
+      "score": "2-0",
+      "date": "2014-04-08",
+      "scorers": [
+        "André Schürrle",
+        "Demba Ba"
+      ],
+      "venue": "Stamford Bridge"
+    },
+    {
+      "match": "Premier League 2012/13",
+      "teams": "Manchester United vs Arsenal",
+      "score": "1-2",
+      "date": "2012-11-03",
+      "scorers": [
+        "Robin van Persie",
+        "Jack Wilshere",
+        "Olivier Giroud"
+      ],
+      "venue": "Old Trafford",
+      "note": "RVP return"
+    },
+    {
+      "match": "Champions League 2011/12 - Quarter-Final",
+      "teams": "Chelsea vs Napoli",
+      "score": "4-1",
+      "date": "2012-03-14",
+      "scorers": [
+        "Didier Drogba (2)",
+        "John Terry",
+        "Frank Lampard",
+        "Gokhan Inler"
+      ],
+      "venue": "Stamford Bridge",
+      "note": "Comeback from 1-3 down"
+    },
+    {
+      "match": "Champions League 2010/11 - Semi-Final",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "0-2",
+      "date": "2011-04-27",
+      "scorers": [
+        "Lionel Messi (2)"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Champions League 2009/10 - Semi-Final",
+      "teams": "Barcelona vs Inter Milan",
+      "score": "1-0",
+      "date": "2010-04-28",
+      "scorers": [
+        "Gerard Piqué"
+      ],
+      "venue": "Camp Nou",
+      "note": "Inter through on away goals"
+    },
+    {
+      "match": "Premier League 2008/09",
+      "teams": "Liverpool vs Manchester United",
+      "score": "4-1",
+      "date": "2009-03-14",
+      "scorers": [
+        "Fernando Torres (2)",
+        "Steven Gerrard",
+        "Andrea Dossena",
+        "Cristiano Ronaldo"
+      ],
+      "venue": "Old Trafford"
+    },
+    {
+      "match": "Champions League 2007/08 - Semi-Final",
+      "teams": "Liverpool vs Chelsea",
+      "score": "1-1",
+      "date": "2008-04-30",
+      "scorers": [
+        "Fernando Torres",
+        "Didier Drogba"
+      ],
+      "venue": "Stamford Bridge",
+      "note": "Chelsea through on penalties"
+    },
+    {
+      "match": "Premier League 2006/07 - Final Day",
+      "teams": "West Ham vs Manchester United",
+      "score": "1-0",
+      "date": "2007-05-13",
+      "scorers": [
+        "Carlos Tévez"
+      ],
+      "venue": "Old Trafford",
+      "note": "West Ham escaped relegation"
+    },
+    {
+      "match": "Champions League 2005/06 - Round of 16",
+      "teams": "Real Madrid vs Arsenal",
+      "score": "0-1",
+      "date": "2006-02-21",
+      "scorers": [
+        "Thierry Henry"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Premier League 2004/05 - Arsenal Unbeaten",
+      "teams": "Manchester United vs Arsenal",
+      "score": "2-0",
+      "date": "2004-10-24",
+      "scorers": [
+        "Ruud van Nistelrooy (2)"
+      ],
+      "venue": "Old Trafford",
+      "note": "End of 49-game unbeaten run"
+    },
+    {
+      "match": "Champions League 2003/04 - Quarter-Final",
+      "teams": "Real Madrid vs Monaco",
+      "score": "4-2",
+      "date": "2004-04-06",
+      "scorers": [
+        "Fernando Morientes (2)",
+        "Ludovic Giuly",
+        "Raúl (2)",
+        "Ronaldo (2)"
+      ],
+      "venue": "Santiago Bernabéu",
+      "note": "Monaco through 5-5 agg"
+    },
+    {
+      "match": "Champions League 2002/03 - Quarter-Final",
+      "teams": "Manchester United vs Real Madrid",
+      "score": "4-3",
+      "date": "2003-04-23",
+      "scorers": [
+        "Ruud van Nistelrooy (2)",
+        "David Beckham",
+        "Paul Scholes",
+        "Ronaldo (3)"
+      ],
+      "venue": "Old Trafford",
+      "note": "Ronaldo hat-trick"
+    },
+    {
+      "match": "Champions League 2001/02 - Semi-Final",
+      "teams": "Real Madrid vs Barcelona",
+      "score": "2-0",
+      "date": "2002-04-23",
+      "scorers": [
+        "Zinedine Zidane",
+        "Steve McManaman"
+      ],
+      "venue": "Santiago Bernabéu"
+    },
+    {
+      "match": "Premier League 2001/02",
+      "teams": "Manchester United vs Liverpool",
+      "score": "0-1",
+      "date": "2002-02-02",
+      "scorers": [
+        "Danny Murphy"
+      ],
+      "venue": "Old Trafford"
+    },
+    {
+      "match": "Champions League 1999/2000 - Quarter-Final",
+      "teams": "Real Madrid vs Manchester United",
+      "score": "3-2",
+      "date": "2000-04-19",
+      "scorers": [
+        "Roy Keane",
+        "David Beckham",
+        "Fernando Redondo",
+        "Raúl",
+        "Fernando Morientes"
+      ],
+      "venue": "Santiago Bernabéu"
+    }
+  ]
+}

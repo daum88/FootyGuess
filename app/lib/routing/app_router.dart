@@ -1,8 +1,9 @@
 import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../features/daily/pages/home_page.dart';
-import '../features/guess_player/pages/guess_player_page.dart';
+import '../features/daily/pages/home_page_modern.dart';
+import '../features/guess_player/pages/guess_player_page_modern.dart';
 import '../features/career_path/pages/career_path_page.dart';
 import '../features/who_scored/pages/who_scored_page.dart';
 import '../features/tenable/pages/tenable_page_new.dart';
@@ -13,7 +14,7 @@ import '../features/leaderboard/pages/leaderboard_page.dart';
 part 'app_router.g.dart';
 
 @riverpod
-GoRouter appRouter(AppRouterRef ref) {
+GoRouter appRouter(Ref ref) {
   return GoRouter(
     initialLocation: '/',
     routes: [
@@ -25,7 +26,7 @@ GoRouter appRouter(AppRouterRef ref) {
       GoRoute(
         path: '/guess-player',
         name: 'guess-player',
-        builder: (context, state) => const GuessPlayerPage(),
+        builder: (context, state) => const GuessPlayerPageModern(),
       ),
       GoRoute(
         path: '/career-path',

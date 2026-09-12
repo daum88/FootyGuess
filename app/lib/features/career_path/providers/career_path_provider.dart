@@ -1,8 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../data/models/player.dart';
-import '../../../data/services/career_stats_service.dart';
-import '../../../core/constants.dart';
+import '../../../core/providers/game_data_providers.dart';
+import '../../../data/models/game_data_models.dart';
 
 enum CareerPathGameState {
   initial,
@@ -12,13 +12,13 @@ enum CareerPathGameState {
 }
 
 class CareerPathState {
-  final Player? targetPlayer;
-  final List<ClubHistory> revealedClubs;
+  final GamePlayer? targetPlayer;
+  final List<CareerEntry> revealedClubs;
   final CareerPathGameState gameState;
   final int currentClue;
   final int attemptsRemaining;
-  final List<Player> guesses;
-  final List<Player> filteredPlayers;
+  final List<GamePlayer> guesses;
+  final List<GamePlayer> filteredPlayers;
   final String searchQuery;
 
   const CareerPathState({
@@ -26,20 +26,20 @@ class CareerPathState {
     this.revealedClubs = const [],
     this.gameState = CareerPathGameState.initial,
     this.currentClue = 0,
-    this.attemptsRemaining = AppConstants.maxGuesses,
+    this.attemptsRemaining = 5,
     this.guesses = const [],
     this.filteredPlayers = const [],
     this.searchQuery = '',
   });
 
   CareerPathState copyWith({
-    Player? targetPlayer,
-    List<ClubHistory>? revealedClubs,
+    GamePlayer? targetPlayer,
+    List<CareerEntry>? revealedClubs,
     CareerPathGameState? gameState,
     int? currentClue,
     int? attemptsRemaining,
-    List<Player>? guesses,
-    List<Player>? filteredPlayers,
+    List<GamePlayer>? guesses,
+    List<GamePlayer>? filteredPlayers,
     String? searchQuery,
   }) {
     return CareerPathState(
@@ -56,66 +56,50 @@ class CareerPathState {
 }
 
 class CareerPathGameNotifier extends StateNotifier<CareerPathState> {
-  List<Player> _allPlayers = [];
+  final Ref _ref;
+  List<GamePlayer> _allPlayers = [];
 
-  CareerPathGameNotifier() : super(const CareerPathState());
+  CareerPathGameNotifier(this._ref) : super(const CareerPathState());
 
   Future<void> initialize() async {
     try {
-      print('🚀 CareerPathGameNotifier: Initializing game');
-      final stopwatch = Stopwatch()..start();
+      final players = await _ref.read(careerPlayersProvider.future);
+      _allPlayers = players;
 
-      // Set loading state first
-      state = state.copyWith(gameState: CareerPathGameState.initial);
-
-      // Load career players using the real career data
-      _allPlayers = await CareerStatsService.loadCareerPlayers();
-
-      stopwatch.stop();
-      print(
-          '🚀 CareerPathGameNotifier: Loaded ${_allPlayers.length} career players in ${stopwatch.elapsedMilliseconds}ms');
-
-      if (_allPlayers.isNotEmpty) {
-        final targetPlayer =
-            _allPlayers[DateTime.now().day % _allPlayers.length];
-        print(
-            '🚀 CareerPathGameNotifier: Selected target player: ${targetPlayer.name}');
-
-        state = state.copyWith(
-          targetPlayer: targetPlayer,
-          gameState: CareerPathGameState.playing,
-          filteredPlayers: _allPlayers,
-        );
-      } else {
-        print(
-            '❌ CareerPathGameNotifier: No players available for career path game');
-        state = state.copyWith(gameState: CareerPathGameState.initial);
+      if (players.isEmpty) {
+        state = state.copyWith(gameState: CareerPathGameState.lost);
+        return;
       }
+
+      final target = players[DateTime.now().millisecondsSinceEpoch % players.length];
+      state = CareerPathState(
+        targetPlayer: target,
+        gameState: CareerPathGameState.playing,
+        filteredPlayers: players,
+      );
     } catch (e) {
-      print(
-          '❌ CareerPathGameNotifier: Error initializing career path game: $e');
-      state = state.copyWith(gameState: CareerPathGameState.initial);
+      debugPrint('❌ CareerPath: initialization failed: $e');
     }
+  }
+
+  List<CareerEntry> get _sortedCareer => _sortClubs(state.targetPlayer?.career ?? const []);
+
+  List<CareerEntry> _sortClubs(List<CareerEntry> career) {
+    final list = List<CareerEntry>.from(career);
+    list.sort((a, b) => (a.startYear ?? 0).compareTo(b.startYear ?? 0));
+    return list;
   }
 
   void searchPlayers(String query) {
     if (query.isEmpty) {
-      state = state.copyWith(
-        filteredPlayers: _allPlayers,
-        searchQuery: '',
-      );
+      state = state.copyWith(filteredPlayers: _allPlayers, searchQuery: '');
       return;
     }
-
     final filtered = _allPlayers
-        .where(
-            (player) => player.name.toLowerCase().contains(query.toLowerCase()))
+        .where((p) => p.name.toLowerCase().contains(query.toLowerCase()))
+        .take(20)
         .toList();
-
-    state = state.copyWith(
-      filteredPlayers: filtered,
-      searchQuery: query,
-    );
+    state = state.copyWith(filteredPlayers: filtered, searchQuery: query);
   }
 
   void revealNextClue() {
@@ -123,47 +107,29 @@ class CareerPathGameNotifier extends StateNotifier<CareerPathState> {
         state.gameState != CareerPathGameState.playing) {
       return;
     }
-
-    final sortedClubs = state.targetPlayer!.clubs.toList()
-      ..sort((a, b) => a.from.compareTo(b.from));
-
-    if (state.currentClue < sortedClubs.length) {
-      final newRevealedClubs = [
-        ...state.revealedClubs,
-        sortedClubs[state.currentClue]
-      ];
-
+    final sorted = _sortedCareer;
+    if (state.currentClue < sorted.length) {
       state = state.copyWith(
-        revealedClubs: newRevealedClubs,
+        revealedClubs: [...state.revealedClubs, sorted[state.currentClue]],
         currentClue: state.currentClue + 1,
       );
-
-      print(
-          '🚀 CareerPathGameNotifier: Revealed clue ${state.currentClue}: ${sortedClubs[state.currentClue - 1].clubId}');
     }
   }
 
-  void makeGuess(Player player) {
+  void makeGuess(GamePlayer player) {
     if (state.gameState != CareerPathGameState.playing) return;
 
     final newGuesses = [...state.guesses, player];
     final isCorrect = player.name == state.targetPlayer?.name;
     final newAttemptsRemaining = state.attemptsRemaining - 1;
 
-    print(
-        '🚀 CareerPathGameNotifier: Player guessed ${player.name}, correct: $isCorrect');
-
     CareerPathGameState newGameState;
     if (isCorrect) {
       newGameState = CareerPathGameState.won;
-      print('🎉 CareerPathGameNotifier: Player won!');
     } else if (newAttemptsRemaining <= 0) {
       newGameState = CareerPathGameState.lost;
-      print(
-          '💀 CareerPathGameNotifier: Player lost! Answer was ${state.targetPlayer?.name}');
     } else {
       newGameState = CareerPathGameState.playing;
-      // Auto-reveal next clue after wrong guess
       revealNextClue();
     }
 
@@ -177,50 +143,36 @@ class CareerPathGameNotifier extends StateNotifier<CareerPathState> {
   }
 
   void resetGame() {
-    print('🚀 CareerPathGameNotifier: Resetting game');
-    if (_allPlayers.isNotEmpty) {
-      final targetPlayer =
-          _allPlayers[(DateTime.now().millisecond) % _allPlayers.length];
-      print(
-          '🚀 CareerPathGameNotifier: New target player: ${targetPlayer.name}');
-
-      state = CareerPathState(
-        targetPlayer: targetPlayer,
-        gameState: CareerPathGameState.playing,
-        filteredPlayers: _allPlayers,
-      );
-    }
+    if (_allPlayers.isEmpty) return;
+    final target = _allPlayers[DateTime.now().millisecondsSinceEpoch % _allPlayers.length];
+    state = CareerPathState(
+      targetPlayer: target,
+      gameState: CareerPathGameState.playing,
+      filteredPlayers: _allPlayers,
+    );
   }
 
   void revealAnswer() {
-    if (state.targetPlayer == null) return;
-
-    print(
-        '🚀 CareerPathGameNotifier: Revealing answer: ${state.targetPlayer!.name}');
-
-    // Reveal all clubs
-    final sortedClubs = state.targetPlayer!.clubs.toList()
-      ..sort((a, b) => a.from.compareTo(b.from));
-
+    final target = state.targetPlayer;
+    if (target == null) return;
     state = state.copyWith(
-      revealedClubs: sortedClubs,
-      currentClue: sortedClubs.length,
-      gameState: CareerPathGameState.lost, // Set to lost state to show answer
+      revealedClubs: _sortedCareer,
+      currentClue: _sortedCareer.length,
+      gameState: CareerPathGameState.lost,
       searchQuery: '',
       filteredPlayers: _allPlayers,
     );
   }
 
-  String getClueText(ClubHistory club) {
-    final yearStart = club.from.year;
-    final yearEnd = club.to?.year ?? 'Present';
+  String getClueText(CareerEntry club) {
+    final yearStart = club.startYear ?? '????';
+    final yearEnd = club.endYear?.toString() ?? 'Present';
     final loanText = club.isLoan ? ' (Loan)' : '';
-
-    return '$yearStart - $yearEnd: ${club.clubId}$loanText';
+    return '$yearStart - $yearEnd: ${club.club}$loanText';
   }
 }
 
 final careerPathGameProvider =
     StateNotifierProvider<CareerPathGameNotifier, CareerPathState>((ref) {
-  return CareerPathGameNotifier();
+  return CareerPathGameNotifier(ref);
 });

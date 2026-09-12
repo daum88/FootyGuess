@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'core/theme.dart';
+import 'core/theme/modern_theme.dart';
 import 'core/environment.dart';
-import 'core/providers/optimized_data_providers.dart';
+import 'core/providers/game_data_providers.dart';
 import 'routing/app_router.dart';
 
 void main() async {
@@ -11,15 +12,21 @@ void main() async {
   // Set environment
   Environment.setCurrent(AppEnvironment.development);
 
-  // print('Starting FootyGuess app...');
+  // Set system UI overlay style for light theme
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarColor: Colors.transparent,
+      systemNavigationBarIconBrightness: Brightness.dark,
+    ),
+  );
 
   runApp(
     const ProviderScope(
       child: FootyGuessApp(),
     ),
   );
-
-  // print('FootyGuess: App started successfully');
 }
 
 class FootyGuessApp extends ConsumerWidget {
@@ -27,18 +34,15 @@ class FootyGuessApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // print('FootyGuessApp: Building app widget...');
-
     final router = ref.watch(appRouterProvider);
-    // print('FootyGuessApp: Router created successfully');
 
-    // Preload data in background for instant game loading
-    ref.watch(dataPreloadProvider);
+    // Preload canonical game data in the background for instant game loading.
+    ref.watch(gameDataProvider);
 
     return MaterialApp.router(
       title: 'FootyGuess',
       debugShowCheckedModeBanner: Environment.showDebugBanner,
-      theme: AppTheme.darkTheme,
+      theme: ModernTheme.lightTheme,
       routerConfig: router,
     );
   }

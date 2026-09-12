@@ -1,0 +1,3567 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-07T22:52:52.058469",
+    "description": "Career path data for FootyGuess",
+    "source": "Manual curation - verified 2024",
+    "totalPlayers": 170,
+    "verifiedDate": "2026-02-07"
+  },
+  "players": [
+    {
+      "name": "Cristiano Ronaldo",
+      "career": [
+        {
+          "club": "Sporting CP",
+          "years": "2002-2003",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2003-2009",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2009-2018",
+          "league": "La Liga"
+        },
+        {
+          "club": "Juventus",
+          "years": "2018-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2021-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Al Nassr",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Zlatan Ibrahimović",
+      "career": [
+        {
+          "club": "Malmö FF",
+          "years": "1999-2001",
+          "league": "Allsvenskan"
+        },
+        {
+          "club": "Ajax",
+          "years": "2001-2004",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Juventus",
+          "years": "2004-2006",
+          "league": "Serie A"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2006-2009",
+          "league": "Serie A"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2009-2010",
+          "league": "La Liga"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2010-2012",
+          "league": "Serie A"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2012-2016",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2016-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "LA Galaxy",
+          "years": "2018-2019",
+          "league": "MLS"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2020-2023",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "career": [
+        {
+          "club": "Genk",
+          "years": "2005-2012",
+          "league": "Belgian Pro League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2012-2014",
+          "league": "Premier League"
+        },
+        {
+          "club": "Werder Bremen",
+          "years": "2012-2013 (loan)",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Wolfsburg",
+          "years": "2014-2015",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2015-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "N'Golo Kanté",
+      "career": [
+        {
+          "club": "Boulogne",
+          "years": "2012-2013",
+          "league": "Ligue 2"
+        },
+        {
+          "club": "Caen",
+          "years": "2013-2015",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Leicester City",
+          "years": "2015-2016",
+          "league": "Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2016-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Al Ittihad",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Mohamed Salah",
+      "career": [
+        {
+          "club": "El Mokawloon",
+          "years": "2010-2012",
+          "league": "Egyptian Premier League"
+        },
+        {
+          "club": "Basel",
+          "years": "2012-2014",
+          "league": "Swiss Super League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2014-2015",
+          "league": "Premier League"
+        },
+        {
+          "club": "Fiorentina",
+          "years": "2015 (loan)",
+          "league": "Serie A"
+        },
+        {
+          "club": "Roma",
+          "years": "2015-2017",
+          "league": "Serie A"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2017-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Luka Modrić",
+      "career": [
+        {
+          "club": "Dinamo Zagreb",
+          "years": "2003-2008",
+          "league": "Croatian First League"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2008-2012",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2012-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Robert Lewandowski",
+      "career": [
+        {
+          "club": "Lech Poznań",
+          "years": "2008-2010",
+          "league": "Ekstraklasa"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2010-2014",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2014-2022",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Harry Kane",
+      "career": [
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2011-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2023-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Virgil van Dijk",
+      "career": [
+        {
+          "club": "Groningen",
+          "years": "2010-2013",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Celtic",
+          "years": "2013-2015",
+          "league": "Scottish Premiership"
+        },
+        {
+          "club": "Southampton",
+          "years": "2015-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2018-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Bruno Fernandes",
+      "career": [
+        {
+          "club": "Novara",
+          "years": "2012-2013",
+          "league": "Serie B"
+        },
+        {
+          "club": "Udinese",
+          "years": "2013-2016",
+          "league": "Serie A"
+        },
+        {
+          "club": "Sampdoria",
+          "years": "2016-2017",
+          "league": "Serie A"
+        },
+        {
+          "club": "Sporting CP",
+          "years": "2017-2020",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2020-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Neymar",
+      "career": [
+        {
+          "club": "Santos",
+          "years": "2009-2013",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2013-2017",
+          "league": "La Liga"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2017-2023",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Al Hilal",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Erling Haaland",
+      "career": [
+        {
+          "club": "Bryne",
+          "years": "2016-2017",
+          "league": "Norwegian Second Division"
+        },
+        {
+          "club": "Molde",
+          "years": "2017-2019",
+          "league": "Eliteserien"
+        },
+        {
+          "club": "Red Bull Salzburg",
+          "years": "2019-2020",
+          "league": "Austrian Bundesliga"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2020-2022",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Kylian Mbappé",
+      "career": [
+        {
+          "club": "Monaco",
+          "years": "2015-2017",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2017-2024",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Jude Bellingham",
+      "career": [
+        {
+          "club": "Birmingham City",
+          "years": "2019-2020",
+          "league": "Championship"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2020-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2023-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Declan Rice",
+      "career": [
+        {
+          "club": "West Ham United",
+          "years": "2017-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Raheem Sterling",
+      "career": [
+        {
+          "club": "Queens Park Rangers",
+          "years": "2003-2010",
+          "league": "Championship"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2010-2015",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2015-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2022-2024",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2024-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Jack Grealish",
+      "career": [
+        {
+          "club": "Aston Villa",
+          "years": "2012-2021",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2021-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Phil Foden",
+      "career": [
+        {
+          "club": "Manchester City",
+          "years": "2017-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Bukayo Saka",
+      "career": [
+        {
+          "club": "Arsenal",
+          "years": "2018-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Cole Palmer",
+      "career": [
+        {
+          "club": "Manchester City",
+          "years": "2020-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Marcus Rashford",
+      "career": [
+        {
+          "club": "Manchester United",
+          "years": "2016-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Bruno Guimarães",
+      "career": [
+        {
+          "club": "Athletico Paranaense",
+          "years": "2017-2020",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Lyon",
+          "years": "2020-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Newcastle United",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "James Maddison",
+      "career": [
+        {
+          "club": "Norwich City",
+          "years": "2016-2018",
+          "league": "Championship"
+        },
+        {
+          "club": "Leicester City",
+          "years": "2018-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Darwin Núñez",
+      "career": [
+        {
+          "club": "Peñarol",
+          "years": "2017-2019",
+          "league": "Uruguayan Primera"
+        },
+        {
+          "club": "Almería",
+          "years": "2019-2020",
+          "league": "La Liga 2"
+        },
+        {
+          "club": "Benfica",
+          "years": "2020-2022",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "career": [
+        {
+          "club": "Argentinos Juniors",
+          "years": "2016-2019",
+          "league": "Primera División"
+        },
+        {
+          "club": "Brighton",
+          "years": "2019-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Vinícius Júnior",
+      "career": [
+        {
+          "club": "Flamengo",
+          "years": "2017-2018",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2018-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Rodrygo",
+      "career": [
+        {
+          "club": "Santos",
+          "years": "2017-2019",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2019-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Pedri",
+      "career": [
+        {
+          "club": "Las Palmas",
+          "years": "2019-2020",
+          "league": "La Liga 2"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2020-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Gavi",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2021-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Federico Valverde",
+      "career": [
+        {
+          "club": "Peñarol",
+          "years": "2015-2016",
+          "league": "Uruguayan Primera"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2016-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Antoine Griezmann",
+      "career": [
+        {
+          "club": "Real Sociedad",
+          "years": "2009-2014",
+          "league": "La Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2014-2019",
+          "league": "La Liga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2019-2021",
+          "league": "La Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2021-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "João Félix",
+      "career": [
+        {
+          "club": "Benfica",
+          "years": "2016-2019",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2019-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Ferran Torres",
+      "career": [
+        {
+          "club": "Valencia",
+          "years": "2017-2020",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2020-2021",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Rafael Leão",
+      "career": [
+        {
+          "club": "Sporting CP",
+          "years": "2018-2019",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Lille",
+          "years": "2019-2019",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2019-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Khvicha Kvaratskhelia",
+      "career": [
+        {
+          "club": "Dinamo Batumi",
+          "years": "2018-2019",
+          "league": "Georgian League"
+        },
+        {
+          "club": "Lokomotiv Moscow",
+          "years": "2019-2020",
+          "league": "Russian Premier League"
+        },
+        {
+          "club": "Rubin Kazan",
+          "years": "2020-2021",
+          "league": "Russian Premier League"
+        },
+        {
+          "club": "Dinamo Batumi",
+          "years": "2021-2022",
+          "league": "Georgian League"
+        },
+        {
+          "club": "Napoli",
+          "years": "2022-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Victor Osimhen",
+      "career": [
+        {
+          "club": "Wolfsburg",
+          "years": "2017-2019",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Charleroi",
+          "years": "2019-2020",
+          "league": "Belgian Pro League"
+        },
+        {
+          "club": "Lille",
+          "years": "2020-2020",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Napoli",
+          "years": "2020-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Galatasaray",
+          "years": "2024-Present",
+          "league": "Süper Lig"
+        }
+      ]
+    },
+    {
+      "name": "Nicolò Barella",
+      "career": [
+        {
+          "club": "Cagliari",
+          "years": "2015-2019",
+          "league": "Serie A"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2019-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Alessandro Bastoni",
+      "career": [
+        {
+          "club": "Atalanta",
+          "years": "2017-2019",
+          "league": "Serie A"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2019-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Jamal Musiala",
+      "career": [
+        {
+          "club": "Chelsea Youth",
+          "years": "2011-2019",
+          "league": "Youth"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2019-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Florian Wirtz",
+      "career": [
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2020-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Serge Gnabry",
+      "career": [
+        {
+          "club": "Arsenal",
+          "years": "2012-2016",
+          "league": "Premier League"
+        },
+        {
+          "club": "Werder Bremen",
+          "years": "2016-2017",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Hoffenheim",
+          "years": "2017-2017",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2017-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Leroy Sané",
+      "career": [
+        {
+          "club": "Schalke 04",
+          "years": "2014-2016",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2016-2020",
+          "league": "Premier League"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2020-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Joshua Kimmich",
+      "career": [
+        {
+          "club": "Stuttgart",
+          "years": "2013-2015",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2015-2015",
+          "league": "Bundesliga 2"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2015-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "career": [
+        {
+          "club": "Nantes",
+          "years": "2018-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Eintracht Frankfurt",
+          "years": "2022-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2023-Present",
+          "league": "Ligue 1"
+        }
+      ]
+    },
+    {
+      "name": "Bradley Barcola",
+      "career": [
+        {
+          "club": "Lyon",
+          "years": "2020-2023",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2023-Present",
+          "league": "Ligue 1"
+        }
+      ]
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "career": [
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2022-Present",
+          "league": "Ligue 1"
+        }
+      ]
+    },
+    {
+      "name": "Julián Álvarez",
+      "career": [
+        {
+          "club": "River Plate",
+          "years": "2016-2022",
+          "league": "Primera División"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2022-2024",
+          "league": "Premier League"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Enzo Fernández",
+      "career": [
+        {
+          "club": "River Plate",
+          "years": "2019-2022",
+          "league": "Primera División"
+        },
+        {
+          "club": "Benfica",
+          "years": "2022-2023",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Casemiro",
+      "career": [
+        {
+          "club": "São Paulo",
+          "years": "2010-2013",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2013-2015",
+          "league": "La Liga"
+        },
+        {
+          "club": "Porto",
+          "years": "2014-2015",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2015-2022",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Rodri",
+      "career": [
+        {
+          "club": "Villarreal",
+          "years": "2013-2018",
+          "league": "La Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2018-2019",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2019-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Riyad Mahrez",
+      "career": [
+        {
+          "club": "Le Havre",
+          "years": "2009-2014",
+          "league": "Ligue 2"
+        },
+        {
+          "club": "Leicester City",
+          "years": "2014-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2018-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Al Ahli",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Achraf Hakimi",
+      "career": [
+        {
+          "club": "Real Madrid",
+          "years": "2016-2018",
+          "league": "La Liga"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2018-2020",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2020-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2021-Present",
+          "league": "Ligue 1"
+        }
+      ]
+    },
+    {
+      "name": "Yassine Bounou",
+      "career": [
+        {
+          "club": "Atlético Madrid",
+          "years": "2014-2016",
+          "league": "La Liga"
+        },
+        {
+          "club": "Zulte Waregem",
+          "years": "2016-2017",
+          "league": "Belgian Pro League"
+        },
+        {
+          "club": "Girona",
+          "years": "2017-2019",
+          "league": "La Liga"
+        },
+        {
+          "club": "Sevilla",
+          "years": "2019-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Al Hilal",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Son Heung-min",
+      "career": [
+        {
+          "club": "Hamburg",
+          "years": "2010-2013",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2013-2015",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2015-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Heung-Min Son",
+      "career": [
+        {
+          "club": "Hamburg",
+          "years": "2010-2013",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2013-2015",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2015-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "career": [
+        {
+          "club": "Sint-Truiden",
+          "years": "2018-2019",
+          "league": "Belgian Pro League"
+        },
+        {
+          "club": "Bologna",
+          "years": "2019-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2021-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Thibaut Courtois",
+      "career": [
+        {
+          "club": "Genk",
+          "years": "2009-2011",
+          "league": "Belgian Pro League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2011-2014",
+          "league": "Premier League"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2011-2014",
+          "league": "La Liga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2014-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2018-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Alisson Becker",
+      "career": [
+        {
+          "club": "Internacional",
+          "years": "2013-2016",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Roma",
+          "years": "2016-2018",
+          "league": "Serie A"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2018-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Ederson",
+      "career": [
+        {
+          "club": "Benfica",
+          "years": "2008-2015",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Rio Ave",
+          "years": "2012-2015",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Benfica",
+          "years": "2015-2017",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2017-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Marc-André ter Stegen",
+      "career": [
+        {
+          "club": "Borussia Mönchengladbach",
+          "years": "2010-2014",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2014-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Mike Maignan",
+      "career": [
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2015-2015",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Lille",
+          "years": "2015-2021",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2021-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Rúben Dias",
+      "career": [
+        {
+          "club": "Benfica",
+          "years": "2017-2020",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2020-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Marquinhos",
+      "career": [
+        {
+          "club": "Corinthians",
+          "years": "2011-2012",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Roma",
+          "years": "2012-2013",
+          "league": "Serie A"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2013-Present",
+          "league": "Ligue 1"
+        }
+      ]
+    },
+    {
+      "name": "William Saliba",
+      "career": [
+        {
+          "club": "Saint-Étienne",
+          "years": "2018-2019",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2019-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Joško Gvardiol",
+      "career": [
+        {
+          "club": "Dinamo Zagreb",
+          "years": "2019-2021",
+          "league": "Croatian First League"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2021-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Jules Koundé",
+      "career": [
+        {
+          "club": "Bordeaux",
+          "years": "2017-2019",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Sevilla",
+          "years": "2019-2022",
+          "league": "La Liga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Theo Hernández",
+      "career": [
+        {
+          "club": "Atlético Madrid",
+          "years": "2016-2017",
+          "league": "La Liga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2017-2019",
+          "league": "La Liga"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2019-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "João Cancelo",
+      "career": [
+        {
+          "club": "Benfica",
+          "years": "2014-2015",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Valencia",
+          "years": "2014-2015",
+          "league": "La Liga"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2017-2018",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2018-2019",
+          "league": "Serie A"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2019-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2023-2024",
+          "league": "La Liga"
+        },
+        {
+          "club": "Al Hilal",
+          "years": "2024-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Reece James",
+      "career": [
+        {
+          "club": "Chelsea",
+          "years": "2019-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Trent Alexander-Arnold",
+      "career": [
+        {
+          "club": "Liverpool",
+          "years": "2016-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Robertson",
+      "career": [
+        {
+          "club": "Queen's Park",
+          "years": "2012-2013",
+          "league": "Scottish League"
+        },
+        {
+          "club": "Dundee United",
+          "years": "2013-2014",
+          "league": "Scottish Premiership"
+        },
+        {
+          "club": "Hull City",
+          "years": "2014-2017",
+          "league": "Championship"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2017-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "career": [
+        {
+          "club": "Bordeaux",
+          "years": "2018-2020",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Monaco",
+          "years": "2020-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "career": [
+        {
+          "club": "Rennes",
+          "years": "2019-2021",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2021-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Martin Ødegaard",
+      "career": [
+        {
+          "club": "Strømsgodset",
+          "years": "2014-2015",
+          "league": "Norwegian League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2015-2021",
+          "league": "La Liga"
+        },
+        {
+          "club": "Heerenveen",
+          "years": "2017",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Vitesse",
+          "years": "2018",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Real Sociedad",
+          "years": "2019-2021",
+          "league": "La Liga"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2021-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Frenkie de Jong",
+      "career": [
+        {
+          "club": "Willem II",
+          "years": "2015-2015",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Ajax",
+          "years": "2015-2019",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2019-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Bernardo Silva",
+      "career": [
+        {
+          "club": "Benfica",
+          "years": "2013-2014",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Monaco",
+          "years": "2014-2017",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2017-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "career": [
+        {
+          "club": "1. FC Nürnberg",
+          "years": "2009-2011",
+          "league": "Bundesliga 2"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2011-2016",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2016-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2023-2024",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2024-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Marco Reus",
+      "career": [
+        {
+          "club": "Rot Weiss Ahlen",
+          "years": "2006-2009",
+          "league": "Bundesliga 2"
+        },
+        {
+          "club": "Borussia Mönchengladbach",
+          "years": "2009-2012",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2012-2024",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "LA Galaxy",
+          "years": "2024-Present",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Thierry Henry",
+      "career": [
+        {
+          "club": "Monaco",
+          "years": "1994-1999",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Juventus",
+          "years": "1999-1999",
+          "league": "Serie A"
+        },
+        {
+          "club": "Arsenal",
+          "years": "1999-2007",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2007-2010",
+          "league": "La Liga"
+        },
+        {
+          "club": "New York Red Bulls",
+          "years": "2010-2014",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Kaká",
+      "career": [
+        {
+          "club": "São Paulo",
+          "years": "2001-2003",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2003-2009",
+          "league": "Serie A"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2009-2013",
+          "league": "La Liga"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2013-2014",
+          "league": "Serie A"
+        },
+        {
+          "club": "São Paulo",
+          "years": "2014-2015",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Orlando City",
+          "years": "2015-2017",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Wayne Rooney",
+      "career": [
+        {
+          "club": "Everton",
+          "years": "2002-2004",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2004-2017",
+          "league": "Premier League"
+        },
+        {
+          "club": "Everton",
+          "years": "2017-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "DC United",
+          "years": "2018-2020",
+          "league": "MLS"
+        },
+        {
+          "club": "Derby County",
+          "years": "2020-2021",
+          "league": "Championship"
+        }
+      ]
+    },
+    {
+      "name": "Xavi Hernández",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "1998-2015",
+          "league": "La Liga"
+        },
+        {
+          "club": "Al Sadd",
+          "years": "2015-2019",
+          "league": "Qatar Stars League"
+        }
+      ]
+    },
+    {
+      "name": "Andrés Iniesta",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2002-2018",
+          "league": "La Liga"
+        },
+        {
+          "club": "Vissel Kobe",
+          "years": "2018-2023",
+          "league": "J1 League"
+        },
+        {
+          "club": "Emirates",
+          "years": "2023-Present",
+          "league": "UAE Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Sergio Ramos",
+      "career": [
+        {
+          "club": "Sevilla",
+          "years": "2003-2005",
+          "league": "La Liga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2005-2021",
+          "league": "La Liga"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2021-2023",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Sevilla",
+          "years": "2023-2024",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Gareth Bale",
+      "career": [
+        {
+          "club": "Southampton",
+          "years": "2006-2007",
+          "league": "Championship"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2007-2013",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2013-2022",
+          "league": "La Liga"
+        },
+        {
+          "club": "Los Angeles FC",
+          "years": "2022-2023",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Toni Kroos",
+      "career": [
+        {
+          "club": "Bayern Munich",
+          "years": "2007-2009",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2009-2010",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2010-2014",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2014-2024",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Müller",
+      "career": [
+        {
+          "club": "Bayern Munich",
+          "years": "2008-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Manuel Neuer",
+      "career": [
+        {
+          "club": "Schalke 04",
+          "years": "2006-2011",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2011-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Giorgio Chiellini",
+      "career": [
+        {
+          "club": "Livorno",
+          "years": "2000-2004",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2004-2022",
+          "league": "Serie A"
+        },
+        {
+          "club": "Los Angeles FC",
+          "years": "2022-2023",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Leonardo Bonucci",
+      "career": [
+        {
+          "club": "Inter Milan",
+          "years": "2005-2009",
+          "league": "Serie A"
+        },
+        {
+          "club": "Bari",
+          "years": "2009-2010",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2010-2017",
+          "league": "Serie A"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2017-2018",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2018-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Union Berlin",
+          "years": "2023-2024",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Edinson Cavani",
+      "career": [
+        {
+          "club": "Danubio",
+          "years": "2005-2007",
+          "league": "Uruguayan Primera"
+        },
+        {
+          "club": "Palermo",
+          "years": "2007-2010",
+          "league": "Serie A"
+        },
+        {
+          "club": "Napoli",
+          "years": "2010-2013",
+          "league": "Serie A"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2013-2020",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2020-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Valencia",
+          "years": "2022-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Boca Juniors",
+          "years": "2023-Present",
+          "league": "Primera División"
+        }
+      ]
+    },
+    {
+      "name": "Luis Suárez",
+      "career": [
+        {
+          "club": "Nacional",
+          "years": "2005-2006",
+          "league": "Uruguayan Primera"
+        },
+        {
+          "club": "Groningen",
+          "years": "2006-2007",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Ajax",
+          "years": "2007-2011",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2011-2014",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2014-2020",
+          "league": "La Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2020-2022",
+          "league": "La Liga"
+        },
+        {
+          "club": "Nacional",
+          "years": "2022-2023",
+          "league": "Uruguayan Primera"
+        },
+        {
+          "club": "Grêmio",
+          "years": "2023-2024",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Inter Miami",
+          "years": "2024-Present",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Sergio Busquets",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2008-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Inter Miami",
+          "years": "2023-Present",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Jordi Alba",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2000-2005",
+          "league": "La Masia"
+        },
+        {
+          "club": "Cornellà",
+          "years": "2005-2007",
+          "league": "Tercera División"
+        },
+        {
+          "club": "Valencia",
+          "years": "2007-2012",
+          "league": "La Liga"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2012-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Inter Miami",
+          "years": "2023-Present",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "David Silva",
+      "career": [
+        {
+          "club": "Valencia",
+          "years": "2004-2010",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2010-2020",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Sociedad",
+          "years": "2020-2023",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Ángel Di María",
+      "career": [
+        {
+          "club": "Rosario Central",
+          "years": "2005-2007",
+          "league": "Primera División"
+        },
+        {
+          "club": "Benfica",
+          "years": "2007-2010",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2010-2014",
+          "league": "La Liga"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2014-2015",
+          "league": "Premier League"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2015-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Juventus",
+          "years": "2022-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Benfica",
+          "years": "2023-2024",
+          "league": "Primeira Liga"
+        }
+      ]
+    },
+    {
+      "name": "Karim Benzema",
+      "career": [
+        {
+          "club": "Lyon",
+          "years": "2005-2009",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2009-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Al Ittihad",
+          "years": "2023-Present",
+          "league": "Saudi Pro League"
+        }
+      ]
+    },
+    {
+      "name": "Paul Pogba",
+      "career": [
+        {
+          "club": "Manchester United",
+          "years": "2011-2012",
+          "league": "Premier League"
+        },
+        {
+          "club": "Juventus",
+          "years": "2012-2016",
+          "league": "Serie A"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2016-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Juventus",
+          "years": "2022-2024",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Eden Hazard",
+      "career": [
+        {
+          "club": "Lille",
+          "years": "2005-2012",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2012-2019",
+          "league": "Premier League"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2019-2023",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Olivier Giroud",
+      "career": [
+        {
+          "club": "Montpellier",
+          "years": "2010-2012",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2012-2018",
+          "league": "Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2018-2021",
+          "league": "Premier League"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2021-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Los Angeles FC",
+          "years": "2024-Present",
+          "league": "MLS"
+        }
+      ]
+    },
+    {
+      "name": "Kai Havertz",
+      "career": [
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2016-2020",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2020-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Mason Mount",
+      "career": [
+        {
+          "club": "Chelsea",
+          "years": "2019-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Christopher Nkunku",
+      "career": [
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2015-2019",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2019-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Gabriel Jesus",
+      "career": [
+        {
+          "club": "Palmeiras",
+          "years": "2013-2017",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2017-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "career": [
+        {
+          "club": "Ituano",
+          "years": "2018-2019",
+          "league": "Campeonato Paulista"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2019-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Diogo Jota",
+      "career": [
+        {
+          "club": "Paços de Ferreira",
+          "years": "2013-2016",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2016-2017",
+          "league": "La Liga"
+        },
+        {
+          "club": "Porto",
+          "years": "2016-2017",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Wolverhampton",
+          "years": "2017-2020",
+          "league": "Premier League"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2020-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Luis Díaz",
+      "career": [
+        {
+          "club": "Junior",
+          "years": "2016-2019",
+          "league": "Colombian Liga"
+        },
+        {
+          "club": "Porto",
+          "years": "2019-2022",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Cody Gakpo",
+      "career": [
+        {
+          "club": "PSV Eindhoven",
+          "years": "2016-2023",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Dominik Szoboszlai",
+      "career": [
+        {
+          "club": "Red Bull Salzburg",
+          "years": "2018-2021",
+          "league": "Austrian Bundesliga"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2021-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "career": [
+        {
+          "club": "Ajax",
+          "years": "2018-2022",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2022-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Malo Gusto",
+      "career": [
+        {
+          "club": "Lyon",
+          "years": "2020-2023",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Moisés Caicedo",
+      "career": [
+        {
+          "club": "Independiente del Valle",
+          "years": "2019-2021",
+          "league": "Ecuadorian Serie A"
+        },
+        {
+          "club": "Brighton",
+          "years": "2021-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Mykhailo Mudryk",
+      "career": [
+        {
+          "club": "Shakhtar Donetsk",
+          "years": "2019-2023",
+          "league": "Ukrainian Premier League"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Jackson",
+      "career": [
+        {
+          "club": "Villarreal",
+          "years": "2019-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Lautaro Martínez",
+      "career": [
+        {
+          "club": "Racing Club",
+          "years": "2015-2018",
+          "league": "Primera División"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2018-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Marcus Thuram",
+      "career": [
+        {
+          "club": "Sochaux",
+          "years": "2015-2017",
+          "league": "Ligue 2"
+        },
+        {
+          "club": "Guingamp",
+          "years": "2017-2019",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Borussia Mönchengladbach",
+          "years": "2019-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Denzel Dumfries",
+      "career": [
+        {
+          "club": "Sparta Rotterdam",
+          "years": "2014-2017",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Heerenveen",
+          "years": "2017-2018",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "PSV Eindhoven",
+          "years": "2018-2021",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2021-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Federico Chiesa",
+      "career": [
+        {
+          "club": "Fiorentina",
+          "years": "2016-2020",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2020-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Liverpool",
+          "years": "2024-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Dusan Vlahović",
+      "career": [
+        {
+          "club": "Partizan",
+          "years": "2015-2018",
+          "league": "Serbian SuperLiga"
+        },
+        {
+          "club": "Fiorentina",
+          "years": "2018-2022",
+          "league": "Serie A"
+        },
+        {
+          "club": "Juventus",
+          "years": "2022-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "career": [
+        {
+          "club": "Manchester United",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "career": [
+        {
+          "club": "Manchester United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Rasmus Højlund",
+      "career": [
+        {
+          "club": "Sturm Graz",
+          "years": "2020-2022",
+          "league": "Austrian Bundesliga"
+        },
+        {
+          "club": "FC Copenhagen",
+          "years": "2022-2023",
+          "league": "Danish Superliga"
+        },
+        {
+          "club": "Atalanta",
+          "years": "2023-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Lisandro Martínez",
+      "career": [
+        {
+          "club": "Newell's Old Boys",
+          "years": "2017-2018",
+          "league": "Primera División"
+        },
+        {
+          "club": "Ajax",
+          "years": "2019-2022",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "Manchester United",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Ben White",
+      "career": [
+        {
+          "club": "Brighton",
+          "years": "2014-2021",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2021-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Oleksandr Zinchenko",
+      "career": [
+        {
+          "club": "Ufa",
+          "years": "2015-2016",
+          "league": "Russian Premier League"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2016-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Mateo Kovačić",
+      "career": [
+        {
+          "club": "Dinamo Zagreb",
+          "years": "2013-2015",
+          "league": "Croatian First League"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2015-2016",
+          "league": "Serie A"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2016-2019",
+          "league": "La Liga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2019-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Julián Alvarez",
+      "career": [
+        {
+          "club": "River Plate",
+          "years": "2016-2022",
+          "league": "Primera División"
+        },
+        {
+          "club": "Manchester City",
+          "years": "2022-2024",
+          "league": "Premier League"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Jhon Durán",
+      "career": [
+        {
+          "club": "Envigado",
+          "years": "2021-2023",
+          "league": "Colombian Liga"
+        },
+        {
+          "club": "Chicago Fire",
+          "years": "2023-2023",
+          "league": "MLS"
+        },
+        {
+          "club": "Aston Villa",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Ollie Watkins",
+      "career": [
+        {
+          "club": "Exeter City",
+          "years": "2014-2017",
+          "league": "League Two"
+        },
+        {
+          "club": "Brentford",
+          "years": "2017-2020",
+          "league": "Championship"
+        },
+        {
+          "club": "Aston Villa",
+          "years": "2020-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Jarrod Bowen",
+      "career": [
+        {
+          "club": "Hereford",
+          "years": "2014-2014",
+          "league": "Conference"
+        },
+        {
+          "club": "Hull City",
+          "years": "2014-2020",
+          "league": "Championship"
+        },
+        {
+          "club": "West Ham United",
+          "years": "2020-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Mohammed Kudus",
+      "career": [
+        {
+          "club": "Nordsjaelland",
+          "years": "2018-2020",
+          "league": "Danish Superliga"
+        },
+        {
+          "club": "Ajax",
+          "years": "2020-2023",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "West Ham United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Brennan Johnson",
+      "career": [
+        {
+          "club": "Nottingham Forest",
+          "years": "2019-2023",
+          "league": "Championship/Premier League"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Destiny Udogie",
+      "career": [
+        {
+          "club": "Hellas Verona",
+          "years": "2020-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "Udinese",
+          "years": "2021-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Micky van de Ven",
+      "career": [
+        {
+          "club": "Volendam",
+          "years": "2020-2021",
+          "league": "Eerste Divisie"
+        },
+        {
+          "club": "Wolfsburg",
+          "years": "2021-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Pedro Porro",
+      "career": [
+        {
+          "club": "Manchester City",
+          "years": "2019-2020",
+          "league": "Premier League"
+        },
+        {
+          "club": "Valladolid",
+          "years": "2019-2020",
+          "league": "La Liga"
+        },
+        {
+          "club": "Sporting CP",
+          "years": "2020-2023",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "career": [
+        {
+          "club": "Metz",
+          "years": "2020-2021",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2021-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Yves Bissouma",
+      "career": [
+        {
+          "club": "Lille",
+          "years": "2016-2018",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Brighton",
+          "years": "2018-2022",
+          "league": "Premier League"
+        },
+        {
+          "club": "Tottenham Hotspur",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Anthony Gordon",
+      "career": [
+        {
+          "club": "Everton",
+          "years": "2017-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Newcastle United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Alexander Isak",
+      "career": [
+        {
+          "club": "AIK",
+          "years": "2016-2017",
+          "league": "Allsvenskan"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2017-2019",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Real Sociedad",
+          "years": "2019-2022",
+          "league": "La Liga"
+        },
+        {
+          "club": "Newcastle United",
+          "years": "2022-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Sandro Tonali",
+      "career": [
+        {
+          "club": "Brescia",
+          "years": "2017-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2021-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Newcastle United",
+          "years": "2023-Present",
+          "league": "Premier League"
+        }
+      ]
+    },
+    {
+      "name": "Arda Güler",
+      "career": [
+        {
+          "club": "Fenerbahçe",
+          "years": "2021-2023",
+          "league": "Süper Lig"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2023-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Endrick",
+      "career": [
+        {
+          "club": "Palmeiras",
+          "years": "2022-2024",
+          "league": "Brasileirão"
+        },
+        {
+          "club": "Real Madrid",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Fermín López",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Pau Cubarsí",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Lamine Yamal",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2023-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Alejandro Balde",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2021-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Ansu Fati",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2019-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Brighton",
+          "years": "2023-2024",
+          "league": "Premier League"
+        },
+        {
+          "club": "Barcelona",
+          "years": "2024-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Samuel Lino",
+      "career": [
+        {
+          "club": "Gil Vicente",
+          "years": "2020-2022",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2022-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Valencia",
+          "years": "2023-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Atlético Madrid",
+          "years": "2023-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Pablo Barrios",
+      "career": [
+        {
+          "club": "Atlético Madrid",
+          "years": "2022-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Samu Omorodion",
+      "career": [
+        {
+          "club": "Granada",
+          "years": "2022-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "Alavés",
+          "years": "2023-2024",
+          "league": "La Liga"
+        },
+        {
+          "club": "Porto",
+          "years": "2024-Present",
+          "league": "Primeira Liga"
+        }
+      ]
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "career": [
+        {
+          "club": "PEC Zwolle",
+          "years": "2018-2020",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "AZ Alkmaar",
+          "years": "2020-2023",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Christian Pulisic",
+      "career": [
+        {
+          "club": "Borussia Dortmund",
+          "years": "2016-2019",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Chelsea",
+          "years": "2019-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Yunus Musah",
+      "career": [
+        {
+          "club": "Valencia",
+          "years": "2019-2023",
+          "league": "La Liga"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Pavard",
+      "career": [
+        {
+          "club": "Lille",
+          "years": "2014-2016",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Stuttgart",
+          "years": "2016-2019",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2019-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Hakan Çalhanoğlu",
+      "career": [
+        {
+          "club": "Hamburg",
+          "years": "2013-2014",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2014-2017",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "AC Milan",
+          "years": "2017-2021",
+          "league": "Serie A"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2021-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Davide Frattesi",
+      "career": [
+        {
+          "club": "Sassuolo",
+          "years": "2017-2023",
+          "league": "Serie A"
+        },
+        {
+          "club": "Inter Milan",
+          "years": "2023-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Matías Soulé",
+      "career": [
+        {
+          "club": "Juventus",
+          "years": "2020-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Frosinone",
+          "years": "2023-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Roma",
+          "years": "2024-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Mateo Retegui",
+      "career": [
+        {
+          "club": "Boca Juniors",
+          "years": "2020-2021",
+          "league": "Primera División"
+        },
+        {
+          "club": "Tigre",
+          "years": "2021-2023",
+          "league": "Primera División"
+        },
+        {
+          "club": "Genoa",
+          "years": "2023-2024",
+          "league": "Serie A"
+        },
+        {
+          "club": "Atalanta",
+          "years": "2024-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Ademola Lookman",
+      "career": [
+        {
+          "club": "Charlton Athletic",
+          "years": "2015-2017",
+          "league": "Championship"
+        },
+        {
+          "club": "Everton",
+          "years": "2017-2019",
+          "league": "Premier League"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2019-2022",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Atalanta",
+          "years": "2022-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Xavi Simons",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2010-2019",
+          "league": "La Masia"
+        },
+        {
+          "club": "Paris Saint-Germain",
+          "years": "2019-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "PSV Eindhoven",
+          "years": "2022-2023",
+          "league": "Eredivisie"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2023-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Mathys Tel",
+      "career": [
+        {
+          "club": "Rennes",
+          "years": "2020-2022",
+          "league": "Ligue 1"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2022-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Alphonso Davies",
+      "career": [
+        {
+          "club": "Vancouver Whitecaps",
+          "years": "2016-2019",
+          "league": "MLS"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2019-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Konrad Laimer",
+      "career": [
+        {
+          "club": "Red Bull Salzburg",
+          "years": "2014-2017",
+          "league": "Austrian Bundesliga"
+        },
+        {
+          "club": "RB Leipzig",
+          "years": "2017-2023",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2023-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Mats Hummels",
+      "career": [
+        {
+          "club": "Bayern Munich",
+          "years": "2007-2009",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2009-2016",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Bayern Munich",
+          "years": "2016-2019",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "years": "2019-2024",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Roma",
+          "years": "2024-Present",
+          "league": "Serie A"
+        }
+      ]
+    },
+    {
+      "name": "Jeremie Frimpong",
+      "career": [
+        {
+          "club": "Manchester City",
+          "years": "2017-2019",
+          "league": "Premier League"
+        },
+        {
+          "club": "Celtic",
+          "years": "2019-2021",
+          "league": "Scottish Premiership"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2021-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Álex Grimaldo",
+      "career": [
+        {
+          "club": "Barcelona",
+          "years": "2011-2016",
+          "league": "La Masia"
+        },
+        {
+          "club": "Benfica",
+          "years": "2016-2023",
+          "league": "Primeira Liga"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2023-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Jonathan Tah",
+      "career": [
+        {
+          "club": "Hamburg",
+          "years": "2009-2015",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Fortuna Düsseldorf",
+          "years": "2013-2015",
+          "league": "Bundesliga 2"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2015-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Granit Xhaka",
+      "career": [
+        {
+          "club": "Basel",
+          "years": "2010-2012",
+          "league": "Swiss Super League"
+        },
+        {
+          "club": "Borussia Mönchengladbach",
+          "years": "2012-2016",
+          "league": "Bundesliga"
+        },
+        {
+          "club": "Arsenal",
+          "years": "2016-2023",
+          "league": "Premier League"
+        },
+        {
+          "club": "Bayer Leverkusen",
+          "years": "2023-Present",
+          "league": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "name": "Nico Williams",
+      "career": [
+        {
+          "club": "Athletic Bilbao",
+          "years": "2021-Present",
+          "league": "La Liga"
+        }
+      ]
+    },
+    {
+      "name": "Iñaki Williams",
+      "career": [
+        {
+          "club": "Athletic Bilbao",
+          "years": "2014-Present",
+          "league": "La Liga"
+        }
+      ]
+    }
+  ]
+}

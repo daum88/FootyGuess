@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
-import '../../../core/theme/retro_theme.dart';
-import '../../../data/models/player.dart';
 import '../providers/who_scored_provider.dart';
+import '../../../core/theme/modern_theme.dart';
 
 class WhoScoredPage extends ConsumerStatefulWidget {
   const WhoScoredPage({super.key});
@@ -35,468 +35,265 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
 
   @override
   Widget build(BuildContext context) {
-    final gameState = ref.watch(whoScoredGameProvider);
-    final gameNotifier = ref.read(whoScoredGameProvider.notifier);
+    final state = ref.watch(whoScoredGameProvider);
+    final notifier = ref.read(whoScoredGameProvider.notifier);
 
-    if (gameState.gameState == WhoScoredGameState.initial) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
+    if (state.gameState == WhoScoredGameState.initial ||
+        state.currentMatch == null) {
+      return Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [Color(0xFFE5F1FF), Color(0xFFF8F9FA)],
+            ),
+          ),
+          child: const Center(child: CircularProgressIndicator()),
+        ),
       );
     }
 
-    return Scaffold(
-      backgroundColor: RetroTheme.backgroundDark,
-      appBar: AppBar(
-        backgroundColor: RetroTheme.backgroundDark,
-        foregroundColor: Colors.white,
-        elevation: 0,
-        title: Text(
-          'WHO SCORED?',
-          style: RetroTheme.retroHeader.copyWith(
-            color: Colors.white,
-            fontSize: 20,
-          ),
-        ),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            onPressed: gameNotifier.resetGame,
-          ),
-        ],
-      ),
-      body: gameState.currentMatch == null
-          ? const Center(child: CircularProgressIndicator())
-          : SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                children: [
-                  _buildMatchHeader(gameState.currentMatch!),
-                  const SizedBox(height: 24),
-                  _buildScoreSection(gameState, gameNotifier),
-                  if (gameState.gameState == WhoScoredGameState.scoreGuessing ||
-                      gameState.gameState == WhoScoredGameState.completed) ...[
-                    const SizedBox(height: 24),
-                    _buildScorersSection(gameState, gameNotifier),
-                  ],
-                  if (gameState.gameState == WhoScoredGameState.completed) ...[
-                    const SizedBox(height: 24),
-                    _buildResultsSection(gameState, gameNotifier),
-                  ],
-                ],
-              ),
-            ),
-    );
-  }
+    final match = state.currentMatch!;
 
-  Widget _buildMatchHeader(MatchData match) {
-    return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [Color(0xFF2D2E47), Color(0xFF1F2038)],
-        ),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
-      ),
-      child: Column(
+    return Scaffold(
+      body: Stack(
         children: [
-          Text(
-            match.competition,
-            style: const TextStyle(
-              color: Colors.white70,
-              fontSize: 14,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            match.date,
-            style: const TextStyle(
-              color: Colors.white54,
-              fontSize: 12,
-            ),
-          ),
-          const SizedBox(height: 20),
-          Row(
-            children: [
-              Expanded(
-                child: Column(
-                  children: [
-                    Text(
-                      match.homeTeamBadge,
-                      style: const TextStyle(fontSize: 40),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      match.homeTeam,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
+          const Positioned.fill(
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Color(0xFFE5F1FF), Color(0xFFF8F9FA), Color(0xFFFFE5F1)],
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20),
-                child: Text(
-                  'VS',
-                  style: TextStyle(
-                    color: Colors.white54,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
+            ),
+          ),
+          SafeArea(
+            child: Column(
+              children: [
+                _Header(
+                  title: 'Who Scored?',
+                  subtitle: '${match.competition} • ${match.date}',
+                  onBack: () => context.pop(),
+                  onNew: notifier.resetGame,
+                ),
+                Expanded(
+                  child: SingleChildScrollView(
+                    padding: const EdgeInsets.all(ModernTheme.spacing16),
+                    child: Column(
+                      children: [
+                        _MatchCard(match: match),
+                        const SizedBox(height: ModernTheme.spacing20),
+                        if (state.gameState == WhoScoredGameState.playing)
+                          _buildScoreSection(state, notifier),
+                        if (state.gameState == WhoScoredGameState.scoreGuessing ||
+                            state.gameState == WhoScoredGameState.completed) ...[
+                          _buildScorersSection(state, notifier),
+                        ],
+                        if (state.gameState == WhoScoredGameState.completed)
+                          _buildResults(state, notifier),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              Expanded(
-                child: Column(
-                  children: [
-                    Text(
-                      match.awayTeamBadge,
-                      style: const TextStyle(fontSize: 40),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      match.awayTeam,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
-                ),
-              ),
-            ],
+              ],
+            ),
           ),
         ],
       ),
     );
   }
 
-  Widget _buildScoreSection(
-      WhoScoredState gameState, WhoScoredGameNotifier gameNotifier) {
+  Widget _buildScoreSection(WhoScoredState state, WhoScoredGameNotifier notifier) {
+    final match = state.currentMatch!;
     return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: BoxDecoration(
-        color: const Color(0xFF2D2E47),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
-      ),
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassCard(),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              const Icon(Icons.sports_soccer, color: Colors.white, size: 20),
-              const SizedBox(width: 8),
-              const Text(
-                'Guess the Score',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+              Container(
+                padding: const EdgeInsets.all(ModernTheme.spacing8),
+                decoration: BoxDecoration(
+                  gradient: ModernTheme.coolGradient,
+                  borderRadius: BorderRadius.circular(ModernTheme.radiusSmall),
                 ),
+                child: const Icon(Icons.sports_soccer_rounded,
+                    size: 20, color: ModernTheme.textPrimary),
               ),
+              const SizedBox(width: ModernTheme.spacing8),
+              Text('Guess the Score',
+                  style: Theme.of(context).textTheme.headlineSmall),
             ],
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: ModernTheme.spacing20),
           Row(
             children: [
               Expanded(
-                child: Column(
-                  children: [
-                    Text(
-                      gameState.currentMatch!.homeTeam,
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Container(
-                      width: 80,
-                      height: 80,
-                      decoration: BoxDecoration(
-                        color: gameState.scoreRevealed
-                            ? (gameState.userHomeScore ==
-                                    gameState.currentMatch!.homeScore.toString()
-                                ? Colors.green.withValues(alpha: 0.3)
-                                : Colors.red.withValues(alpha: 0.3))
-                            : const Color(0xFF3A3B5C),
-                        borderRadius: BorderRadius.circular(12),
-                        border:
-                            Border.all(color: Colors.white.withValues(alpha: 0.2)),
-                      ),
-                      child: gameState.scoreRevealed
-                          ? Center(
-                              child: Text(
-                                gameState.currentMatch!.homeScore.toString(),
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 32,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            )
-                          : TextField(
-                              controller: _homeScoreController,
-                              enabled: !gameState.scoreRevealed,
-                              textAlign: TextAlign.center,
-                              keyboardType: TextInputType.number,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 32,
-                                fontWeight: FontWeight.bold,
-                              ),
-                              decoration: const InputDecoration(
-                                border: InputBorder.none,
-                                hintText: '?',
-                                hintStyle: TextStyle(
-                                  color: Colors.white38,
-                                  fontSize: 32,
-                                ),
-                              ),
-                              onChanged: gameNotifier.updateHomeScore,
-                            ),
-                    ),
-                  ],
+                child: _ScoreInput(
+                  label: match.homeTeam,
+                  controller: _homeScoreController,
+                  onChanged: notifier.updateHomeScore,
                 ),
               ),
               const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20),
-                child: Text(
-                  '-',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+                padding: EdgeInsets.symmetric(horizontal: ModernTheme.spacing12),
+                child: Text('-',
+                    style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.w600,
+                        color: ModernTheme.textSecondary)),
               ),
               Expanded(
-                child: Column(
-                  children: [
-                    Text(
-                      gameState.currentMatch!.awayTeam,
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontSize: 14,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Container(
-                      width: 80,
-                      height: 80,
-                      decoration: BoxDecoration(
-                        color: gameState.scoreRevealed
-                            ? (gameState.userAwayScore ==
-                                    gameState.currentMatch!.awayScore.toString()
-                                ? Colors.green.withValues(alpha: 0.3)
-                                : Colors.red.withValues(alpha: 0.3))
-                            : const Color(0xFF3A3B5C),
-                        borderRadius: BorderRadius.circular(12),
-                        border:
-                            Border.all(color: Colors.white.withValues(alpha: 0.2)),
-                      ),
-                      child: gameState.scoreRevealed
-                          ? Center(
-                              child: Text(
-                                gameState.currentMatch!.awayScore.toString(),
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 32,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            )
-                          : TextField(
-                              controller: _awayScoreController,
-                              enabled: !gameState.scoreRevealed,
-                              textAlign: TextAlign.center,
-                              keyboardType: TextInputType.number,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 32,
-                                fontWeight: FontWeight.bold,
-                              ),
-                              decoration: const InputDecoration(
-                                border: InputBorder.none,
-                                hintText: '?',
-                                hintStyle: TextStyle(
-                                  color: Colors.white38,
-                                  fontSize: 32,
-                                ),
-                              ),
-                              onChanged: gameNotifier.updateAwayScore,
-                            ),
-                    ),
-                  ],
+                child: _ScoreInput(
+                  label: match.awayTeam,
+                  controller: _awayScoreController,
+                  onChanged: notifier.updateAwayScore,
                 ),
               ),
             ],
           ),
-          if (!gameState.scoreRevealed) ...[
-            const SizedBox(height: 20),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: gameState.userHomeScore.isNotEmpty &&
-                        gameState.userAwayScore.isNotEmpty
-                    ? gameNotifier.submitScore
-                    : null,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue,
-                  foregroundColor: Colors.white,
-                  padding: const EdgeInsets.symmetric(vertical: 16),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                child: const Text(
-                  'Submit Score',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-              ),
+          const SizedBox(height: ModernTheme.spacing20),
+          ElevatedButton.icon(
+            onPressed: state.userHomeScore.isNotEmpty &&
+                    state.userAwayScore.isNotEmpty
+                ? notifier.submitScore
+                : null,
+            icon: const Icon(Icons.check_rounded),
+            label: const Text('Submit Score'),
+            style: ElevatedButton.styleFrom(
+              minimumSize: const Size(double.infinity, 56),
             ),
-          ],
+          ),
         ],
       ),
     );
   }
 
   Widget _buildScorersSection(
-      WhoScoredState gameState, WhoScoredGameNotifier gameNotifier) {
+      WhoScoredState state, WhoScoredGameNotifier notifier) {
+    final match = state.currentMatch!;
     return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: BoxDecoration(
-        color: const Color(0xFF2D2E47),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
-      ),
+      margin: const EdgeInsets.only(top: ModernTheme.spacing20),
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassCard(),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              const Icon(Icons.person, color: Colors.white, size: 20),
-              const SizedBox(width: 8),
-              const Text(
-                'Guess the Scorers',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+              Container(
+                padding: const EdgeInsets.all(ModernTheme.spacing8),
+                decoration: BoxDecoration(
+                  gradient: ModernTheme.warmGradient,
+                  borderRadius: BorderRadius.circular(ModernTheme.radiusSmall),
                 ),
+                child: const Icon(Icons.person_rounded,
+                    size: 20, color: ModernTheme.textPrimary),
               ),
+              const SizedBox(width: ModernTheme.spacing8),
+              Text('Guess the Scorers',
+                  style: Theme.of(context).textTheme.headlineSmall),
             ],
           ),
-          const SizedBox(height: 16),
-
-          // User's scorer guesses
-          if (gameState.userScorerGuesses.isNotEmpty) ...[
-            const Text(
-              'Your Guesses:',
-              style: TextStyle(color: Colors.white70, fontSize: 14),
+          if (state.scoreRevealed) ...[
+            const SizedBox(height: ModernTheme.spacing12),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                _ResultChip(
+                  text: state.isScoreCorrect ? 'Score ✓' : 'Score ✗',
+                  correct: state.isScoreCorrect,
+                ),
+              ],
             ),
-            const SizedBox(height: 8),
+          ],
+          const SizedBox(height: ModernTheme.spacing16),
+
+          // Guesses
+          if (state.userScorerGuesses.isNotEmpty) ...[
             Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children:
-                  gameState.userScorerGuesses.asMap().entries.map((entry) {
-                final index = entry.key;
+              spacing: ModernTheme.spacing8,
+              runSpacing: ModernTheme.spacing8,
+              children: state.userScorerGuesses.asMap().entries.map((entry) {
                 final guess = entry.value;
-                return Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                  decoration: BoxDecoration(
-                    color: gameState.scorersRevealed
-                        ? (gameState.currentMatch!.scorers.any((scorer) =>
-                                scorer.name
-                                    .toLowerCase()
-                                    .contains(guess.toLowerCase()) ||
-                                guess
-                                    .toLowerCase()
-                                    .contains(scorer.name.toLowerCase()))
-                            ? Colors.green.withValues(alpha: 0.3)
-                            : Colors.red.withValues(alpha: 0.3))
-                        : Colors.blue.withValues(alpha: 0.3),
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        guess,
-                        style:
-                            const TextStyle(color: Colors.white, fontSize: 12),
-                      ),
-                      if (!gameState.scorersRevealed) ...[
-                        const SizedBox(width: 4),
-                        GestureDetector(
-                          onTap: () => gameNotifier.removeScorerGuess(index),
-                          child: const Icon(Icons.close,
-                              color: Colors.white, size: 16),
-                        ),
-                      ],
-                    ],
-                  ),
+                final isCorrect = state.scorersRevealed &&
+                    match.match.scorers.any((s) =>
+                        s.player.toLowerCase().contains(guess.toLowerCase()) ||
+                        guess.toLowerCase().contains(s.player.toLowerCase()));
+                return Chip(
+                  label: Text(guess),
+                  onDeleted: state.scorersRevealed
+                      ? null
+                      : () => notifier.removeScorerGuess(entry.key),
+                  deleteIcon: state.scorersRevealed
+                      ? null
+                      : const Icon(Icons.close_rounded, size: 16),
+                  backgroundColor: state.scorersRevealed
+                      ? (isCorrect
+                          ? ModernTheme.successGreen
+                          : ModernTheme.errorRose)
+                      : ModernTheme.accentSky,
+                  side: BorderSide.none,
                 );
               }).toList(),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: ModernTheme.spacing16),
           ],
 
-          // Search for players to add
-          if (!gameState.scorersRevealed) ...[
-            TextField(
-              controller: _searchController,
-              style: const TextStyle(color: Colors.white),
-              decoration: InputDecoration(
-                hintText: 'Search for a player...',
-                hintStyle: const TextStyle(color: Colors.white54),
-                prefixIcon: const Icon(Icons.search, color: Colors.white54),
-                filled: true,
-                fillColor: const Color(0xFF3A3B5C),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(12),
-                  borderSide: BorderSide.none,
+          if (!state.scorersRevealed) ...[
+            Container(
+              decoration: ModernTheme.glassCard(
+                borderRadius: ModernTheme.radiusPill,
+              ),
+              child: TextField(
+                controller: _searchController,
+                onChanged: notifier.searchPlayers,
+                decoration: InputDecoration(
+                  hintText: 'Search a player...',
+                  prefixIcon: const Icon(Icons.search_rounded),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(ModernTheme.radiusPill),
+                    borderSide: BorderSide.none,
+                  ),
+                  contentPadding: const EdgeInsets.symmetric(
+                    horizontal: ModernTheme.spacing20,
+                    vertical: ModernTheme.spacing12,
+                  ),
                 ),
               ),
-              onChanged: gameNotifier.searchPlayers,
             ),
-            if (gameState.filteredPlayers.isNotEmpty &&
-                gameState.searchQuery.isNotEmpty) ...[
-              const SizedBox(height: 8),
+            if (state.filteredPlayers.isNotEmpty &&
+                state.searchQuery.isNotEmpty) ...[
+              const SizedBox(height: ModernTheme.spacing8),
               Container(
-                height: 120,
-                decoration: BoxDecoration(
-                  color: const Color(0xFF3A3B5C),
-                  borderRadius: BorderRadius.circular(12),
-                ),
+                constraints: const BoxConstraints(maxHeight: 160),
+                decoration: ModernTheme.glassCard(),
                 child: ListView.builder(
-                  itemCount: gameState.filteredPlayers.take(5).length,
+                  padding: const EdgeInsets.all(ModernTheme.spacing8),
+                  shrinkWrap: true,
+                  itemCount: state.filteredPlayers.take(6).length,
                   itemBuilder: (context, index) {
-                    final player = gameState.filteredPlayers[index];
+                    final player = state.filteredPlayers[index];
                     return ListTile(
-                      title: Text(
-                        player.name,
-                        style:
-                            const TextStyle(color: Colors.white, fontSize: 14),
+                      dense: true,
+                      leading: CircleAvatar(
+                        backgroundColor: ModernTheme.accentMint,
+                        child: Text(
+                          player.name.isNotEmpty ? player.name[0] : '?',
+                          style: Theme.of(context).textTheme.labelLarge,
+                        ),
                       ),
-                      subtitle: Text(
-                        '${player.nationality} • ${player.currentClub}',
-                        style: const TextStyle(
-                            color: Colors.white54, fontSize: 12),
-                      ),
+                      title: Text(player.name,
+                          style: Theme.of(context).textTheme.labelLarge),
+                      subtitle: Text(player.currentClub,
+                          style: Theme.of(context).textTheme.bodySmall),
                       onTap: () {
-                        gameNotifier.addScorerGuess(player.name);
+                        notifier.addScorerGuess(player.name);
                         _searchController.clear();
                       },
                     );
@@ -504,73 +301,52 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
                 ),
               ),
             ],
-            const SizedBox(height: 16),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: gameState.userScorerGuesses.isNotEmpty
-                    ? gameNotifier.submitScorers
-                    : null,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green,
-                  foregroundColor: Colors.white,
-                  padding: const EdgeInsets.symmetric(vertical: 16),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                child: const Text(
-                  'Submit Scorers',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
+            const SizedBox(height: ModernTheme.spacing16),
+            ElevatedButton.icon(
+              onPressed: state.userScorerGuesses.isNotEmpty
+                  ? notifier.submitScorers
+                  : null,
+              icon: const Icon(Icons.check_rounded),
+              label: const Text('Submit Scorers'),
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(double.infinity, 56),
               ),
             ),
           ],
 
-          // Show actual scorers when revealed
-          if (gameState.scorersRevealed) ...[
-            const SizedBox(height: 16),
-            const Text(
-              'Actual Scorers:',
-              style: TextStyle(color: Colors.white70, fontSize: 14),
-            ),
-            const SizedBox(height: 8),
-            ...gameState.currentMatch!.scorers.asMap().entries.map((entry) {
-              final index = entry.key;
-              final scorer = entry.value;
-              final minute = gameState.currentMatch!.scoringMinutes[index];
+          if (state.scorersRevealed) ...[
+            const SizedBox(height: ModernTheme.spacing12),
+            Text('Actual Scorers',
+                style: Theme.of(context).textTheme.labelLarge),
+            const SizedBox(height: ModernTheme.spacing8),
+            ...match.scoringMinutes.asMap().entries.map((entry) {
+              final scorer = match.scorers[entry.key];
               return Container(
-                margin: const EdgeInsets.only(bottom: 8),
-                padding: const EdgeInsets.all(12),
+                margin: const EdgeInsets.only(bottom: ModernTheme.spacing8),
+                padding: const EdgeInsets.all(ModernTheme.spacing12),
                 decoration: BoxDecoration(
-                  color: const Color(0xFF3A3B5C),
-                  borderRadius: BorderRadius.circular(8),
+                  color: ModernTheme.backgroundAccent,
+                  borderRadius: BorderRadius.circular(ModernTheme.radiusSmall),
+                  border: Border.all(color: ModernTheme.glassBorder),
                 ),
                 child: Row(
                   children: [
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 4),
+                          horizontal: ModernTheme.spacing8,
+                          vertical: ModernTheme.spacing4),
                       decoration: BoxDecoration(
-                        color: Colors.orange,
-                        borderRadius: BorderRadius.circular(4),
+                        gradient: ModernTheme.warmGradient,
+                        borderRadius:
+                            BorderRadius.circular(ModernTheme.radiusSmall),
                       ),
-                      child: Text(
-                        "$minute'",
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 12,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      child: Text("${entry.value}'",
+                          style: Theme.of(context).textTheme.labelLarge),
                     ),
-                    const SizedBox(width: 12),
+                    const SizedBox(width: ModernTheme.spacing12),
                     Expanded(
-                      child: Text(
-                        scorer.name,
-                        style:
-                            const TextStyle(color: Colors.white, fontSize: 14),
-                      ),
+                      child: Text(scorer.name,
+                          style: Theme.of(context).textTheme.labelLarge),
                     ),
                   ],
                 ),
@@ -582,70 +358,212 @@ class _WhoScoredPageState extends ConsumerState<WhoScoredPage> {
     );
   }
 
-  Widget _buildResultsSection(
-      WhoScoredState gameState, WhoScoredGameNotifier gameNotifier) {
+  Widget _buildResults(WhoScoredState state, WhoScoredGameNotifier notifier) {
+    final match = state.currentMatch!;
     return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            Colors.green.withValues(alpha: 0.3),
-            Colors.blue.withValues(alpha: 0.3),
-          ],
-        ),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.2)),
+      margin: const EdgeInsets.only(top: ModernTheme.spacing20),
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassGradient(
+        colors: [ModernTheme.accentMint, ModernTheme.accentSky],
       ),
       child: Column(
         children: [
-          const Icon(
-            Icons.emoji_events,
-            size: 48,
-            color: Colors.yellow,
-          ),
-          const SizedBox(height: 16),
-          const Text(
-            'Match Complete!',
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
-          const SizedBox(height: 8),
+          const Icon(Icons.emoji_events_rounded,
+              size: 48, color: ModernTheme.textPrimary),
+          const SizedBox(height: ModernTheme.spacing12),
+          Text('Match Complete!',
+              style: Theme.of(context).textTheme.headlineSmall),
+          const SizedBox(height: ModernTheme.spacing8),
+          Text('Total Points: ${state.totalPoints}',
+              style: Theme.of(context).textTheme.headlineMedium),
+          const SizedBox(height: ModernTheme.spacing8),
           Text(
-            'Total Points: ${gameState.totalPoints}',
-            style: const TextStyle(
-              fontSize: 18,
-              color: Colors.white,
-            ),
+            'Score ${state.isScoreCorrect ? '+10' : '0'} • '
+            'Scorers ${state.correctScorers}/${match.match.scorers.length} '
+            '(+${state.correctScorers * 5})',
+            style: Theme.of(context).textTheme.bodyMedium,
           ),
-          const SizedBox(height: 8),
-          Text(
-            'Score: ${gameState.isScoreCorrect ? "Correct (+10 pts)" : "Incorrect"}',
-            style: TextStyle(
-              fontSize: 14,
-              color: gameState.isScoreCorrect ? Colors.green : Colors.red,
-            ),
-          ),
-          Text(
-            'Scorers: ${gameState.correctScorers}/${gameState.currentMatch!.scorers.length} correct (+${gameState.correctScorers * 5} pts)',
-            style: const TextStyle(fontSize: 14, color: Colors.white70),
-          ),
-          const SizedBox(height: 16),
+          const SizedBox(height: ModernTheme.spacing16),
           ElevatedButton.icon(
-            onPressed: gameNotifier.resetGame,
-            icon: const Icon(Icons.refresh),
+            onPressed: notifier.resetGame,
+            icon: const Icon(Icons.refresh_rounded),
             label: const Text('Play Again'),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.blue,
-              foregroundColor: Colors.white,
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
+              minimumSize: const Size(double.infinity, 56),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MatchCard extends StatelessWidget {
+  final MatchData match;
+
+  const _MatchCard({required this.match});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(ModernTheme.spacing24),
+      decoration: ModernTheme.glassCard(borderRadius: ModernTheme.radiusLarge),
+      child: Column(
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Column(
+                  children: [
+                    Text(match.homeTeamBadge,
+                        style: const TextStyle(fontSize: 44)),
+                    const SizedBox(height: ModernTheme.spacing8),
+                    Text(match.homeTeam,
+                        style: Theme.of(context).textTheme.headlineSmall,
+                        textAlign: TextAlign.center),
+                  ],
+                ),
               ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: ModernTheme.spacing16),
+                child: Text('VS',
+                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                        color: ModernTheme.textTertiary)),
+              ),
+              Expanded(
+                child: Column(
+                  children: [
+                    Text(match.awayTeamBadge,
+                        style: const TextStyle(fontSize: 44)),
+                    const SizedBox(height: ModernTheme.spacing8),
+                    Text(match.awayTeam,
+                        style: Theme.of(context).textTheme.headlineSmall,
+                        textAlign: TextAlign.center),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ScoreInput extends StatelessWidget {
+  final String label;
+  final TextEditingController controller;
+  final ValueChanged<String> onChanged;
+
+  const _ScoreInput({
+    required this.label,
+    required this.controller,
+    required this.onChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text(label,
+            style: Theme.of(context).textTheme.labelLarge,
+            textAlign: TextAlign.center,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis),
+        const SizedBox(height: ModernTheme.spacing8),
+        Container(
+          width: 72,
+          height: 72,
+          decoration: ModernTheme.glassCard(borderRadius: ModernTheme.radiusMedium),
+          child: TextField(
+            controller: controller,
+            onChanged: onChanged,
+            textAlign: TextAlign.center,
+            keyboardType: TextInputType.number,
+            style: const TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.w600,
+                color: ModernTheme.textPrimary),
+            decoration: const InputDecoration(
+              border: InputBorder.none,
+              hintText: '?',
+              hintStyle: TextStyle(fontSize: 32, color: ModernTheme.textTertiary),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _ResultChip extends StatelessWidget {
+  final String text;
+  final bool correct;
+
+  const _ResultChip({required this.text, required this.correct});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(
+          horizontal: ModernTheme.spacing16, vertical: ModernTheme.spacing8),
+      decoration: BoxDecoration(
+        color: correct ? ModernTheme.successGreen : ModernTheme.errorRose,
+        borderRadius: BorderRadius.circular(ModernTheme.radiusPill),
+      ),
+      child: Text(text,
+          style: Theme.of(context).textTheme.labelLarge,
+          textAlign: TextAlign.center),
+    );
+  }
+}
+
+class _Header extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final VoidCallback onBack;
+  final VoidCallback onNew;
+
+  const _Header({
+    required this.title,
+    required this.subtitle,
+    required this.onBack,
+    required this.onNew,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassGradient(
+        colors: [ModernTheme.accentSky, ModernTheme.accentLavender],
+      ),
+      child: Row(
+        children: [
+          IconButton(
+            onPressed: onBack,
+            icon: const Icon(Icons.arrow_back_rounded),
+            style: IconButton.styleFrom(
+              backgroundColor: ModernTheme.backgroundAccent.withValues(alpha: 0.8),
+            ),
+          ),
+          const SizedBox(width: ModernTheme.spacing12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(title, style: Theme.of(context).textTheme.headlineMedium),
+                Text(subtitle, style: Theme.of(context).textTheme.bodyMedium),
+              ],
+            ),
+          ),
+          TextButton.icon(
+            onPressed: onNew,
+            icon: const Icon(Icons.refresh_rounded, size: 18),
+            label: const Text('New'),
+            style: TextButton.styleFrom(
+              backgroundColor: ModernTheme.backgroundAccent.withValues(alpha: 0.8),
             ),
           ),
         ],

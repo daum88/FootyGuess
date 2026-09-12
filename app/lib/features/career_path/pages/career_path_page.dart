@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+
 import '../providers/career_path_provider.dart';
+import '../../../core/theme/modern_theme.dart';
+import '../../../data/models/game_data_models.dart';
 
 class CareerPathPage extends ConsumerStatefulWidget {
   const CareerPathPage({super.key});
@@ -11,503 +14,415 @@ class CareerPathPage extends ConsumerStatefulWidget {
 }
 
 class _CareerPathPageState extends ConsumerState<CareerPathPage> {
-  final TextEditingController _guessController = TextEditingController();
   final TextEditingController _searchController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    // Initialize the game when the page loads
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      print('CareerPathPage: Initializing game');
       ref.read(careerPathGameProvider.notifier).initialize();
     });
   }
 
   @override
   void dispose() {
-    _guessController.dispose();
     _searchController.dispose();
     super.dispose();
-  }
-
-  void _makeGuess(String playerName) {
-    final state = ref.read(careerPathGameProvider);
-    final selectedPlayer = state.filteredPlayers
-        .where((p) => p.name.toLowerCase() == playerName.toLowerCase())
-        .firstOrNull;
-
-    if (selectedPlayer != null) {
-      ref.read(careerPathGameProvider.notifier).makeGuess(selectedPlayer);
-      _guessController.clear();
-      _searchController.clear();
-    }
-  }
-
-  void _resetGame() {
-    ref.read(careerPathGameProvider.notifier).resetGame();
   }
 
   @override
   Widget build(BuildContext context) {
     final gameState = ref.watch(careerPathGameProvider);
+    final notifier = ref.read(careerPathGameProvider.notifier);
+
+    final isLoading = gameState.gameState == CareerPathGameState.initial &&
+        gameState.targetPlayer == null;
+    final isOver = gameState.gameState == CareerPathGameState.won ||
+        gameState.gameState == CareerPathGameState.lost;
 
     return Scaffold(
-      backgroundColor: const Color(0xFF2D1B69), // Dark purple background
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF4527A0),
-        title: Text(
-          'SENIOR CAREER',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        leading: IconButton(
-          onPressed: () => context.go('/'),
-          icon: const Icon(Icons.arrow_back, color: Colors.white),
-        ),
-        elevation: 0,
-      ),
-      body: gameState.gameState == CareerPathGameState.initial ||
-              gameState.targetPlayer == null
-          ? Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const CircularProgressIndicator(
-                    color: Colors.white,
-                  ),
-                  const SizedBox(height: 16),
-                  Text(
-                    'Loading career data...',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  ElevatedButton(
-                    onPressed: () {
-                      ref.read(careerPathGameProvider.notifier).initialize();
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF4CAF50),
-                    ),
-                    child: Text(
-                      'Retry',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-            )
-          : Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                children: [
-                  // Career table container
-                  Expanded(
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(16),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withValues(alpha: 0.3),
-                            blurRadius: 8,
-                            offset: const Offset(0, 4),
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        children: [
-                          // Table header
-                          Container(
-                            padding: const EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                              color:
-                                  const Color(0xFFE3F2FD), // Light blue header
-                              borderRadius: const BorderRadius.only(
-                                topLeft: Radius.circular(16),
-                                topRight: Radius.circular(16),
-                              ),
-                            ),
-                            child: Column(
-                              children: [
-                                Text(
-                                  'Senior Career',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                  textAlign: TextAlign.center,
-                                ),
-                                if (gameState.gameState ==
-                                    CareerPathGameState.won)
-                                  Text(
-                                    '✅ ${gameState.targetPlayer!.name}',
-                                    style: TextStyle(
-                                      color: Colors.green,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                if (gameState.gameState ==
-                                    CareerPathGameState.lost)
-                                  Text(
-                                    '❌ Answer: ${gameState.targetPlayer!.name}',
-                                    style: TextStyle(
-                                      color: Colors.red,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                              ],
-                            ),
-                          ),
-
-                          // Column headers
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                                vertical: 12, horizontal: 16),
-                            decoration: BoxDecoration(
-                              border: Border(
-                                bottom: BorderSide(color: Colors.grey.shade300),
-                              ),
-                            ),
-                            child: Row(
-                              children: [
-                                Expanded(
-                                  flex: 20, // Smaller for mobile years
-                                  child: Text(
-                                    'Years',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 12, // Smaller for mobile
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                                Expanded(
-                                  flex: 60, // More space for team names
-                                  child: Text(
-                                    'Team',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 12, // Smaller for mobile
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                                Expanded(
-                                  flex: 20, // Smaller for type
-                                  child: Text(
-                                    'Type',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 12, // Smaller for mobile
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-
-                          // Career data rows
-                          Expanded(
-                            child: ListView.builder(
-                              padding: const EdgeInsets.all(16),
-                              itemCount: gameState.targetPlayer!.clubs.length,
-                              itemBuilder: (context, index) {
-                                final club =
-                                    gameState.targetPlayer!.clubs[index];
-                                final isRevealed =
-                                    index < gameState.revealedClubs.length ||
-                                        gameState.gameState ==
-                                            CareerPathGameState.won ||
-                                        gameState.gameState ==
-                                            CareerPathGameState.lost;
-
-                                final yearStart = club.from.year;
-                                final yearEnd = club.to?.year ?? 'Present';
-                                final yearsText = '$yearStart-$yearEnd';
-
-                                return Container(
-                                  margin: const EdgeInsets.only(bottom: 8),
-                                  padding: const EdgeInsets.symmetric(
-                                      vertical: 12, horizontal: 8),
-                                  decoration: BoxDecoration(
-                                    color: isRevealed
-                                        ? Colors.white
-                                        : Colors.grey.shade100,
-                                    borderRadius: BorderRadius.circular(8),
-                                    border: Border.all(
-                                      color: Colors.grey.shade300,
-                                      width: 1,
-                                    ),
-                                  ),
-                                  child: Row(
-                                    children: [
-                                      Expanded(
-                                        flex: 20, // Smaller for mobile years
-                                        child: Text(
-                                          isRevealed ? yearsText : '????-????',
-                                          style: TextStyle(
-                                            fontSize: 10, // Smaller for mobile
-                                            color: isRevealed
-                                                ? Colors.black
-                                                : Colors.grey.shade600,
-                                            fontWeight: isRevealed
-                                                ? FontWeight.w600
-                                                : FontWeight.normal,
-                                          ),
-                                          textAlign: TextAlign.center,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
-                                      ),
-                                      Expanded(
-                                        flex: 60, // More space for team names
-                                        child: Text(
-                                          isRevealed ? club.clubId : '????',
-                                          style: TextStyle(
-                                            fontSize: 10, // Smaller for mobile
-                                            color: isRevealed
-                                                ? Colors.black
-                                                : Colors.grey.shade600,
-                                            fontWeight: isRevealed
-                                                ? FontWeight.w600
-                                                : FontWeight.normal,
-                                          ),
-                                          textAlign: TextAlign.center,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
-                                      ),
-                                      Expanded(
-                                        flex: 20, // Smaller for type
-                                        child: Text(
-                                          isRevealed
-                                              ? (club.isLoan ? 'Loan' : 'Full')
-                                              : '???',
-                                          style: TextStyle(
-                                            fontSize: 10, // Smaller for mobile
-                                            color: isRevealed
-                                                ? (club.isLoan
-                                                    ? Colors.orange
-                                                    : Colors.black)
-                                                : Colors.grey.shade600,
-                                            fontWeight: isRevealed
-                                                ? FontWeight.w600
-                                                : FontWeight.normal,
-                                          ),
-                                          textAlign: TextAlign.center,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                );
-                              },
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-
-                  const SizedBox(height: 20),
-
-                  // Game controls section
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFF4527A0),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Column(
-                      children: [
-                        // Game status and controls
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            // Clue reveal button
-                            if (gameState.gameState ==
-                                CareerPathGameState.playing)
-                              ElevatedButton(
-                                onPressed: gameState.currentClue <
-                                        gameState.targetPlayer!.clubs.length
-                                    ? () => ref
-                                        .read(careerPathGameProvider.notifier)
-                                        .revealNextClue()
-                                    : null,
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.orange,
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 16,
-                                    vertical: 8,
-                                  ),
-                                ),
-                                child: Text(
-                                  'Reveal Clue',
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              ),
-
-                            // Game status
-                            Container(
-                              padding: const EdgeInsets.symmetric(
-                                  horizontal: 16, vertical: 8),
-                              decoration: BoxDecoration(
-                                color: Colors.yellow,
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              child: Text(
-                                'Attempts: ${gameState.attemptsRemaining}/6',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-
-                            // Reveal Answer and Reset buttons
-                            Row(
-                              children: [
-                                // Reveal Answer button
-                                if (gameState.gameState ==
-                                    CareerPathGameState.playing)
-                                  ElevatedButton(
-                                    onPressed: () => ref
-                                        .read(careerPathGameProvider.notifier)
-                                        .revealAnswer(),
-                                    style: ElevatedButton.styleFrom(
-                                      backgroundColor: Colors.purple,
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 16,
-                                        vertical: 8,
-                                      ),
-                                    ),
-                                    child: Text(
-                                      'Reveal Answer',
-                                      style: TextStyle(color: Colors.white),
-                                    ),
-                                  ),
-
-                                const SizedBox(width: 8),
-
-                                // Reset button
-                                ElevatedButton(
-                                  onPressed: _resetGame,
-                                  style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.red,
-                                    padding: const EdgeInsets.symmetric(
-                                      horizontal: 16,
-                                      vertical: 8,
-                                    ),
-                                  ),
-                                  child: Text(
-                                    'New Game',
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-
-                        const SizedBox(height: 16),
-
-                        // Player search and guess
-                        if (gameState.gameState ==
-                            CareerPathGameState.playing) ...[
-                          // Search field
-                          TextField(
-                            controller: _searchController,
-                            style: TextStyle(color: Colors.white),
-                            decoration: InputDecoration(
-                              hintText: 'Search for player...',
-                              hintStyle: TextStyle(color: Colors.white60),
-                              filled: true,
-                              fillColor: const Color(0xFF2D1B69),
-                              border: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(8),
-                                borderSide: BorderSide.none,
-                              ),
-                              contentPadding: const EdgeInsets.symmetric(
-                                horizontal: 16,
-                                vertical: 12,
-                              ),
-                            ),
-                            onChanged: (query) {
-                              ref
-                                  .read(careerPathGameProvider.notifier)
-                                  .searchPlayers(query);
-                            },
-                          ),
-
-                          const SizedBox(height: 8),
-
-                          // Player suggestions
-                          if (gameState.searchQuery.isNotEmpty)
-                            Container(
-                              height: 150,
-                              decoration: BoxDecoration(
-                                color: const Color(0xFF2D1B69),
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: ListView.builder(
-                                itemCount:
-                                    gameState.filteredPlayers.take(5).length,
-                                itemBuilder: (context, index) {
-                                  final player =
-                                      gameState.filteredPlayers[index];
-                                  return ListTile(
-                                    title: Text(
-                                      player.name,
-                                      style: TextStyle(color: Colors.white),
-                                    ),
-                                    subtitle: Text(
-                                      '${player.nationality} • ${player.primaryPosition}',
-                                      style: TextStyle(color: Colors.white70),
-                                    ),
-                                    onTap: () => _makeGuess(player.name),
-                                  );
-                                },
-                              ),
-                            ),
-                        ],
-
-                        // Previous guesses
-                        if (gameState.guesses.isNotEmpty) ...[
-                          const SizedBox(height: 16),
-                          Text(
-                            'Previous Guesses:',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          const SizedBox(height: 8),
-                          ...gameState.guesses.map((guess) => Padding(
-                                padding: const EdgeInsets.only(bottom: 4),
-                                child: Text(
-                                  '❌ ${guess.name}',
-                                  style: TextStyle(color: Colors.red.shade300),
-                                ),
-                              )),
-                        ],
-                      ],
-                    ),
-                  ),
-                ],
+      body: Stack(
+        children: [
+          const Positioned.fill(
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [Color(0xFFFFE5F1), Color(0xFFF8F9FA), Color(0xFFE5F1FF)],
+                ),
               ),
             ),
+          ),
+          SafeArea(
+            child: Column(
+              children: [
+                _Header(
+                  title: 'Career Path',
+                  subtitle: isOver
+                      ? gameState.targetPlayer?.name ?? ''
+                      : 'Follow the career journey',
+                  onBack: () => context.pop(),
+                  onNew: isLoading ? null : notifier.resetGame,
+                ),
+                Expanded(
+                  child: isLoading
+                      ? const Center(child: CircularProgressIndicator())
+                      : Padding(
+                          padding: const EdgeInsets.all(ModernTheme.spacing16),
+                          child: Column(
+                            children: [
+                              _buildStatusRow(gameState),
+                              const SizedBox(height: ModernTheme.spacing16),
+                              Expanded(child: _buildCareerTable(gameState)),
+                              const SizedBox(height: ModernTheme.spacing16),
+                              if (isOver)
+                                _buildGameOver(context, gameState, notifier)
+                              else
+                                _buildSearch(context, gameState, notifier),
+                            ],
+                          ),
+                        ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildStatusRow(CareerPathState state) {
+    return Row(
+      children: [
+        Expanded(
+          child: _Pill(
+            icon: Icons.psychology_rounded,
+            label: 'Guesses left',
+            value: '${state.attemptsRemaining}',
+            gradient: ModernTheme.warmGradient,
+          ),
+        ),
+        const SizedBox(width: ModernTheme.spacing12),
+        Expanded(
+          child: _Pill(
+            icon: Icons.lightbulb_rounded,
+            label: 'Clues revealed',
+            value: '${state.revealedClubs.length}/${state.targetPlayer?.career.length ?? 0}',
+            gradient: ModernTheme.coolGradient,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCareerTable(CareerPathState state) {
+    final career = state.targetPlayer?.career ?? const <CareerEntry>[];
+    final showAll = state.gameState == CareerPathGameState.won ||
+        state.gameState == CareerPathGameState.lost;
+
+    return Container(
+      decoration: ModernTheme.glassCard(),
+      child: Column(
+        children: [
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: ModernTheme.spacing16,
+              vertical: ModernTheme.spacing12,
+            ),
+            decoration: BoxDecoration(
+              gradient: ModernTheme.softGradient,
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(ModernTheme.radiusMedium),
+                topRight: Radius.circular(ModernTheme.radiusMedium),
+              ),
+            ),
+            child: Row(
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Text('Years',
+                      style: Theme.of(context).textTheme.labelLarge),
+                ),
+                Expanded(
+                  flex: 5,
+                  child: Text('Club',
+                      style: Theme.of(context).textTheme.labelLarge),
+                ),
+                Expanded(
+                  flex: 2,
+                  child: Text('Type',
+                      style: Theme.of(context).textTheme.labelLarge,
+                      textAlign: TextAlign.center),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: ListView.builder(
+              padding: const EdgeInsets.all(ModernTheme.spacing12),
+              itemCount: career.length,
+              itemBuilder: (context, index) {
+                final club = career[index];
+                final revealed =
+                    showAll || index < state.revealedClubs.length;
+                return Container(
+                  margin: const EdgeInsets.only(bottom: ModernTheme.spacing8),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: ModernTheme.spacing12,
+                    vertical: ModernTheme.spacing12,
+                  ),
+                  decoration: BoxDecoration(
+                    color: revealed
+                        ? ModernTheme.backgroundAccent
+                        : ModernTheme.backgroundLight,
+                    borderRadius: BorderRadius.circular(ModernTheme.radiusSmall),
+                    border: Border.all(color: ModernTheme.glassBorder),
+                  ),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        flex: 2,
+                        child: Text(
+                          revealed
+                              ? '${club.startYear ?? '?'}-${club.endYear?.toString() ?? 'Now'}'
+                              : '????',
+                          style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                                color: revealed
+                                    ? ModernTheme.textPrimary
+                                    : ModernTheme.textTertiary,
+                              ),
+                        ),
+                      ),
+                      Expanded(
+                        flex: 5,
+                        child: Text(
+                          revealed ? club.club : '?????',
+                          style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                                color: revealed
+                                    ? ModernTheme.textPrimary
+                                    : ModernTheme.textTertiary,
+                                fontWeight: FontWeight.w600,
+                              ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      Expanded(
+                        flex: 2,
+                        child: Text(
+                          revealed
+                              ? (club.isLoan ? 'Loan' : 'Full')
+                              : '???',
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                color: revealed && club.isLoan
+                                    ? ModernTheme.textSecondary
+                                    : ModernTheme.textTertiary,
+                                fontWeight: FontWeight.w600,
+                              ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSearch(BuildContext context, CareerPathState state,
+      CareerPathGameNotifier notifier) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Container(
+          decoration: ModernTheme.glassCard(
+            borderRadius: ModernTheme.radiusPill,
+          ),
+          child: TextField(
+            controller: _searchController,
+            onChanged: notifier.searchPlayers,
+            decoration: InputDecoration(
+              hintText: 'Guess the player...',
+              prefixIcon: const Icon(Icons.search_rounded),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(ModernTheme.radiusPill),
+                borderSide: BorderSide.none,
+              ),
+              contentPadding: const EdgeInsets.symmetric(
+                horizontal: ModernTheme.spacing20,
+                vertical: ModernTheme.spacing16,
+              ),
+            ),
+          ),
+        ),
+        if (state.filteredPlayers.isNotEmpty &&
+            state.searchQuery.isNotEmpty) ...[
+          const SizedBox(height: ModernTheme.spacing8),
+          Container(
+            constraints: const BoxConstraints(maxHeight: 200),
+            decoration: ModernTheme.glassCard(),
+            child: ListView.builder(
+              padding: const EdgeInsets.all(ModernTheme.spacing8),
+              shrinkWrap: true,
+              itemCount: state.filteredPlayers.take(8).length,
+              itemBuilder: (context, index) {
+                final player = state.filteredPlayers[index];
+                return ListTile(
+                  dense: true,
+                  leading: CircleAvatar(
+                    backgroundColor: ModernTheme.accentMint,
+                    child: Text(
+                      player.name.isNotEmpty ? player.name[0] : '?',
+                      style: Theme.of(context).textTheme.labelLarge,
+                    ),
+                  ),
+                  title: Text(player.name,
+                      style: Theme.of(context).textTheme.labelLarge),
+                  subtitle: Text(
+                    '${player.nationality} • ${player.primaryPosition}',
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                  onTap: () {
+                    notifier.makeGuess(player);
+                    _searchController.clear();
+                  },
+                );
+              },
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildGameOver(BuildContext context, CareerPathState state,
+      CareerPathGameNotifier notifier) {
+    final won = state.gameState == CareerPathGameState.won;
+    return Container(
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassCard(),
+      child: Column(
+        children: [
+          Text(
+            won ? '🎉 Correct!' : '😔 The answer was ${state.targetPlayer?.name}',
+            style: Theme.of(context).textTheme.headlineSmall,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: ModernTheme.spacing16),
+          ElevatedButton.icon(
+            onPressed: notifier.resetGame,
+            icon: const Icon(Icons.refresh_rounded),
+            label: const Text('Play Again'),
+            style: ElevatedButton.styleFrom(
+              minimumSize: const Size(double.infinity, 56),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _Header extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final VoidCallback onBack;
+  final VoidCallback? onNew;
+
+  const _Header({
+    required this.title,
+    required this.subtitle,
+    required this.onBack,
+    this.onNew,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(ModernTheme.spacing20),
+      decoration: ModernTheme.glassGradient(
+        colors: [ModernTheme.accentLavender, ModernTheme.accentSky],
+      ),
+      child: Row(
+        children: [
+          IconButton(
+            onPressed: onBack,
+            icon: const Icon(Icons.arrow_back_rounded),
+            style: IconButton.styleFrom(
+              backgroundColor: ModernTheme.backgroundAccent.withValues(alpha: 0.8),
+            ),
+          ),
+          const SizedBox(width: ModernTheme.spacing12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(title, style: Theme.of(context).textTheme.headlineMedium),
+                Text(subtitle, style: Theme.of(context).textTheme.bodyMedium),
+              ],
+            ),
+          ),
+          if (onNew != null)
+            TextButton.icon(
+              onPressed: onNew,
+              icon: const Icon(Icons.refresh_rounded, size: 18),
+              label: const Text('New'),
+              style: TextButton.styleFrom(
+                backgroundColor: ModernTheme.backgroundAccent.withValues(alpha: 0.8),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _Pill extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final String value;
+  final LinearGradient gradient;
+
+  const _Pill({
+    required this.icon,
+    required this.label,
+    required this.value,
+    required this.gradient,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(ModernTheme.spacing16),
+      decoration: ModernTheme.glassCard(),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(ModernTheme.spacing8),
+            decoration: BoxDecoration(
+              gradient: gradient,
+              borderRadius: BorderRadius.circular(ModernTheme.radiusSmall),
+            ),
+            child: Icon(icon, size: 20, color: ModernTheme.textPrimary),
+          ),
+          const SizedBox(width: ModernTheme.spacing12),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(value, style: Theme.of(context).textTheme.headlineSmall),
+              Text(label,
+                  style: Theme.of(context).textTheme.bodySmall,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

@@ -1,4 +1,4 @@
-import '../../../data/models/player.dart';
+import '../../../data/models/game_data_models.dart';
 
 enum MissingXiGameState {
   initial,
@@ -11,26 +11,32 @@ class FormationPosition {
   final String position;
   final double x; // 0.0 to 1.0 (left to right)
   final double y; // 0.0 to 1.0 (top to bottom)
-  final Player? player;
+  final GamePlayer? player;
+
+  /// The correct player name for this slot (used for validation).
+  final String answerName;
 
   const FormationPosition({
     required this.position,
     required this.x,
     required this.y,
     this.player,
+    this.answerName = '',
   });
 
   FormationPosition copyWith({
     String? position,
     double? x,
     double? y,
-    Player? player,
+    GamePlayer? player,
+    String? answerName,
   }) {
     return FormationPosition(
       position: position ?? this.position,
       x: x ?? this.x,
       y: y ?? this.y,
       player: player,
+      answerName: answerName ?? this.answerName,
     );
   }
 }
@@ -52,10 +58,10 @@ class MissingXiTeam {
 class MissingXiState {
   final MissingXiTeam? currentTeam;
   final List<FormationPosition> playerPositions;
-  final List<Player> availablePlayers;
+  final List<GamePlayer> availablePlayers;
   final MissingXiGameState gameState;
   final int attemptsRemaining;
-  final List<Player> filteredPlayers;
+  final List<GamePlayer> filteredPlayers;
   final String searchQuery;
   final int? selectedPositionIndex;
 
@@ -73,10 +79,10 @@ class MissingXiState {
   MissingXiState copyWith({
     MissingXiTeam? currentTeam,
     List<FormationPosition>? playerPositions,
-    List<Player>? availablePlayers,
+    List<GamePlayer>? availablePlayers,
     MissingXiGameState? gameState,
     int? attemptsRemaining,
-    List<Player>? filteredPlayers,
+    List<GamePlayer>? filteredPlayers,
     String? searchQuery,
     int? selectedPositionIndex,
   }) {

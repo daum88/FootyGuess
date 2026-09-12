@@ -1,12 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../data/models/player.dart';
-import '../../../data/services/football_database_service.dart';
-
-final footballDatabaseServiceProvider =
-    Provider<FootballDatabaseService>((ref) {
-  return FootballDatabaseService();
-});
+import '../../../core/providers/game_data_providers.dart';
+import '../../../data/models/game_data_models.dart';
 
 enum WhoScoredGameState {
   initial,
@@ -18,30 +14,31 @@ enum WhoScoredGameState {
   lost,
 }
 
+/// Wraps a canonical [GameMatch] with the UI fields the page expects.
 class MatchData {
-  final String homeTeam;
-  final String awayTeam;
+  final GameMatch match;
   final String homeTeamBadge;
   final String awayTeamBadge;
-  final String date;
-  final String competition;
-  final int homeScore;
-  final int awayScore;
-  final List<Player> scorers;
-  final List<int> scoringMinutes;
 
   const MatchData({
-    required this.homeTeam,
-    required this.awayTeam,
+    required this.match,
     required this.homeTeamBadge,
     required this.awayTeamBadge,
-    required this.date,
-    required this.competition,
-    required this.homeScore,
-    required this.awayScore,
-    required this.scorers,
-    required this.scoringMinutes,
   });
+
+  String get competition => match.competition;
+  String get date => match.date;
+  String get homeTeam => match.homeTeam;
+  String get awayTeam => match.awayTeam;
+  int get homeScore => match.homeScore;
+  int get awayScore => match.awayScore;
+
+  List<GamePlayer> get scorers => match.scorers
+      .map((s) => GamePlayer(id: 'scorer-${s.player}', name: s.player))
+      .toList();
+
+  List<int> get scoringMinutes =>
+      match.scorers.map((s) => s.minute ?? 0).toList();
 }
 
 class WhoScoredState {
@@ -50,11 +47,10 @@ class WhoScoredState {
   final String userHomeScore;
   final String userAwayScore;
   final List<String> userScorerGuesses;
-  final List<Player> filteredPlayers;
+  final List<GamePlayer> filteredPlayers;
   final String searchQuery;
   final bool scoreRevealed;
   final bool scorersRevealed;
-  final int score;
   final int totalPoints;
 
   const WhoScoredState({
@@ -67,7 +63,6 @@ class WhoScoredState {
     this.searchQuery = '',
     this.scoreRevealed = false,
     this.scorersRevealed = false,
-    this.score = 0,
     this.totalPoints = 0,
   });
 
@@ -77,11 +72,10 @@ class WhoScoredState {
     String? userHomeScore,
     String? userAwayScore,
     List<String>? userScorerGuesses,
-    List<Player>? filteredPlayers,
+    List<GamePlayer>? filteredPlayers,
     String? searchQuery,
     bool? scoreRevealed,
     bool? scorersRevealed,
-    int? score,
     int? totalPoints,
   }) {
     return WhoScoredState(
@@ -94,7 +88,6 @@ class WhoScoredState {
       searchQuery: searchQuery ?? this.searchQuery,
       scoreRevealed: scoreRevealed ?? this.scoreRevealed,
       scorersRevealed: scorersRevealed ?? this.scorersRevealed,
-      score: score ?? this.score,
       totalPoints: totalPoints ?? this.totalPoints,
     );
   }
@@ -104,103 +97,46 @@ class WhoScoredState {
       userAwayScore == currentMatch?.awayScore.toString();
 
   int get correctScorers {
-    if (currentMatch == null) return 0;
+    final match = currentMatch;
+    if (match == null) return 0;
     return userScorerGuesses
-        .where((guess) => currentMatch!.scorers.any((scorer) =>
-            scorer.name.toLowerCase().contains(guess.toLowerCase()) ||
-            guess.toLowerCase().contains(scorer.name.toLowerCase())))
+        .where((guess) => match.match.scorers.any((scorer) =>
+            scorer.player.toLowerCase().contains(guess.toLowerCase()) ||
+            guess.toLowerCase().contains(scorer.player.toLowerCase())))
         .length;
   }
 }
 
 class WhoScoredGameNotifier extends StateNotifier<WhoScoredState> {
-  final FootballDatabaseService _databaseService;
-  List<Player> _allPlayers = [];
+  final Ref _ref;
+  List<GamePlayer> _allPlayers = [];
 
-  WhoScoredGameNotifier(this._databaseService) : super(const WhoScoredState());
+  WhoScoredGameNotifier(this._ref) : super(const WhoScoredState());
 
   Future<void> initialize() async {
     try {
-      _allPlayers = await _databaseService.getPlayers();
-      if (_allPlayers.isNotEmpty) {
-        final match = _generateMatch();
+      final matches = await _ref.read(scoredMatchesProvider.future);
+      final players = await _ref.read(playersProvider.future);
+      _allPlayers = players;
+
+      if (matches.isNotEmpty) {
+        final match = _pickMatch(matches);
         state = state.copyWith(
           currentMatch: match,
           gameState: WhoScoredGameState.playing,
-          filteredPlayers: _allPlayers,
+          filteredPlayers: players,
         );
       }
     } catch (e) {
-      // Error initializing who scored game: $e
+      debugPrint('❌ WhoScored: initialization failed: $e');
     }
   }
 
-  MatchData _generateMatch() {
-    final teams = [
-      {'name': 'Manchester City', 'badge': '🔵'},
-      {'name': 'Liverpool', 'badge': '🔴'},
-      {'name': 'Chelsea', 'badge': '🔵'},
-      {'name': 'Arsenal', 'badge': '🔴'},
-      {'name': 'Tottenham', 'badge': '⚪'},
-      {'name': 'Manchester United', 'badge': '🔴'},
-      {'name': 'Newcastle', 'badge': '⚫'},
-      {'name': 'Brighton', 'badge': '🔵'},
-      {'name': 'West Ham', 'badge': '⚪'},
-      {'name': 'Aston Villa', 'badge': '🔴'},
-    ];
-
-    final competitions = [
-      'Premier League',
-      'Champions League',
-      'FA Cup',
-      'Carabao Cup',
-      'Europa League',
-    ];
-
-    teams.shuffle();
-    final homeTeam = teams[0];
-    final awayTeam = teams[1];
-
-    final homeScore = DateTime.now().day % 4; // 0-3 goals
-    final awayScore = DateTime.now().hour % 4; // 0-3 goals
-    final totalGoals = homeScore + awayScore;
-
-    // Select random scorers
-    final scorers = <Player>[];
-    final scoringMinutes = <int>[];
-
-    if (totalGoals > 0) {
-      final availablePlayers = _allPlayers.toList()..shuffle();
-      for (int i = 0; i < totalGoals && i < availablePlayers.length; i++) {
-        scorers.add(availablePlayers[i]);
-        scoringMinutes.add(15 + (i * 20) + (DateTime.now().minute % 10));
-      }
-    }
-
-    return MatchData(
-      homeTeam: homeTeam['name']!,
-      awayTeam: awayTeam['name']!,
-      homeTeamBadge: homeTeam['badge']!,
-      awayTeamBadge: awayTeam['badge']!,
-      date: _generateMatchDate(),
-      competition: competitions[DateTime.now().day % competitions.length],
-      homeScore: homeScore,
-      awayScore: awayScore,
-      scorers: scorers,
-      scoringMinutes: scoringMinutes,
-    );
-  }
-
-  String _generateMatchDate() {
-    final dates = [
-      '15 March 2024',
-      '22 April 2024',
-      '10 May 2024',
-      '18 September 2024',
-      '25 October 2024',
-      '14 November 2024',
-    ];
-    return dates[DateTime.now().day % dates.length];
+  MatchData _pickMatch(List<GameMatch> matches) {
+    // Deterministic daily pick + reshuffle on demand.
+    final idx = DateTime.now().millisecondsSinceEpoch % matches.length;
+    final m = matches[idx];
+    return MatchData(match: m, homeTeamBadge: '🔴', awayTeamBadge: '🔵');
   }
 
   void updateHomeScore(String score) {
@@ -215,9 +151,7 @@ class WhoScoredGameNotifier extends StateNotifier<WhoScoredState> {
     if (state.gameState != WhoScoredGameState.playing) return;
 
     int points = 0;
-    if (state.isScoreCorrect) {
-      points += 10; // Bonus for exact score
-    }
+    if (state.isScoreCorrect) points += 10;
 
     state = state.copyWith(
       gameState: WhoScoredGameState.scoreGuessing,
@@ -228,30 +162,24 @@ class WhoScoredGameNotifier extends StateNotifier<WhoScoredState> {
 
   void searchPlayers(String query) {
     if (query.isEmpty) {
-      state = state.copyWith(
-        filteredPlayers: _allPlayers,
-        searchQuery: '',
-      );
+      state = state.copyWith(filteredPlayers: _allPlayers, searchQuery: '');
       return;
     }
-
     final filtered = _allPlayers
-        .where(
-            (player) => player.name.toLowerCase().contains(query.toLowerCase()))
+        .where((p) => p.name.toLowerCase().contains(query.toLowerCase()))
+        .take(20)
         .toList();
-
-    state = state.copyWith(
-      filteredPlayers: filtered,
-      searchQuery: query,
-    );
+    state = state.copyWith(filteredPlayers: filtered, searchQuery: query);
   }
 
   void addScorerGuess(String playerName) {
     if (state.gameState != WhoScoredGameState.scoreGuessing) return;
-
-    final newGuesses = [...state.userScorerGuesses, playerName];
+    if (state.userScorerGuesses.any((g) =>
+        g.toLowerCase() == playerName.toLowerCase())) {
+      return;
+    }
     state = state.copyWith(
-      userScorerGuesses: newGuesses,
+      userScorerGuesses: [...state.userScorerGuesses, playerName],
       searchQuery: '',
       filteredPlayers: _allPlayers,
     );
@@ -266,11 +194,7 @@ class WhoScoredGameNotifier extends StateNotifier<WhoScoredState> {
   void submitScorers() {
     if (state.gameState != WhoScoredGameState.scoreGuessing) return;
 
-    int points = state.totalPoints;
-
-    // Award points for correct scorers
-    points += state.correctScorers * 5;
-
+    int points = state.totalPoints + state.correctScorers * 5;
     state = state.copyWith(
       gameState: WhoScoredGameState.completed,
       scorersRevealed: true,
@@ -278,39 +202,18 @@ class WhoScoredGameNotifier extends StateNotifier<WhoScoredState> {
     );
   }
 
-  void resetGame() {
-    if (_allPlayers.isNotEmpty) {
-      final match = _generateMatch();
-      state = WhoScoredState(
-        currentMatch: match,
-        gameState: WhoScoredGameState.playing,
-        filteredPlayers: _allPlayers,
-      );
-    }
-  }
-
-  String getScoreText() {
-    return '${state.totalPoints} pts';
-  }
-
-  double getProgress() {
-    switch (state.gameState) {
-      case WhoScoredGameState.initial:
-        return 0.0;
-      case WhoScoredGameState.playing:
-        return 0.2;
-      case WhoScoredGameState.scoreGuessing:
-        return 0.6;
-      case WhoScoredGameState.completed:
-        return 1.0;
-      default:
-        return 0.0;
-    }
+  Future<void> resetGame() async {
+    final matches = await _ref.read(scoredMatchesProvider.future);
+    if (matches.isEmpty) return;
+    state = WhoScoredState(
+      currentMatch: _pickMatch(matches),
+      gameState: WhoScoredGameState.playing,
+      filteredPlayers: _allPlayers,
+    );
   }
 }
 
 final whoScoredGameProvider =
     StateNotifierProvider<WhoScoredGameNotifier, WhoScoredState>((ref) {
-  final databaseService = ref.read(footballDatabaseServiceProvider);
-  return WhoScoredGameNotifier(databaseService);
+  return WhoScoredGameNotifier(ref);
 });
